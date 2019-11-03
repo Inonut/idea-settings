@@ -22,3 +22,8 @@ ll
 cd idea-IU/
 ll
 cd ..
+lssecret 
+lssecret -s
+echo $PS1
+echo $JAVA_HOME
+echo $PATH
