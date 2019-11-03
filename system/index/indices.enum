@@ -204,3 +204,10 @@ angular2.metadata.node.index
 angular2.metadata.function.index
 angular2.metadata.module.index
 makefile.target.index
+bash.function.name
+bash.script.name
+bash.included
+bash.includers
+bash.scriptCommandReference
+bash.vardef
+bash.var

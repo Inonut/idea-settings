@@ -1,2 +1,24 @@
 lssecret -s
 lssecret -s
+cd ~
+ll
+wget https://download.jetbrains.com/idea/ideaIU-$IDEA_VERSION.tar.gz
+wget https://download.jetbrains.com/idea/ideaIU-2019.2.4-no-jbr.tar.gz
+ll
+tar -xf ideaIU-2019.2.4-no-jbr.tar.gz | xargs mv - idea
+tar -xf ideaIU-2019.2.4-no-jbr.tar.gz | xargs mv . idea
+ll
+tar -xf ideaIU-2019.2.4-no-jbr.tar.gz | xargs mv {} idea
+tar -xf ideaIU-2019.2.4-no-jbr.tar.gz | xargs -I {} mv {} idea
+ll
+ll /
+ar -xf ideaIU-2019.2.4-no-jbr.tar.gz | xargs -I {} mv {} ./idea
+ar -xf ideaIU-2019.2.4-no-jbr.tar.gz | xargs -I {} mv {} ./idea
+ll
+tar -xf ideaIU-2019.2.4-no-jbr.tar.gz | xargs -I {} mv {} ./idea
+ll
+mv idea-IU-* idea-IU
+ll
+cd idea-IU/
+ll
+cd ..
