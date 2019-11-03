@@ -83,6 +83,7 @@
         <option value="angularjs.module.index" />
         <option value="angularjs.controller.index" />
         <option value="angularjs.directives.index" />
+        <option value="makefile.target.index" />
         <option value="angular2.metadata.module.index" />
         <option value="angular2.metadata.function.index" />
         <option value="angular2.metadata.node.index" />
