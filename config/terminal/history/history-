@@ -8,3 +8,6 @@ rm -fr editor.xml
 ll
 git add .
 git push
+echo $$GIT_TOKEN
+echo $GIT_TOKEN
+secret-tool lookup account $GIT_USER | cut -d'@' -f2
