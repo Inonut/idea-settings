@@ -7,10 +7,10 @@
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Local" currentWorkingDirectory="$USER_HOME$/.IntelliJIdea2019.2" commandHistoryFileName="history-" />
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="history-" />
     </option>
   </component>
   <component name="VcsLogIndexCollector">
-    <option name="indexTime" value="125" />
+    <option name="indexTime" value="162" />
   </component>
 </project>

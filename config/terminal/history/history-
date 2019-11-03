@@ -1,13 +1,1 @@
-cd ~/.IntelliJIdea2019.2/
-ll
-rm -fr _linux/
-rm -fr codestyles/
-rm -fr colors.scheme.xml 
-rm -fr debugger.xml 
-rm -fr editor.xml 
-ll
-git add .
-git push
-echo $$GIT_TOKEN
-echo $GIT_TOKEN
-secret-tool lookup account $GIT_USER | cut -d'@' -f2
+lssecret -s

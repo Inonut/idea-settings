@@ -1436,3 +1436,399 @@ Elapsed time on auto-detect: 0 ms
 2019-11-03 20:45:49,202 [ 371304]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
 2019-11-03 20:45:49,203 [ 371305]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-03 20:45:49,204 [ 371306]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-03 20:51:53,828 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-03 20:51:53,841 [     13]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-03 20:51:53,841 [     13]   INFO -        #com.intellij.idea.Main - OS: Linux (5.3.7-2-manjaro, amd64) 
+2019-11-03 20:51:53,841 [     13]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_222-b10 (IcedTea) 
+2019-11-03 20:51:53,841 [     13]   INFO -        #com.intellij.idea.Main - JVM: 25.222-b10 (OpenJDK 64-Bit Server VM) 
+2019-11-03 20:51:53,842 [     14]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/developer/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/developer/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/developer/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-03 20:51:53,842 [     14]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-1.8-openjdk/jre/lib/ext: [cldrdata.jar, meta-index, dnsns.jar, sunpkcs11.jar, sunjce_provider.jar, sunec.jar, localedata.jar, jaccess.jar, zipfs.jar, nashorn.jar] 
+2019-11-03 20:51:53,842 [     14]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-03 20:51:53,862 [     34]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 25 ms 
+2019-11-03 20:51:53,879 [     51]   INFO - plication.impl.ApplicationImpl - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@4b1964a[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@2da5afe7 
+2019-11-03 20:51:53,907 [     79]   INFO -        #com.intellij.idea.Main - WM detected: KWin 
+2019-11-03 20:51:58,400 [   4572]   INFO - tellij.ide.gdpr.ConsentOptions - /home/developer/.local/share/JetBrains/consentOptions/accepted (No such file or directory) 
+java.io.FileNotFoundException: /home/developer/.local/share/JetBrains/consentOptions/accepted (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1057)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1051)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1043)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1040)
+	at com.intellij.ide.gdpr.ConsentOptions$InstanceHolder$1.writeConfirmedConsents(ConsentOptions.java:68)
+	at com.intellij.ide.gdpr.ConsentOptions.saveConfirmedConsents(ConsentOptions.java:225)
+	at com.intellij.ide.gdpr.ConsentOptions.setConsents(ConsentOptions.java:202)
+	at com.intellij.ui.AppUIUtil.saveConsents(AppUIUtil.java:562)
+	at com.intellij.ui.AppUIUtil.confirmConsentOptions(AppUIUtil.java:520)
+	at com.intellij.ui.AppUIUtil.lambda$showConsentsAgreementIfNeeded$3(AppUIUtil.java:326)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:438)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-11-03 20:51:58,662 [   4834]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-03 20:52:00,648 [   6820]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-03 20:52:00,779 [   6951]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (192.7142.36), Android Support (10.3.4), Angular and AngularJS (192.7142.36), Ant (192.7142.36), Application Servers View (192.7142.36), Arquillian (192.7142.36), AspectJ (192.7142.36), Bytecode Viewer (192.7142.36), CFML (192.7142.36), CSS (192.7142.36), ChangeReminder (192.7142.36), Cloud Foundry (192.7142.36), CoffeeScript (192.7142.36), Configuration Script (192.7142.36), Copyright (192.7142.36), Coverage (192.7142.36), Cucumber for Groovy (192.7142.36), Cucumber for Java (192.7142.36), Database Tools and SQL (192.7142.36), Dependency Structure Matrix (192.7142.36), Docker (192.7142.36), Drools (192.7142.36), Eclipse Interoperability (192.7142.36), EditorConfig (192.7142.36), Emma (192.7142.36), Flash/Flex (192.7142.36), FreeMarker (192.7142.36), GWT (192.7142.36), Geronimo Integration (192.7142.36), Gherkin (192.7142.36), Git (192.7142.36), GitHub (192.7142.36), GlassFish (192.7142.36), Google App Engine (192.7142.36), Gradle (192.7142.36), Gradle Integration Extension (192.7142.36), Gradle-Maven (192.7142.36), Grails (192.7142.36), Groovy (192.7142.36), Guice (192.7142.36), HTML Tools (192.7142.36), HTTP Client (192.7142.36), Haml (192.7142.36), Heroku (192.7142.36), Hibernate (192.7142.36), IDE Settings Sync (192.7142.36), IDEA CORE (192.7142.36), IntelliLang (192.7142.36), JBoss Frameworks Base (192.7142.36), JBoss Seam (192.7142.36), JBoss Seam Pageflow (192.7142.36), JBoss Seam Pages (192.7142.36), JBoss jBPM (192.7142.36), JSR45 (192.7142.36), JUnit (192.7142.36), Java (192.7142.36), Java Bytecode Decompiler (192.7142.36), Java EE: Batch Applications (192.7142.36), Java EE: Bean Validation (192.7142.36), Java EE: Contexts and Dependency Injection (192.7142.36), Java EE: EJB, JPA, Servlets (192.7142.36), Java EE: JMS, JSON Processing, Concurrency, Transaction  (192.7142.36), Java EE: Java Server Faces (192.7142.36), Java EE: RESTful Web Services (JAX-RS) (192.7142.36), Java EE: Web Services (JAX-WS) (192.7142.36), Java EE: WebSockets (192.7142.36), Java IDE Customization (192.7142.36), Java Internationalization (192.7142.36), Java Server Pages (JSP) (192.7142.36), Java Stream Debugger (192.7142.36), JavaFX (192.7142.36), JavaScript Debugger (192.7142.36), JavaScript Intention Power Pack (192.7142.36), JavaScript and TypeScript (192.7142.36), Jetty Integration (192.7142.36), Kotlin (1.3.41-release-IJ2019.2-1), Less (192.7142.36), Machine Learning Code Completion (192.7142.36), Markdown (192.7142.36), Maven (192.7142.36), Maven Integration Extension (192.7142.36), Mercurial (192.7142.36), NodeJS (192.7142.36), OSGi (192.7142.36), OpenShift integration (192.7142.36), Perforce (192.7142.36), Performance Testing (192.7142.36), Persistence Frameworks Support (192.7142.36), Play Framework (192.7142.36), Plugin DevKit (192.7142.36), Properties (192.7142.36), Reactor (192.7142.36), Refactor-X (192.7142.36), Remote Hosts Access (192.7142.36), Resin Integration (192.7142.36), SSH Remote Run (192.7142.36), Sass (192.7142.36), Settings Repository (192.7142.36), Shell Script (192.7142.36), Smali Support (192.7142.36), Spring AOP/@AspectJ (192.7142.36), Spring Batch (192.7142.36), Spring Boot (192.7142.36), Spring Data (192.7142.36), Spring Integration Patterns (192.7142.36), Spring MVC (192.7142.36), Spring OSGi (192.7142.36), Spring Security (192.7142.36), Spring Support (192.7142.36), Spring Web Flow (192.7142.36), Spring Web Services (192.7142.36), Spring WebSocket (192.7142.36), Spy-js (192.7142.36), Struts 2 (192.7142.36), Stylus (192.7142.36), Subversion (192.7142.36), Tapestry (192.7142.36), Task Management (192.7142.36), Terminal (192.7142.36), TestNG (192.7142.36), TextMate bundles (192.7142.36), Thymeleaf (192.7142.36), Time Tracking (192.7142.36), Tomcat and TomEE Integration (192.7142.36), UI Designer (192.7142.36), UML (192.7142.36), Vaadin (192.7142.36), Velocity (192.7142.36), Virgo/dmServer (192.7142.36), W3C Validators (192.7142.36), WebLogic Integration (192.7142.36), WebSphere Integration (192.7142.36), WildFly (192.7142.36), XPathView + XSLT (192.7142.36), XSLT Debugger (192.7142.36), YAML (192.7142.36), ZKM-Unscramble (192.7142.36), tslint (192.7142.36) 
+2019-11-03 20:52:00,780 [   6952]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: LiveEdit (192.6262.9) 
+2019-11-03 20:52:00,781 [   6953]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-11-03 20:52:01,281 [   7453]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-11-03 20:52:01,311 [   7483]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-11-03 20:52:01,382 [   7554]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1899 
+2019-11-03 20:52:01,420 [   7592]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /idea-IU-192.7142.36/bin/fsnotifier64 
+2019-11-03 20:52:01,421 [   7593]   WARN - pl.local.NativeFileWatcherImpl - Cannot run program "/idea-IU-192.7142.36/bin/fsnotifier64": error=2, No such file or directory 
+2019-11-03 20:52:01,423 [   7595]   WARN - api.vfs.impl.local.FileWatcher - File watcher failed to start 
+2019-11-03 20:52:01,823 [   7995]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-11-03 20:52:01,831 [   8003]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-11-03 20:52:01,838 [   8010]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-11-03 20:52:02,033 [   8205]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:126 
+2019-11-03 20:52:02,121 [   8293]   INFO - j.ide.ui.OptionsTopHitProvider - 11 ms spent to cache options in application 
+2019-11-03 20:52:02,213 [   8385]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-11-03 20:52:02,322 [   8494]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /idea-IU-192.7142.36/bin/libdbm64.so: Error loading shared library libdbusmenu-glib.so.4: No such file or directory (needed by /idea-IU-192.7142.36/bin/libdbm64.so) 
+2019-11-03 20:52:02,464 [   8636]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-03 20:52:02,466 [   8638]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-03 20:52:02,475 [   8647]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-11-03 20:52:02,475 [   8647]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-11-03 20:52:02,475 [   8647]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2019-11-03 20:52:02,610 [   8782]   INFO - pl$FileIndexDataInitialization - Initialization done:703 
+2019-11-03 20:52:02,668 [   8840]   INFO - exImpl$StubIndexInitialization - Initialization done:57 
+2019-11-03 20:52:09,572 [  15744]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker] 
+2019-11-03 20:52:09,572 [  15744]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/.IntelliJIdea2019.2] 
+2019-11-03 20:52:09,572 [  15744]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/.IntelliJIdea2019.2/config/settingsRepository/repository] 
+2019-11-03 20:52:09,572 [  15744]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/git-credential-gnomekeyring] 
+2019-11-03 20:52:09,572 [  15744]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/idea-settings] 
+2019-11-03 20:52:10,105 [  16277]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2019-11-03 20:52:10,105 [  16277]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2019-11-03 20:52:10,138 [  16310]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-11-03 20:52:10,211 [  16383]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-11-03 20:52:10,576 [  16748]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-03 20:52:10,767 [  16939]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 7 ms 
+2019-11-03 20:52:11,349 [  17521]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 614ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-03 20:52:12,263 [  18435]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-11-03 20:52:12,289 [  18461]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 938ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2019-11-03 20:52:12,289 [  18461]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 6 millis (read time: 2) 
+2019-11-03 20:52:12,338 [  18510]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-03 20:52:12,414 [  18586]   INFO - j.ide.ui.OptionsTopHitProvider - 816 ms spent to cache options in project 
+2019-11-03 20:52:12,757 [  18929]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-11-03 20:52:12,853 [  19025]   INFO - CompilerWorkspaceConfiguration - Available processors: 12 
+2019-11-03 20:52:12,872 [  19044]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 2208ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish 
+2019-11-03 20:52:12,938 [  19110]   INFO - tartup.impl.StartupManagerImpl - /home/developer/IdeaProjects/Docker/.idea case-sensitivity: expected=true actual=true 
+2019-11-03 20:52:12,962 [  19134]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-11-03 20:52:12,976 [  19148]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-11-03 20:52:12,976 [  19148]   INFO -  #git4idea.commands.GitHandler - git version 2.23.0 
+2019-11-03 20:52:12,980 [  19152]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.23.0 
+2019-11-03 20:52:13,042 [  19214]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-11-03 20:52:13,074 [  19246]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3723 ms 
+2019-11-03 20:52:14,047 [  20219]   INFO - s.roots.VcsRootProblemNotifier - Auto-registered following mappings: [] 
+2019-11-03 20:52:17,979 [  24151]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-03 20:52:18,259 [  24431]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 11/3/19 8:51 PM) 
+2019-11-03 20:52:42,044 [  48216]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Local Changes' content in Version Control tool window to avoid focus-related problems. 
+2019-11-03 20:52:42,044 [  48216]   WARN - j.openapi.wm.impl.IdeFrameImpl - Local Changes tool window - parent container is hidden 
+2019-11-03 20:52:53,552 [  59724]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerRunManager took 34 ms 
+2019-11-03 20:52:53,972 [  60144]   INFO - pi.util.registry.RegistryValue - Registry value 'git.explicit.commit.renames.prohibit.multiple.calls' has changed to 'false' 
+2019-11-03 20:53:50,186 [ 116358]  ERROR - minal.TerminalTabCloseListener - java.io.IOException: Error reading ps output:/bin/ps: unrecognized option: format
+BusyBox v1.31.0 (2019-09-13 06:37:20 UTC) multi-call binary.
+
+Usage: ps [-o COL1,COL2=HEADER]
+
+Show list of processes
+
+	-o COL1,COL2=HEADER	Select columns for display
+ 
+java.lang.IllegalStateException: java.io.IOException: Error reading ps output:/bin/ps: unrecognized option: format
+BusyBox v1.31.0 (2019-09-13 06:37:20 UTC) multi-call binary.
+
+Usage: ps [-o COL1,COL2=HEADER]
+
+Show list of processes
+
+	-o COL1,COL2=HEADER	Select columns for display
+
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:208)
+	at com.intellij.execution.process.UnixProcessManager.processPSOutput(UnixProcessManager.java:199)
+	at org.jetbrains.plugins.terminal.TerminalUtil.hasRunningCommands(TerminalUtil.java:65)
+	at org.jetbrains.plugins.terminal.TerminalTabCloseListener.closeQuery(TerminalTabCloseListener.kt:32)
+	at com.intellij.execution.ui.BaseContentCloseListener.contentRemoveQuery(BaseContentCloseListener.java:68)
+	at com.intellij.ui.content.impl.ContentManagerImpl.fireContentRemoveQuery(ContentManagerImpl.java:560)
+	at com.intellij.ui.content.impl.ContentManagerImpl.doRemoveContent(ContentManagerImpl.java:200)
+	at com.intellij.ui.content.impl.ContentManagerImpl.removeContent(ContentManagerImpl.java:172)
+	at com.intellij.ui.content.impl.ContentManagerImpl.removeContent(ContentManagerImpl.java:165)
+	at com.intellij.openapi.wm.impl.content.ContentTabLabel$1.lambda$getAction$0(ContentTabLabel.java:72)
+	at com.intellij.openapi.wm.impl.content.ContentTabLabel$2.execute(ContentTabLabel.java:137)
+	at com.intellij.util.ui.BaseButtonBehavior$MyMouseListener.execute(BaseButtonBehavior.java:173)
+	at com.intellij.util.ui.BaseButtonBehavior$MyMouseListener.mouseReleased(BaseButtonBehavior.java:156)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3315)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:823)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: java.io.IOException: Error reading ps output:/bin/ps: unrecognized option: format
+BusyBox v1.31.0 (2019-09-13 06:37:20 UTC) multi-call binary.
+
+Usage: ps [-o COL1,COL2=HEADER]
+
+Show list of processes
+
+	-o COL1,COL2=HEADER	Select columns for display
+
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:231)
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:205)
+	... 50 more
+2019-11-03 20:53:50,191 [ 116363]  ERROR - minal.TerminalTabCloseListener - IntelliJ IDEA 2019.2.4  Build #IU-192.7142.36 
+2019-11-03 20:53:50,192 [ 116364]  ERROR - minal.TerminalTabCloseListener - JDK: 1.8.0_222; VM: OpenJDK 64-Bit Server VM; Vendor: IcedTea 
+2019-11-03 20:53:50,192 [ 116364]  ERROR - minal.TerminalTabCloseListener - OS: Linux 
+2019-11-03 20:53:50,206 [ 116378]  ERROR - minal.TerminalTabCloseListener - Last Action: CheckinProject 
+2019-11-03 20:54:19,677 [ 145849]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+com.intellij.openapi.vcs.impl.CodeSmellDetectorImpl.findCodeSmells(CodeSmellDetectorImpl.java:136) 
+2019-11-03 20:54:23,687 [ 149859]   INFO - .checkin.GitCheckinEnvironment - Staged changes excluded for commit: A: idea-settings 
+2019-11-03 20:54:23,689 [ 149861]   INFO -  #git4idea.commands.GitHandler - [Docker] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false reset -- idea-settings 
+2019-11-03 20:54:23,701 [ 149873]   INFO -  #git4idea.commands.GitHandler - [Docker] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -f -- Alpine-tools/.gitconfig Alpine-tools/Dockerfile idea.sh Alpine-tools/startup.sh 
+2019-11-03 20:54:23,736 [ 149908]   INFO -  #git4idea.commands.GitHandler - [Docker] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false commit -F /tmp/git-commit-msg-.txt -- 
+2019-11-03 20:54:23,743 [ 149915]   INFO -  #git4idea.commands.GitHandler - [master b1c96d3] add git token variables 
+2019-11-03 20:54:23,743 [ 149915]   INFO -  #git4idea.commands.GitHandler - 4 files changed, 27 insertions(+), 18 deletions(-) 
+2019-11-03 20:54:23,743 [ 149915]   INFO -  #git4idea.commands.GitHandler - create mode 100644 Alpine-tools/.gitconfig 
+2019-11-03 20:54:23,743 [ 149915]   INFO -  #git4idea.commands.GitHandler - rewrite Alpine-tools/startup.sh (92%) 
+2019-11-03 20:54:23,744 [ 149916]   INFO - .checkin.GitCheckinEnvironment - Ignored added-deleted staged change in /home/developer/IdeaProjects/Docker/idea-settings 
+2019-11-03 20:54:26,451 [ 152623]   INFO -  #git4idea.commands.GitHandler - [Docker] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-03 20:54:26,600 [ 152772]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 2657 ms 
+2019-11-03 20:54:41,879 [ 168051]  ERROR - plication.TransactionGuardImpl - Cannot run synchronous submitTransactionAndWait from invokeLater. Please use asynchronous submit*Transaction. See TransactionGuard FAQ for details.
+Transaction: com.intellij.openapi.options.newEditor.SettingsDialog$$Lambda$3485/1373625792@7f30c8a2
+Unsafe modality: ModalityState:{[com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog[dialog0,758,419,403x210,invalid,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Log In to github.com,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog$DialogRootPane[,0,29,403x181,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]], [com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog[dialog1,779,416,361x217,invalid,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Log In to GitHub,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog$DialogRootPane[,0,29,361x188,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]} 
+java.lang.Throwable: Cannot run synchronous submitTransactionAndWait from invokeLater. Please use asynchronous submit*Transaction. See TransactionGuard FAQ for details.
+Transaction: com.intellij.openapi.options.newEditor.SettingsDialog$$Lambda$3485/1373625792@7f30c8a2
+Unsafe modality: ModalityState:{[com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog[dialog0,758,419,403x210,invalid,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Log In to github.com,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog$DialogRootPane[,0,29,403x181,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]], [com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog[dialog1,779,416,361x217,invalid,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Log In to GitHub,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog$DialogRootPane[,0,29,361x188,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=449,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]}
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:145)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransactionAndWait(TransactionGuardImpl.java:146)
+	at com.intellij.openapi.options.newEditor.SettingsDialog.show(SettingsDialog.java:77)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGet(DialogWrapper.java:1658)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.editConfigurable(ShowSettingsUtilImpl.java:251)
+	at com.intellij.ide.actions.ShowSettingsUtilImpl.editConfigurable(ShowSettingsUtilImpl.java:200)
+	at com.intellij.ide.browsers.BrowserLauncherImpl$showError$1.run(BrowserLauncherImpl.kt:72)
+	at com.intellij.ui.AppUIUtil.invokeOnEdt(AppUIUtil.java:191)
+	at com.intellij.ide.browsers.BrowserLauncherImpl.showError(BrowserLauncherImpl.kt:69)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.showError$default(BrowserLauncherAppless.kt:205)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.openWithDefaultBrowser(BrowserLauncherAppless.kt:123)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.openOrBrowse(BrowserLauncherAppless.kt:93)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.browse(BrowserLauncherAppless.kt:135)
+	at com.intellij.ide.BrowserUtil.browse(BrowserUtil.java:78)
+	at com.intellij.ide.BrowserUtil.browse(BrowserUtil.java:74)
+	at org.jetbrains.plugins.github.authentication.ui.GithubLoginDialog$LoginPasswordCredentialsUI$getSouthPanel$1.run(GithubLoginDialog.kt:262)
+	at com.intellij.ui.components.labels.LinkLabel$1.linkSelected(LinkLabel.java:63)
+	at com.intellij.ui.components.labels.LinkLabel.doClick(LinkLabel.java:142)
+	at com.intellij.ui.components.labels.LinkLabel.doClick(LinkLabel.java:356)
+	at com.intellij.ui.components.labels.LinkLabel$MyMouseHandler.mouseReleased(LinkLabel.java:330)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3315)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:823)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:693)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:707)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:432)
+	at com.intellij.openapi.ui.DialogWrapper.doShow(DialogWrapper.java:1685)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1644)
+	at git4idea.DialogManager.showDialog(DialogManager.java:56)
+	at git4idea.DialogManager.show(DialogManager.java:23)
+	at org.jetbrains.plugins.github.authentication.GithubAuthenticationManager.requestNewAccountForServer(GithubAuthenticationManager.kt:63)
+	at org.jetbrains.plugins.github.extensions.InteractiveCreateGithubAccountHttpAuthDataProvider.getAuthData(InteractiveCreateGithubAccountHttpAuthDataProvider.kt:23)
+	at git4idea.commands.GitHttpLoginDialog$setInteractiveDataProviders$$inlined$map$lambda$1.actionPerformed(GitHttpLoginDialog.kt:114)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3315)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:823)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:693)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:707)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:432)
+	at com.intellij.openapi.ui.DialogWrapper.doShow(DialogWrapper.java:1685)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1644)
+	at git4idea.DialogManager.showDialog(DialogManager.java:56)
+	at git4idea.DialogManager.show(DialogManager.java:23)
+	at git4idea.commands.GitHttpGuiAuthenticator$DialogProvider.lambda$showAuthDialog$0(GitHttpGuiAuthenticator.java:404)
+	at com.intellij.openapi.application.impl.LaterInvocator$1.run(LaterInvocator.java:152)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.doRun(LaterInvocator.java:433)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:416)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:399)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:827)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-11-03 20:54:41,880 [ 168052]  ERROR - plication.TransactionGuardImpl - IntelliJ IDEA 2019.2.4  Build #IU-192.7142.36 
+2019-11-03 20:54:41,881 [ 168053]  ERROR - plication.TransactionGuardImpl - JDK: 1.8.0_222; VM: OpenJDK 64-Bit Server VM; Vendor: IcedTea 
+2019-11-03 20:54:41,881 [ 168053]  ERROR - plication.TransactionGuardImpl - OS: Linux 
+2019-11-03 20:54:41,882 [ 168054]  ERROR - plication.TransactionGuardImpl - Last Action: CheckinProject 
+2019-11-03 20:55:00,506 [ 186678]   INFO -  #git4idea.commands.GitHandler - remote: No anonymous write access. 
+2019-11-03 20:55:00,507 [ 186679]   INFO -  #git4idea.commands.GitHandler - fatal: Authentication failed for 'https://github.com/Inonut/Docker.git/' 
+2019-11-03 20:55:00,508 [ 186680]   INFO -  #git4idea.commands.GitHandler - git push took 34057 ms. Command parameters: 
+setsid /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-03 20:55:07,547 [ 193719]   INFO -  #git4idea.commands.GitHandler - [Docker] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-03 20:55:15,277 [ 201449]   INFO -  #git4idea.commands.GitHandler - remote: No anonymous write access. 
+2019-11-03 20:55:15,277 [ 201449]   INFO -  #git4idea.commands.GitHandler - fatal: Authentication failed for 'https://github.com/Inonut/Docker.git/' 
+2019-11-03 20:55:19,253 [ 205425]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-11-03 20:55:19,947 [ 206119]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 11/3/19 8:51 PM) 
+2019-11-03 20:55:19,992 [ 206164]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-03 20:55:34,569 [ 220741]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 101 ms 
+2019-11-03 20:55:43,021 [ 229193]   INFO -  #git4idea.commands.GitHandler - [Docker] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-03 20:55:45,896 [ 232068]   INFO -  #git4idea.commands.GitHandler - remote: No anonymous write access. 
+2019-11-03 20:55:45,896 [ 232068]   INFO -  #git4idea.commands.GitHandler - fatal: Authentication failed for 'https://github.com/Inonut/Docker.git/' 
+2019-11-03 20:55:47,291 [ 233463]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-11-03 20:55:47,513 [ 233685]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 11/3/19 8:51 PM) 
+2019-11-03 20:56:38,346 [ 284518]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 159 ms 
+2019-11-03 20:57:09,079 [ 315251]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Local Changes' content in Version Control tool window to avoid focus-related problems. 
+2019-11-03 20:57:09,079 [ 315251]   WARN - j.openapi.wm.impl.IdeFrameImpl - Local Changes tool window - parent container is hidden 
+2019-11-03 20:57:16,588 [ 322760]   INFO -  #git4idea.commands.GitHandler - [Docker] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-03 20:57:16,944 [ 323116]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.idea.perforce.perforce.ConnectionId 
+2019-11-03 20:57:18,154 [ 324326]   INFO -  #git4idea.commands.GitHandler - [KEnumerating objects: 12, done. 
+2019-11-03 20:57:18,155 [ 324327]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+git4idea.commands.GitStandardProgressAnalyzer$1.onLineAvailable(GitStandardProgressAnalyzer.java:45) 
+2019-11-03 20:57:18,157 [ 324329]   INFO -  #git4idea.commands.GitHandler - [KCounting objects: 100% (12/12), done. 
+2019-11-03 20:57:18,157 [ 324329]   INFO -  #git4idea.commands.GitHandler - Delta compression using up to 12 threads 
+2019-11-03 20:57:18,157 [ 324329]   INFO -  #git4idea.commands.GitHandler - [KCompressing objects: 100% (7/7), done. 
+2019-11-03 20:57:18,158 [ 324330]   INFO -  #git4idea.commands.GitHandler - [KWriting objects: 100% (7/7), 1.12 KiB | 1.12 MiB/s, done. 
+2019-11-03 20:57:18,158 [ 324330]   INFO -  #git4idea.commands.GitHandler - Total 7 (delta 3), reused 0 (delta 0) 
+2019-11-03 20:57:18,592 [ 324764]   INFO -  #git4idea.commands.GitHandler - remote: Resolving deltas: 100% (3/3), completed with 3 local objects. 
+2019-11-03 20:57:20,453 [ 326625]   INFO -  #git4idea.commands.GitHandler - To https://github.com/Inonut/Docker.git 
+2019-11-03 20:57:20,459 [ 326631]   INFO -  #git4idea.commands.GitHandler - refs/heads/master:refs/heads/master	b3ed8d6..b1c96d3 
+2019-11-03 20:57:20,459 [ 326631]   INFO -  #git4idea.commands.GitHandler - Done 
+2019-11-03 20:58:41,155 [ 407327]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 122 ms 
+2019-11-03 20:59:22,840 [ 449012]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-11-03 20:59:22,840 [ 449012]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-11-03 20:59:22,840 [ 449012]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-11-03 20:59:22,852 [ 449024]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-11-03 20:59:22,857 [ 449029]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-03 20:59:22,859 [ 449031]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 12 auto-detected files
+Elapsed time on auto-detect: 19 ms 
+2019-11-03 20:59:22,866 [ 449038]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-11-03 20:59:22,868 [ 449040]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-11-03 20:59:22,869 [ 449041]   INFO -   #com.intellij.util.Restarter - restart: [] 
+2019-11-03 20:59:22,871 [ 449043]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-03 20:59:22,873 [ 449045]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
