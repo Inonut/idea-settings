@@ -15,3 +15,8 @@ export PS1=">"
 de
 sa
 ll
+cd ..
+ll
+cd ,,
+cd ..
+ll
