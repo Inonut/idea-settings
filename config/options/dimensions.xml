@@ -14,6 +14,8 @@
     <location key="Vcs.Push.Dialog.0.0.3840.1080" x="644" y="268" />
     <location key="SettingsEditor.0.0.3840.1080" x="218" y="158" />
     <location key="FileDocumentManager.FileCacheConflict.0.0.3840.1080" x="376" y="168" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.3840.1080" x="650" y="352" />
+    <location key="RollbackChangesDialog.0.0.3840.1080" x="766" y="243" />
     <size key="GridCell.Tab.0.left.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.center.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.right.0.0.3840.1080" width="1874" height="250" />
