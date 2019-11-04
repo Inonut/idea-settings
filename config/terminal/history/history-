@@ -47,3 +47,6 @@ sudo apk add py2-pip
 sudo pip install --upgrade --user pip
 sudo pip install tensorflow
 pip install tensorflow
+lssecret -s
+cd .IntelliJIdea2019.2/
+git push
