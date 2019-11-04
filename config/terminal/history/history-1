@@ -1,0 +1,9 @@
+lssecret 
+lssecret -s
+sudo apk add tensorflow
+cd ~
+cd angular-grid/
+ll
+cd src/
+ll
+nano index.html 

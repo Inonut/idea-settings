@@ -3,6 +3,7 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/IdeaProjects/Docker" />
+        <option value="$USER_HOME$/IdeaProjects/angular-grid" />
       </list>
     </option>
     <option name="openPaths">
@@ -20,8 +21,19 @@
               <option name="build" value="IU-192.7142.36" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1572860162531" />
-              <option name="buildTimestamp" value="1572321774148" />
+              <option name="projectOpenTimestamp" value="1572861001909" />
+              <option name="buildTimestamp" value="1572321758716" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/angular-grid">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-192.7142.36" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1572860773499" />
+              <option name="buildTimestamp" value="1572321758716" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

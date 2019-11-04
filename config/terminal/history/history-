@@ -50,3 +50,12 @@ pip install tensorflow
 lssecret -s
 cd .IntelliJIdea2019.2/
 git push
+lssecret 
+lssecret -s
+sudo apk add tensorflow
+cd ..
+ll
+git clone https://github.com/Inonut/angular-grid.git
+cd angular-grid/
+yarn
+yarn run
