@@ -5283,3 +5283,217 @@ Elapsed time on auto-detect: 908 ms
 2019-11-04 09:14:42,960 [ 166070]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
 2019-11-04 09:14:42,964 [ 166074]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-04 09:14:42,991 [ 166101]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-04 09:15:45,735 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-04 09:15:45,763 [     28]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-04 09:15:45,763 [     28]   INFO -        #com.intellij.idea.Main - OS: Linux (4.9.184-linuxkit, amd64) 
+2019-11-04 09:15:45,763 [     28]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_222-b10 (IcedTea) 
+2019-11-04 09:15:45,763 [     28]   INFO -        #com.intellij.idea.Main - JVM: 25.222-b10 (OpenJDK 64-Bit Server VM) 
+2019-11-04 09:15:45,766 [     31]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/developer/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/developer/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/developer/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-04 09:15:45,767 [     32]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-1.8-openjdk/jre/lib/ext: [nashorn.jar, sunec.jar, localedata.jar, sunjce_provider.jar, cldrdata.jar, dnsns.jar, sunpkcs11.jar, jaccess.jar, meta-index, zipfs.jar] 
+2019-11-04 09:15:45,767 [     32]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-04 09:15:45,827 [     92]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 74 ms 
+2019-11-04 09:15:45,877 [    142]   INFO - plication.impl.ApplicationImpl - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@f882a48[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@6e36eb19 
+2019-11-04 09:15:45,955 [    220]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2019-11-04 09:15:45,955 [    220]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2019-11-04 09:15:52,755 [   7020]   INFO - tellij.ide.gdpr.ConsentOptions - /home/developer/.local/share/JetBrains/consentOptions/accepted (No such file or directory) 
+java.io.FileNotFoundException: /home/developer/.local/share/JetBrains/consentOptions/accepted (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1057)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1051)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1043)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1040)
+	at com.intellij.ide.gdpr.ConsentOptions$InstanceHolder$1.writeConfirmedConsents(ConsentOptions.java:68)
+	at com.intellij.ide.gdpr.ConsentOptions.saveConfirmedConsents(ConsentOptions.java:225)
+	at com.intellij.ide.gdpr.ConsentOptions.setConsents(ConsentOptions.java:202)
+	at com.intellij.ui.AppUIUtil.saveConsents(AppUIUtil.java:562)
+	at com.intellij.ui.AppUIUtil.confirmConsentOptions(AppUIUtil.java:520)
+	at com.intellij.ui.AppUIUtil.lambda$showConsentsAgreementIfNeeded$3(AppUIUtil.java:326)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:438)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-11-04 09:15:53,620 [   7885]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-04 09:15:56,409 [  10674]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-04 09:15:56,564 [  10829]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (192.7142.36), Android Support (10.3.4), Angular and AngularJS (192.7142.36), Ant (192.7142.36), Application Servers View (192.7142.36), Arquillian (192.7142.36), AspectJ (192.7142.36), Bytecode Viewer (192.7142.36), CFML (192.7142.36), CSS (192.7142.36), ChangeReminder (192.7142.36), Cloud Foundry (192.7142.36), CoffeeScript (192.7142.36), Configuration Script (192.7142.36), Copyright (192.7142.36), Coverage (192.7142.36), Cucumber for Groovy (192.7142.36), Cucumber for Java (192.7142.36), Database Tools and SQL (192.7142.36), Dependency Structure Matrix (192.7142.36), Docker (192.7142.36), Drools (192.7142.36), Eclipse Interoperability (192.7142.36), EditorConfig (192.7142.36), Emma (192.7142.36), Flash/Flex (192.7142.36), FreeMarker (192.7142.36), GWT (192.7142.36), Geronimo Integration (192.7142.36), Gherkin (192.7142.36), Git (192.7142.36), GitHub (192.7142.36), GlassFish (192.7142.36), Google App Engine (192.7142.36), Gradle (192.7142.36), Gradle Integration Extension (192.7142.36), Gradle-Maven (192.7142.36), Grails (192.7142.36), Groovy (192.7142.36), Guice (192.7142.36), HTML Tools (192.7142.36), HTTP Client (192.7142.36), Haml (192.7142.36), Heroku (192.7142.36), Hibernate (192.7142.36), IDE Settings Sync (192.7142.36), IDEA CORE (192.7142.36), IntelliLang (192.7142.36), JBoss Frameworks Base (192.7142.36), JBoss Seam (192.7142.36), JBoss Seam Pageflow (192.7142.36), JBoss Seam Pages (192.7142.36), JBoss jBPM (192.7142.36), JSR45 (192.7142.36), JUnit (192.7142.36), Java (192.7142.36), Java Bytecode Decompiler (192.7142.36), Java EE: Batch Applications (192.7142.36), Java EE: Bean Validation (192.7142.36), Java EE: Contexts and Dependency Injection (192.7142.36), Java EE: EJB, JPA, Servlets (192.7142.36), Java EE: JMS, JSON Processing, Concurrency, Transaction  (192.7142.36), Java EE: Java Server Faces (192.7142.36), Java EE: RESTful Web Services (JAX-RS) (192.7142.36), Java EE: Web Services (JAX-WS) (192.7142.36), Java EE: WebSockets (192.7142.36), Java IDE Customization (192.7142.36), Java Internationalization (192.7142.36), Java Server Pages (JSP) (192.7142.36), Java Stream Debugger (192.7142.36), JavaFX (192.7142.36), JavaScript Debugger (192.7142.36), JavaScript Intention Power Pack (192.7142.36), JavaScript and TypeScript (192.7142.36), Jetty Integration (192.7142.36), Kotlin (1.3.41-release-IJ2019.2-1), Less (192.7142.36), Machine Learning Code Completion (192.7142.36), Markdown (192.7142.36), Maven (192.7142.36), Maven Integration Extension (192.7142.36), Mercurial (192.7142.36), NodeJS (192.7142.36), OSGi (192.7142.36), OpenShift integration (192.7142.36), Perforce (192.7142.36), Performance Testing (192.7142.36), Persistence Frameworks Support (192.7142.36), Play Framework (192.7142.36), Plugin DevKit (192.7142.36), Properties (192.7142.36), Reactor (192.7142.36), Refactor-X (192.7142.36), Remote Hosts Access (192.7142.36), Resin Integration (192.7142.36), SSH Remote Run (192.7142.36), Sass (192.7142.36), Settings Repository (192.7142.36), Smali Support (192.7142.36), Spring AOP/@AspectJ (192.7142.36), Spring Batch (192.7142.36), Spring Boot (192.7142.36), Spring Data (192.7142.36), Spring Integration Patterns (192.7142.36), Spring MVC (192.7142.36), Spring OSGi (192.7142.36), Spring Security (192.7142.36), Spring Support (192.7142.36), Spring Web Flow (192.7142.36), Spring Web Services (192.7142.36), Spring WebSocket (192.7142.36), Spy-js (192.7142.36), Struts 2 (192.7142.36), Stylus (192.7142.36), Subversion (192.7142.36), Tapestry (192.7142.36), Task Management (192.7142.36), Terminal (192.7142.36), TestNG (192.7142.36), TextMate bundles (192.7142.36), Thymeleaf (192.7142.36), Time Tracking (192.7142.36), Tomcat and TomEE Integration (192.7142.36), UI Designer (192.7142.36), UML (192.7142.36), Vaadin (192.7142.36), Velocity (192.7142.36), Virgo/dmServer (192.7142.36), W3C Validators (192.7142.36), WebLogic Integration (192.7142.36), WebSphere Integration (192.7142.36), WildFly (192.7142.36), XPathView + XSLT (192.7142.36), XSLT Debugger (192.7142.36), YAML (192.7142.36), ZKM-Unscramble (192.7142.36), tslint (192.7142.36) 
+2019-11-04 09:15:56,564 [  10829]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: BashSupport (1.7.13.192), LiveEdit (192.6262.9), Makefile support (1.6.1) 
+2019-11-04 09:15:56,564 [  10829]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Shell Script (192.7142.36) 
+2019-11-04 09:15:56,567 [  10832]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-11-04 09:15:57,503 [  11768]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-11-04 09:15:57,551 [  11816]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-11-04 09:15:57,663 [  11928]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1949 
+2019-11-04 09:15:57,750 [  12015]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /idea-IU/bin/fsnotifier64 
+2019-11-04 09:15:57,765 [  12030]   WARN - pl.local.NativeFileWatcherImpl - Cannot run program "/idea-IU/bin/fsnotifier64": error=2, No such file or directory 
+2019-11-04 09:15:57,768 [  12033]   WARN - api.vfs.impl.local.FileWatcher - File watcher failed to start 
+2019-11-04 09:15:59,027 [  13292]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-11-04 09:15:59,052 [  13317]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-11-04 09:15:59,135 [  13400]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-11-04 09:15:59,658 [  13923]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:344 
+2019-11-04 09:15:59,952 [  14217]   INFO - j.ide.ui.OptionsTopHitProvider - 78 ms spent to cache options in application 
+2019-11-04 09:16:00,491 [  14756]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-11-04 09:16:01,326 [  15591]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /idea-IU/bin/libdbm64.so: Error loading shared library libdbusmenu-glib.so.4: No such file or directory (needed by /idea-IU/bin/libdbm64.so) 
+2019-11-04 09:16:01,923 [  16188]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-04 09:16:01,940 [  16205]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-04 09:16:01,973 [  16238]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-11-04 09:16:01,975 [  16240]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-11-04 09:16:01,975 [  16240]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2019-11-04 09:16:02,598 [  16863]   INFO - pl$FileIndexDataInitialization - Initialization done:3283 
+2019-11-04 09:16:02,880 [  17145]   INFO - exImpl$StubIndexInitialization - Initialization done:281 
+2019-11-04 09:16:05,874 [  20139]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [<Project>] 
+2019-11-04 09:16:05,874 [  20139]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/.IntelliJIdea2019.2/config/settingsRepository/repository] 
+2019-11-04 09:16:05,874 [  20139]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/config/config/settingsRepository/repository] 
+2019-11-04 09:16:05,874 [  20139]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/config/settingsRepository/repository] 
+2019-11-04 09:16:07,822 [  22087]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2019-11-04 09:16:07,826 [  22091]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2019-11-04 09:16:07,917 [  22182]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-11-04 09:16:08,196 [  22461]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-11-04 09:16:09,677 [  23942]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-04 09:16:10,491 [  24756]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 30 ms 
+2019-11-04 09:16:13,774 [  28039]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 18 millis (read time: 2) 
+2019-11-04 09:16:13,839 [  28104]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-11-04 09:16:14,110 [  28375]   INFO - j.ide.ui.OptionsTopHitProvider - 1754 ms spent to cache options in project 
+2019-11-04 09:16:14,959 [  29224]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-11-04 09:16:16,503 [  30768]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 6175ms; general responsiveness: ok; EDT responsiveness: 1/6 sluggish, 2/6 very slow 
+2019-11-04 09:16:16,650 [  30915]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 6705ms; general responsiveness: ok; EDT responsiveness: 2/7 sluggish, 2/7 very slow 
+2019-11-04 09:16:17,180 [  31445]   INFO - tartup.impl.StartupManagerImpl - /home/developer/IdeaProjects/Docker/.idea case-sensitivity: expected=true actual=true 
+2019-11-04 09:16:17,343 [  31608]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-11-04 09:16:17,402 [  31667]   INFO -  #git4idea.commands.GitHandler - git version 2.23.0 
+2019-11-04 09:16:17,409 [  31674]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.23.0 
+2019-11-04 09:16:17,437 [  31702]   INFO - pl.projectlevelman.NewMappings - Mapped Roots: 1 
+2019-11-04 09:16:17,487 [  31752]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-11-04 09:16:17,938 [  32203]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 13119 ms 
+2019-11-04 09:16:18,923 [  33188]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2408ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2019-11-04 09:16:18,947 [  33212]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-11-04 09:16:19,000 [  33265]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-04 09:16:19,845 [  34110]   INFO - s.roots.VcsRootProblemNotifier - Auto-registered following mappings: [] 
+2019-11-04 09:16:20,518 [  34783]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening. 
+2019-11-04 09:16:20,827 [  35092]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2019-11-04 09:16:22,062 [  36327]   INFO - rationStore.ComponentStoreImpl - Saving appOsmorc took 11 ms 
+2019-11-04 09:16:22,187 [  36452]   INFO - rationStore.ComponentStoreImpl - Saving Module: 'Docker'ExternalFacetManager took 13 ms 
+2019-11-04 09:16:22,481 [  36746]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerRunManager took 56 ms, XDebuggerManager took 12 ms 
+2019-11-04 09:16:22,494 [  36759]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-04 09:16:23,024 [  37289]   WARN - ion.process.UnixProcessManager - Error killing the process 
+java.lang.IllegalStateException: java.io.IOException: Error reading ps output:/bin/ps: unrecognized option: format
+BusyBox v1.31.0 (2019-09-13 06:37:20 UTC) multi-call binary.
+
+Usage: ps [-o COL1,COL2=HEADER]
+
+Show list of processes
+
+	-o COL1,COL2=HEADER	Select columns for display
+
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:208)
+	at com.intellij.execution.process.UnixProcessManager.processPSOutput(UnixProcessManager.java:199)
+	at com.intellij.execution.process.UnixProcessManager.findChildProcesses(UnixProcessManager.java:168)
+	at com.intellij.execution.process.UnixProcessManager.sendSignalToProcessTree(UnixProcessManager.java:141)
+	at com.intellij.execution.process.UnixProcessManager.sendSignalToProcessTree(UnixProcessManager.java:129)
+	at com.intellij.execution.process.UnixProcessManager.sendSignalToProcessTree(UnixProcessManager.java:117)
+	at com.intellij.execution.process.UnixProcessManager.sendSigIntToProcessTree(UnixProcessManager.java:108)
+	at com.intellij.execution.process.KillableProcessHandler.destroyProcessGracefully(KillableProcessHandler.java:170)
+	at com.intellij.execution.process.KillableProcessHandler.doDestroyProcess(KillableProcessHandler.java:129)
+	at com.intellij.execution.process.KillableProcessHandler.destroyProcessImpl(KillableProcessHandler.java:113)
+	at com.intellij.execution.process.ProcessHandler.lambda$destroyProcess$0(ProcessHandler.java:98)
+	at com.intellij.execution.process.ProcessHandler$TasksRunner.execute(ProcessHandler.java:247)
+	at com.intellij.execution.process.ProcessHandler.destroyProcess(ProcessHandler.java:95)
+	at git4idea.commands.GitTextHandler.tryKill(GitTextHandler.java:162)
+	at git4idea.commands.GitTextHandler.waitForProcess(GitTextHandler.java:152)
+	at git4idea.commands.GitHandler.runInCurrentThread(GitHandler.java:383)
+	at git4idea.commands.GitImplBase.doRun(GitImplBase.java:172)
+	at git4idea.commands.GitImplBase.run(GitImplBase.java:140)
+	at git4idea.commands.GitImplBase.runCommandWithoutCollectingOutput(GitImplBase.java:78)
+	at git4idea.commands.GitImpl.runCommandWithoutCollectingOutput(GitImpl.java:41)
+	at git4idea.history.GitLogUtil.collectMetadata(GitLogUtil.java:168)
+	at git4idea.log.GitLogProvider.readFirstBlock(GitLogProvider.java:106)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$2.each(VcsLogRefresherImpl.java:121)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$ProviderIterator.iterate(VcsLogRefresherImpl.java:384)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.loadRecentData(VcsLogRefresherImpl.java:127)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.readFirstBlock(VcsLogRefresherImpl.java:99)
+	at com.intellij.vcs.log.data.VcsLogData$1.run(VcsLogData.java:159)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:894)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:169)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:591)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:537)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:156)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:408)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:294)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Error reading ps output:/bin/ps: unrecognized option: format
+BusyBox v1.31.0 (2019-09-13 06:37:20 UTC) multi-call binary.
+
+Usage: ps [-o COL1,COL2=HEADER]
+
+Show list of processes
+
+	-o COL1,COL2=HEADER	Select columns for display
+
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:231)
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:205)
+	... 39 more
+2019-11-04 09:16:23,064 [  37329]   WARN - ion.process.UnixProcessManager - Error killing the process 
+java.lang.IllegalStateException: java.io.IOException: Error reading ps output:/bin/ps: unrecognized option: format
+BusyBox v1.31.0 (2019-09-13 06:37:20 UTC) multi-call binary.
+
+Usage: ps [-o COL1,COL2=HEADER]
+
+Show list of processes
+
+	-o COL1,COL2=HEADER	Select columns for display
+
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:208)
+	at com.intellij.execution.process.UnixProcessManager.processPSOutput(UnixProcessManager.java:199)
+	at com.intellij.execution.process.UnixProcessManager.findChildProcesses(UnixProcessManager.java:168)
+	at com.intellij.execution.process.UnixProcessManager.sendSignalToProcessTree(UnixProcessManager.java:141)
+	at com.intellij.execution.process.UnixProcessManager.sendSignalToProcessTree(UnixProcessManager.java:129)
+	at com.intellij.execution.process.UnixProcessManager.sendSignalToProcessTree(UnixProcessManager.java:117)
+	at com.intellij.execution.process.UnixProcessManager.sendSigKillToProcessTree(UnixProcessManager.java:112)
+	at com.intellij.execution.process.OSProcessUtil.killProcessTree(OSProcessUtil.java:54)
+	at com.intellij.execution.process.impl.OSProcessManagerImpl.killProcessTree(OSProcessManagerImpl.java:20)
+	at com.intellij.execution.process.OSProcessHandler.killProcessTreeSync(OSProcessHandler.java:221)
+	at com.intellij.execution.process.OSProcessHandler.lambda$killProcessTree$0(OSProcessHandler.java:215)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Error reading ps output:/bin/ps: unrecognized option: format
+BusyBox v1.31.0 (2019-09-13 06:37:20 UTC) multi-call binary.
+
+Usage: ps [-o COL1,COL2=HEADER]
+
+Show list of processes
+
+	-o COL1,COL2=HEADER	Select columns for display
+
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:231)
+	at com.intellij.execution.process.UnixProcessManager.processCommandOutput(UnixProcessManager.java:205)
+	... 15 more
+2019-11-04 09:16:23,077 [  37342]   WARN - ution.process.OSProcessHandler - Cannot kill process tree. Trying to destroy process using Java API. Cmdline:
+setsid /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false log HEAD --branches --remotes --max-count=2000 --pretty=format:%x01%x01%H%x02%x02%P%x02%x02%ct%x02%x02%cn%x02%x02%ce%x02%x02%an%x02%x02%at%x02%x02%ae%x02%x02%s%x02%x02%b%x02%x02%B%x02%x02%d%x03%x03 --encoding=UTF-8 --decorate=full -- 
+2019-11-04 09:16:23,727 [  37992]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-11-04 09:16:23,727 [  37992]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-11-04 09:16:23,728 [  37993]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-11-04 09:16:23,801 [  38066]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-11-04 09:16:23,810 [  38075]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-04 09:16:23,833 [  38098]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-11-04 09:16:23,838 [  38103]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-11-04 09:16:23,847 [  38112]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-11-04 09:16:23,866 [  38131]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-04 09:16:23,887 [  38152]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
