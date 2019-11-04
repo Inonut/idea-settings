@@ -5607,3 +5607,48 @@ Elapsed time on auto-detect: 0 ms
 2019-11-04 09:32:44,532 [  41625]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
 2019-11-04 09:32:44,568 [  41661]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-04 09:32:44,573 [  41666]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-04 09:33:42,158 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-04 09:33:42,202 [     44]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-04 09:33:42,202 [     44]   INFO -        #com.intellij.idea.Main - OS: Linux (4.9.184-linuxkit, amd64) 
+2019-11-04 09:33:42,202 [     44]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_222-b10 (IcedTea) 
+2019-11-04 09:33:42,202 [     44]   INFO -        #com.intellij.idea.Main - JVM: 25.222-b10 (OpenJDK 64-Bit Server VM) 
+2019-11-04 09:33:42,206 [     48]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/developer/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/developer/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/developer/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-04 09:33:42,207 [     49]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-1.8-openjdk/jre/lib/ext: [nashorn.jar, sunec.jar, localedata.jar, sunjce_provider.jar, cldrdata.jar, dnsns.jar, sunpkcs11.jar, jaccess.jar, meta-index, zipfs.jar] 
+2019-11-04 09:33:42,207 [     49]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-04 09:33:42,239 [     81]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 59 ms 
+2019-11-04 09:33:42,273 [    115]   INFO - plication.impl.ApplicationImpl - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@22d49aae[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@14a93e55 
+2019-11-04 09:33:42,342 [    184]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2019-11-04 09:33:42,343 [    185]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2019-11-04 09:34:21,194 [  39036]   INFO - tellij.ide.gdpr.ConsentOptions - /home/developer/.local/share/JetBrains/consentOptions/accepted (No such file or directory) 
+java.io.FileNotFoundException: /home/developer/.local/share/JetBrains/consentOptions/accepted (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1057)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1051)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1043)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1040)
+	at com.intellij.ide.gdpr.ConsentOptions$InstanceHolder$1.writeConfirmedConsents(ConsentOptions.java:68)
+	at com.intellij.ide.gdpr.ConsentOptions.saveConfirmedConsents(ConsentOptions.java:225)
+	at com.intellij.ide.gdpr.ConsentOptions.setConsents(ConsentOptions.java:202)
+	at com.intellij.ui.AppUIUtil.saveConsents(AppUIUtil.java:562)
+	at com.intellij.ui.AppUIUtil.confirmConsentOptions(AppUIUtil.java:520)
+	at com.intellij.ui.AppUIUtil.lambda$showConsentsAgreementIfNeeded$3(AppUIUtil.java:326)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:438)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-11-04 09:34:22,145 [  39987]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-04 09:34:31,687 [  49529]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-04 09:34:31,712 [  49554]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
