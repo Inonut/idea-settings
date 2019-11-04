@@ -2,14 +2,6 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
-        <option value="bash.var" />
-        <option value="bash.vardef" />
-        <option value="bash.scriptCommandReference" />
-        <option value="bash.includers" />
-        <option value="bash.included" />
-        <option value="bash.script.name" />
-        <option value="bash.function.name" />
-        <option value="makefile.target.index" />
         <option value="angular2.metadata.module.index" />
         <option value="angular2.metadata.function.index" />
         <option value="angular2.metadata.node.index" />
@@ -75,6 +67,13 @@
         <option value="JS.global.qualified.elements" />
         <option value="js.element.qualifiedName" />
         <option value="js.qualified.shortName" />
+        <option value="bash.var" />
+        <option value="bash.vardef" />
+        <option value="bash.scriptCommandReference" />
+        <option value="bash.includers" />
+        <option value="bash.included" />
+        <option value="bash.script.name" />
+        <option value="bash.function.name" />
         <option value="Stylus.mixins" />
         <option value="Stylus.variables" />
         <option value="Scss.mixin" />
@@ -103,6 +102,7 @@
         <option value="sql.names" />
         <option value="sql.column.name" />
         <option value="sql.table.shortName" />
+        <option value="makefile.target.index" />
         <option value="properties.index" />
         <option value="Css.custom.mixin" />
         <option value="Css.custom.property" />
