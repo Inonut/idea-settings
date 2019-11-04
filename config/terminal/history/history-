@@ -59,3 +59,11 @@ git clone https://github.com/Inonut/angular-grid.git
 cd angular-grid/
 yarn
 yarn run
+ps
+/bin/ps
+sudo apk add procps
+ps
+ps --format
+ps --help
+watch -n 1 'ps -e -o pid,uname,cmd,pmem,pcpu --sort=-pmem,-pcpu | head -15'
+watch -n 1 'ps -e -o pid,uname,cmd,pmem,pcpu --sort=-pmem,-pcpu | head -15'
