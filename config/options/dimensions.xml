@@ -12,10 +12,12 @@
     <location key="FileChooserDialogImpl.0.0.3840.1080" x="748" y="304" />
     <location key="CommitChangelistDialog2.0.0.3840.1080" x="532" y="126" />
     <location key="Vcs.Push.Dialog.0.0.3840.1080" x="644" y="268" />
-    <location key="SettingsEditor.0.0.3840.1080" x="2403" y="181" />
+    <location key="SettingsEditor.0.0.3840.1080" x="218" y="158" />
+    <location key="FileDocumentManager.FileCacheConflict.0.0.3840.1080" x="376" y="168" />
     <size key="GridCell.Tab.0.left.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.center.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.right.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.bottom.0.0.3840.1080" width="1874" height="250" />
+    <size key="FileDocumentManager.FileCacheConflict.0.0.3840.1080" width="1229" height="702" />
   </component>
 </application>

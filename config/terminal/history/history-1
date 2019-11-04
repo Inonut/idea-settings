@@ -7,3 +7,11 @@ ll
 cd src/
 ll
 nano index.html 
+export PS1="\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$ \[\033[00m\] --------  "
+dasda
+as
+export PS1="\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$ \[\033[00m\] "
+export PS1=">"
+de
+sa
+ll

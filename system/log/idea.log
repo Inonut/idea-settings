@@ -13754,3 +13754,302 @@ java.util.concurrent.RejectedExecutionException: Already shutdown
 2019-11-04 10:57:18,359 [1062320]  ERROR - oncurrency.BoundedTaskExecutor - OS: Linux 
 2019-11-04 10:57:18,384 [1062345]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-04 10:57:18,403 [1062364]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-04 11:16:20,837 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-04 11:16:20,923 [     86]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-04 11:16:20,923 [     86]   INFO -        #com.intellij.idea.Main - OS: Linux (4.9.184-linuxkit, amd64) 
+2019-11-04 11:16:20,923 [     86]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_222-b10 (IcedTea) 
+2019-11-04 11:16:20,923 [     86]   INFO -        #com.intellij.idea.Main - JVM: 25.222-b10 (OpenJDK 64-Bit Server VM) 
+2019-11-04 11:16:20,926 [     89]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/developer/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/developer/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/developer/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-04 11:16:20,926 [     89]   INFO -        #com.intellij.idea.Main - ext: /usr/lib/jvm/java-1.8-openjdk/jre/lib/ext: [nashorn.jar, sunec.jar, localedata.jar, sunjce_provider.jar, cldrdata.jar, dnsns.jar, sunpkcs11.jar, jaccess.jar, meta-index, zipfs.jar] 
+2019-11-04 11:16:20,926 [     89]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-04 11:16:20,977 [    140]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 76 ms 
+2019-11-04 11:16:21,068 [    231]   INFO - plication.impl.ApplicationImpl - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@67ff6359[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@5d76273 
+2019-11-04 11:16:21,180 [    343]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2019-11-04 11:16:21,180 [    343]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2019-11-04 11:16:56,568 [  35731]   INFO - tellij.ide.gdpr.ConsentOptions - /home/developer/.local/share/JetBrains/consentOptions/accepted (No such file or directory) 
+java.io.FileNotFoundException: /home/developer/.local/share/JetBrains/consentOptions/accepted (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1057)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1051)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1043)
+	at com.intellij.openapi.util.io.FileUtil.writeToFile(FileUtil.java:1040)
+	at com.intellij.ide.gdpr.ConsentOptions$InstanceHolder$1.writeConfirmedConsents(ConsentOptions.java:68)
+	at com.intellij.ide.gdpr.ConsentOptions.saveConfirmedConsents(ConsentOptions.java:225)
+	at com.intellij.ide.gdpr.ConsentOptions.setConsents(ConsentOptions.java:202)
+	at com.intellij.ui.AppUIUtil.saveConsents(AppUIUtil.java:562)
+	at com.intellij.ui.AppUIUtil.confirmConsentOptions(AppUIUtil.java:520)
+	at com.intellij.ui.AppUIUtil.lambda$showConsentsAgreementIfNeeded$3(AppUIUtil.java:326)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:438)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-11-04 11:16:57,982 [  37145]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-04 11:17:00,971 [  40134]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-04 11:17:01,260 [  40423]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (192.7142.36), Android Support (10.3.4), Angular and AngularJS (192.7142.36), Ant (192.7142.36), Application Servers View (192.7142.36), Arquillian (192.7142.36), AspectJ (192.7142.36), Bytecode Viewer (192.7142.36), CFML (192.7142.36), CSS (192.7142.36), ChangeReminder (192.7142.36), Cloud Foundry (192.7142.36), CoffeeScript (192.7142.36), Configuration Script (192.7142.36), Copyright (192.7142.36), Coverage (192.7142.36), Cucumber for Groovy (192.7142.36), Cucumber for Java (192.7142.36), Database Tools and SQL (192.7142.36), Dependency Structure Matrix (192.7142.36), Docker (192.7142.36), Drools (192.7142.36), Eclipse Interoperability (192.7142.36), EditorConfig (192.7142.36), Emma (192.7142.36), Flash/Flex (192.7142.36), FreeMarker (192.7142.36), GWT (192.7142.36), Geronimo Integration (192.7142.36), Gherkin (192.7142.36), Git (192.7142.36), GitHub (192.7142.36), GlassFish (192.7142.36), Google App Engine (192.7142.36), Gradle (192.7142.36), Gradle Integration Extension (192.7142.36), Gradle-Maven (192.7142.36), Grails (192.7142.36), Groovy (192.7142.36), Guice (192.7142.36), HTML Tools (192.7142.36), HTTP Client (192.7142.36), Haml (192.7142.36), Heroku (192.7142.36), Hibernate (192.7142.36), IDE Settings Sync (192.7142.36), IDEA CORE (192.7142.36), IntelliLang (192.7142.36), JBoss Frameworks Base (192.7142.36), JBoss Seam (192.7142.36), JBoss Seam Pageflow (192.7142.36), JBoss Seam Pages (192.7142.36), JBoss jBPM (192.7142.36), JSR45 (192.7142.36), JUnit (192.7142.36), Java (192.7142.36), Java Bytecode Decompiler (192.7142.36), Java EE: Batch Applications (192.7142.36), Java EE: Bean Validation (192.7142.36), Java EE: Contexts and Dependency Injection (192.7142.36), Java EE: EJB, JPA, Servlets (192.7142.36), Java EE: JMS, JSON Processing, Concurrency, Transaction  (192.7142.36), Java EE: Java Server Faces (192.7142.36), Java EE: RESTful Web Services (JAX-RS) (192.7142.36), Java EE: Web Services (JAX-WS) (192.7142.36), Java EE: WebSockets (192.7142.36), Java IDE Customization (192.7142.36), Java Internationalization (192.7142.36), Java Server Pages (JSP) (192.7142.36), Java Stream Debugger (192.7142.36), JavaFX (192.7142.36), JavaScript Debugger (192.7142.36), JavaScript Intention Power Pack (192.7142.36), JavaScript and TypeScript (192.7142.36), Jetty Integration (192.7142.36), Kotlin (1.3.41-release-IJ2019.2-1), Less (192.7142.36), Machine Learning Code Completion (192.7142.36), Markdown (192.7142.36), Maven (192.7142.36), Maven Integration Extension (192.7142.36), Mercurial (192.7142.36), NodeJS (192.7142.36), OSGi (192.7142.36), OpenShift integration (192.7142.36), Perforce (192.7142.36), Performance Testing (192.7142.36), Persistence Frameworks Support (192.7142.36), Play Framework (192.7142.36), Plugin DevKit (192.7142.36), Properties (192.7142.36), Reactor (192.7142.36), Refactor-X (192.7142.36), Remote Hosts Access (192.7142.36), Resin Integration (192.7142.36), SSH Remote Run (192.7142.36), Sass (192.7142.36), Settings Repository (192.7142.36), Smali Support (192.7142.36), Spring AOP/@AspectJ (192.7142.36), Spring Batch (192.7142.36), Spring Boot (192.7142.36), Spring Data (192.7142.36), Spring Integration Patterns (192.7142.36), Spring MVC (192.7142.36), Spring OSGi (192.7142.36), Spring Security (192.7142.36), Spring Support (192.7142.36), Spring Web Flow (192.7142.36), Spring Web Services (192.7142.36), Spring WebSocket (192.7142.36), Spy-js (192.7142.36), Struts 2 (192.7142.36), Stylus (192.7142.36), Subversion (192.7142.36), Tapestry (192.7142.36), Task Management (192.7142.36), Terminal (192.7142.36), TestNG (192.7142.36), TextMate bundles (192.7142.36), Thymeleaf (192.7142.36), Time Tracking (192.7142.36), Tomcat and TomEE Integration (192.7142.36), UI Designer (192.7142.36), UML (192.7142.36), Vaadin (192.7142.36), Velocity (192.7142.36), Virgo/dmServer (192.7142.36), W3C Validators (192.7142.36), WebLogic Integration (192.7142.36), WebSphere Integration (192.7142.36), WildFly (192.7142.36), XPathView + XSLT (192.7142.36), XSLT Debugger (192.7142.36), YAML (192.7142.36), ZKM-Unscramble (192.7142.36), tslint (192.7142.36) 
+2019-11-04 11:17:01,260 [  40423]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: BashSupport (1.7.13.192), LiveEdit (192.6262.9), Makefile support (1.6.1) 
+2019-11-04 11:17:01,260 [  40423]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Shell Script (192.7142.36) 
+2019-11-04 11:17:01,262 [  40425]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-11-04 11:17:02,530 [  41693]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-11-04 11:17:02,591 [  41754]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-11-04 11:17:02,742 [  41905]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1949 
+2019-11-04 11:17:02,835 [  41998]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /idea-IU/bin/fsnotifier64 
+2019-11-04 11:17:02,837 [  42000]   WARN - pl.local.NativeFileWatcherImpl - Cannot run program "/idea-IU/bin/fsnotifier64": error=2, No such file or directory 
+2019-11-04 11:17:02,843 [  42006]   WARN - api.vfs.impl.local.FileWatcher - File watcher failed to start 
+2019-11-04 11:17:04,291 [  43454]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-11-04 11:17:04,359 [  43522]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-11-04 11:17:04,360 [  43523]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-11-04 11:17:05,107 [  44270]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:503 
+2019-11-04 11:17:05,527 [  44690]   INFO - j.ide.ui.OptionsTopHitProvider - 69 ms spent to cache options in application 
+2019-11-04 11:17:06,269 [  45432]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-11-04 11:17:07,112 [  46275]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /idea-IU/bin/libdbm64.so: Error loading shared library libdbusmenu-glib.so.4: No such file or directory (needed by /idea-IU/bin/libdbm64.so) 
+2019-11-04 11:17:07,619 [  46782]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-04 11:17:07,623 [  46786]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-04 11:17:07,667 [  46830]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-11-04 11:17:07,669 [  46832]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-11-04 11:17:07,670 [  46833]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2019-11-04 11:17:08,119 [  47282]   INFO - pl$FileIndexDataInitialization - Initialization done:3515 
+2019-11-04 11:17:08,309 [  47472]   INFO - exImpl$StubIndexInitialization - Initialization done:190 
+2019-11-04 11:17:12,105 [  51268]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [<Project>] 
+2019-11-04 11:17:12,105 [  51268]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/.IntelliJIdea2019.2/config/settingsRepository/repository] 
+2019-11-04 11:17:12,105 [  51268]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/config/config/settingsRepository/repository] 
+2019-11-04 11:17:12,105 [  51268]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/config/settingsRepository/repository] 
+2019-11-04 11:17:14,877 [  54040]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2019-11-04 11:17:14,877 [  54040]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2019-11-04 11:17:15,074 [  54237]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-11-04 11:17:15,597 [  54760]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-11-04 11:17:16,838 [  56001]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-04 11:17:17,447 [  56610]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 38 ms 
+2019-11-04 11:17:21,098 [  60261]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 3738ms; general responsiveness: ok; EDT responsiveness: 0/2 sluggish, 1/2 very slow 
+2019-11-04 11:17:22,527 [  61690]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-11-04 11:17:22,557 [  61720]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 31 millis (read time: 7) 
+2019-11-04 11:17:22,855 [  62018]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1754ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish, 2/3 very slow 
+2019-11-04 11:17:23,215 [  62378]   INFO - j.ide.ui.OptionsTopHitProvider - 3534 ms spent to cache options in project 
+2019-11-04 11:17:23,500 [  62663]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-04 11:17:24,179 [  63342]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-11-04 11:17:25,228 [  64391]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 8079ms; general responsiveness: ok; EDT responsiveness: 2/8 sluggish, 3/8 very slow 
+2019-11-04 11:17:25,812 [  64975]   INFO - tartup.impl.StartupManagerImpl - /home/developer/IdeaProjects/Docker/.idea case-sensitivity: expected=true actual=true 
+2019-11-04 11:17:25,904 [  65067]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-11-04 11:17:26,015 [  65178]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-11-04 11:17:26,020 [  65183]   INFO -  #git4idea.commands.GitHandler - git version 2.23.0 
+2019-11-04 11:17:26,041 [  65204]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.23.0 
+2019-11-04 11:17:26,056 [  65219]   INFO - pl.projectlevelman.NewMappings - Mapped Roots: 1 
+2019-11-04 11:17:26,424 [  65587]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-11-04 11:17:26,843 [  66006]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 16030 ms 
+2019-11-04 11:17:28,520 [  67683]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening. 
+2019-11-04 11:17:28,839 [  68002]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2019-11-04 11:17:30,250 [  69413]   INFO - s.roots.VcsRootProblemNotifier - Auto-registered following mappings: [] 
+2019-11-04 11:17:31,033 [  70196]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-04 11:32:15,249 [ 954412]   INFO - rationStore.ComponentStoreImpl - Saving appExportableFileTemplateSettings took 18 ms, FeatureUsageStatistics took 23 ms, LafManager took 12 ms, WebServers took 12 ms 
+2019-11-04 11:32:16,074 [ 955237]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerRunManager took 68 ms, XDebuggerManager took 38 ms 
+2019-11-04 11:32:16,181 [ 955344]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 1261 ms 
+2019-11-04 11:32:16,437 [ 955600]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 255 ms 
+2019-11-04 11:32:16,557 [ 955720]   INFO - rationStore.ComponentStoreImpl - Saving appDefaultFont took 23 ms 
+2019-11-04 11:32:16,634 [ 955797]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 197 ms 
+2019-11-04 11:32:16,813 [ 955976]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerJsBuildToolPackageJson took 12 ms, KotlinCommonCompilerArguments took 26 ms 
+2019-11-04 11:32:16,814 [ 955977]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 179 ms 
+2019-11-04 11:32:16,954 [ 956117]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerTaskManager took 11 ms 
+2019-11-04 11:32:16,955 [ 956118]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 141 ms 
+2019-11-04 11:32:17,163 [ 956326]   INFO - rationStore.ComponentStoreImpl - Saving appDefaultFont took 22 ms 
+2019-11-04 11:32:17,321 [ 956484]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 332 ms 
+2019-11-04 11:32:17,459 [ 956622]   INFO - rationStore.ComponentStoreImpl - Saving appGeneralSettings took 12 ms 
+2019-11-04 11:32:17,536 [ 956699]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerProjectCodeStyleConfiguration took 13 ms 
+2019-11-04 11:32:17,536 [ 956699]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 214 ms 
+2019-11-04 11:32:17,674 [ 956837]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 11 ms, ProjectViewSharedSettings took 20 ms 
+2019-11-04 11:32:17,852 [ 957015]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerKotlin2JvmCompilerArguments took 28 ms, PublishConfigData took 11 ms 
+2019-11-04 11:32:17,854 [ 957017]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 317 ms 
+2019-11-04 11:32:17,958 [ 957121]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 101 ms 
+2019-11-04 11:32:18,152 [ 957315]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 190 ms 
+2019-11-04 11:32:18,265 [ 957428]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 113 ms 
+2019-11-04 11:32:18,364 [ 957527]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerProjectCodeStyleConfiguration took 11 ms 
+2019-11-04 11:32:19,937 [ 959100]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 231 ms 
+2019-11-04 11:32:20,113 [ 959276]   INFO - rationStore.ComponentStoreImpl - Saving appEditorColorsManagerImpl took 15 ms 
+2019-11-04 11:32:20,269 [ 959432]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 318 ms 
+2019-11-04 11:32:20,385 [ 959548]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 116 ms 
+2019-11-04 11:32:20,640 [ 959803]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerVcsDirectoryMappings took 21 ms 
+2019-11-04 11:32:20,641 [ 959804]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 159 ms 
+2019-11-04 11:32:21,048 [ 960211]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 392 ms 
+2019-11-04 11:32:21,347 [ 960510]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 222 ms 
+2019-11-04 11:32:21,433 [ 960596]   INFO - rationStore.ComponentStoreImpl - Saving appWindowManager took 11 ms 
+2019-11-04 11:32:21,476 [ 960639]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerVcsManagerConfiguration took 12 ms 
+2019-11-04 11:32:21,476 [ 960639]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 128 ms 
+2019-11-04 11:32:22,418 [ 961581]   INFO - mpl.MemoryDiskConflictResolver - reload Dockerfile from disk? 
+2019-11-04 11:32:22,418 [ 961581]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:75 
+2019-11-04 11:32:22,418 [ 961581]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:67 
+2019-11-04 11:32:23,538 [ 962701]   WARN - ution.process.OSProcessHandler - Process has been already terminated: setsid /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false -c diff.renames=false log --no-walk=unsorted --stdin --pretty=format:%x01%x01%H%x02%x02%P%x02%x02%ct%x02%x02%cn%x02%x02%ce%x02%x02%an%x02%x02%at%x02%x02%ae%x02%x02%s%x02%x02%b%x02%x02%B%x03%x03 --encoding=UTF-8 --name-status -- 
+2019-11-04 11:32:31,781 [ 970944]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 261 ms 
+2019-11-04 11:32:31,944 [ 971107]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 163 ms 
+2019-11-04 11:32:44,310 [ 983473]   INFO - mpl.MemoryDiskConflictResolver - reload Dockerfile from disk? 
+2019-11-04 11:32:44,310 [ 983473]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:82 
+2019-11-04 11:32:44,310 [ 983473]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:75 
+2019-11-04 11:32:46,725 [ 985888]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 19 ms 
+2019-11-04 11:32:46,786 [ 985949]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 156 ms 
+2019-11-04 11:32:49,038 [ 988201]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerJsBuildToolPackageJson took 13 ms 
+2019-11-04 11:32:49,087 [ 988250]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 142 ms 
+2019-11-04 11:32:50,024 [ 989187]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerJsBuildToolGruntFileManager took 15 ms 
+2019-11-04 11:32:50,080 [ 989243]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 191 ms 
+2019-11-04 11:32:51,729 [ 990892]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 207 ms 
+2019-11-04 11:32:52,904 [ 992067]   INFO - mpl.MemoryDiskConflictResolver - reload Dockerfile from disk? 
+2019-11-04 11:32:52,904 [ 992067]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:116 
+2019-11-04 11:32:52,904 [ 992067]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:105 
+2019-11-04 11:33:16,037 [1015200]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 348 ms 
+2019-11-04 11:33:31,144 [1030307]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [<Project>] 
+2019-11-04 11:33:31,499 [1030662]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-04 11:33:32,088 [1031251]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 519ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-04 11:33:32,747 [1031910]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 0 millis (read time: 0) 
+2019-11-04 11:33:32,771 [1031934]   INFO - j.ide.ui.OptionsTopHitProvider - 303 ms spent to cache options in project 
+2019-11-04 11:33:32,831 [1031994]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1309ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-04 11:33:33,341 [1032504]   INFO - tartup.impl.StartupManagerImpl - /home/developer/IdeaProjects/angular-grid/.idea case-sensitivity: expected=true actual=true 
+2019-11-04 11:33:33,358 [1032521]   INFO - pl.projectlevelman.NewMappings - Mapped Roots: 1 
+2019-11-04 11:33:33,388 [1032551]   WARN - r.local.NodeJsLocalInterpreter - Failed to run 'npm config get prefix' 
+com.intellij.execution.ExecutionException: Please specify npm or yarn package
+	at com.intellij.javascript.nodejs.interpreter.local.NodeJsLocalInterpreter.invalidNpmPackage(NodeJsLocalInterpreter.java:427)
+	at com.intellij.javascript.nodejs.interpreter.local.NodeJsLocalInterpreter.getValidNpmCliJsFilePath(NodeJsLocalInterpreter.java:403)
+	at com.intellij.javascript.nodejs.interpreter.local.NodeJsLocalInterpreter.getValidNpmCliJsFilePathOrDetect(NodeJsLocalInterpreter.java:353)
+	at com.intellij.javascript.nodejs.interpreter.local.NodeJsLocalInterpreter.doFetchConfigPrefix(NodeJsLocalInterpreter.java:334)
+	at com.intellij.javascript.nodejs.interpreter.local.NodeJsLocalInterpreter.lambda$fetchConfigPrefix$2(NodeJsLocalInterpreter.java:301)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:294)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-04 11:33:33,641 [1032804]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [file:///home/developer/IdeaProjects/angular-grid/package.json] 
+2019-11-04 11:33:33,703 [1032866]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 2629 ms 
+2019-11-04 11:33:34,451 [1033614]   INFO - son.PackageVersionRangeMatcher - Matching 34 done in 431 ms 
+2019-11-04 11:33:34,592 [1033755]   INFO - .diagnostic.PerformanceWatcher - Pushing JS language level to 66 libraries  took 2883ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2019-11-04 11:33:34,595 [1033758]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2507ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2019-11-04 11:33:34,596 [1033759]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1 files to update 
+2019-11-04 11:33:35,743 [1034906]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 1148ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-04 11:33:36,692 [1035855]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-04 11:33:38,350 [1037513]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-04 11:33:45,431 [1044594]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = com.intellij.openapi.util.AtomicNotNullLazyValue$1@7629bdc8 
+2019-11-04 11:33:56,122 [1055285]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Angular CLI Server' content in Run tool window to avoid focus-related problems. 
+2019-11-04 11:33:56,125 [1055288]   WARN - j.openapi.wm.impl.IdeFrameImpl - Angular CLI Server tool window - parent container is hidden 
+2019-11-04 11:34:52,550 [1111713]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridRunManager took 49 ms 
+2019-11-04 11:34:52,739 [1111902]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 518 ms 
+2019-11-04 11:34:58,751 [1117914]   INFO - rationStore.ComponentStoreImpl - Saving appXDebuggerSettings took 23 ms 
+2019-11-04 11:34:58,843 [1118006]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridCompilerConfiguration took 27 ms, ProjectCodeStyleConfiguration took 16 ms 
+2019-11-04 11:34:58,912 [1118075]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 280 ms 
+2019-11-04 11:35:02,267 [1121430]   INFO - mpl.MemoryDiskConflictResolver - reload index.html from disk? 
+2019-11-04 11:35:02,267 [1121430]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:194 
+2019-11-04 11:35:02,267 [1121430]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:175 
+2019-11-04 11:35:06,819 [1125982]   INFO - rationStore.ComponentStoreImpl - Saving appProfilerRunConfigurations took 43 ms 
+2019-11-04 11:35:06,930 [1126093]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridChangeListManager took 15 ms, ProjectCodeStyleConfiguration took 23 ms 
+2019-11-04 11:35:07,000 [1126163]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 291 ms 
+2019-11-04 11:35:12,421 [1131584]   INFO - mpl.MemoryDiskConflictResolver - reload index.html from disk? 
+2019-11-04 11:35:12,421 [1131584]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:215 
+2019-11-04 11:35:12,421 [1131584]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:194 
+2019-11-04 11:35:21,222 [1140385]   INFO - rationStore.ComponentStoreImpl - Saving appTextMateSettings took 13 ms 
+2019-11-04 11:35:21,366 [1140529]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 272 ms 
+2019-11-04 11:35:22,540 [1141703]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridJsBuildToolGruntFileManager took 25 ms, ProjectCodeStyleConfiguration took 11 ms 
+2019-11-04 11:35:22,638 [1141801]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 294 ms 
+2019-11-04 11:35:24,131 [1143294]   INFO - mpl.MemoryDiskConflictResolver - reload index.html from disk? 
+2019-11-04 11:35:24,131 [1143294]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:237 
+2019-11-04 11:35:24,131 [1143294]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:215 
+2019-11-04 11:35:27,448 [1146611]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 21 ms, HttpConfigurable took 15 ms, WindowManager took 12 ms 
+2019-11-04 11:35:27,582 [1146745]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridProjectCodeStyleConfiguration took 22 ms 
+2019-11-04 11:35:27,657 [1146820]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 608 ms 
+2019-11-04 11:35:28,872 [1148035]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 581 ms 
+2019-11-04 11:35:29,223 [1148386]   INFO - rationStore.ComponentStoreImpl - Saving appWindowManager took 18 ms 
+2019-11-04 11:35:29,271 [1148434]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridProjectCodeStyleConfiguration took 15 ms, RunManager took 17 ms 
+2019-11-04 11:35:29,272 [1148435]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 339 ms 
+2019-11-04 11:35:29,843 [1149006]   INFO - rationStore.ComponentStoreImpl - Saving appFindSettings took 30 ms 
+2019-11-04 11:35:29,948 [1149111]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridProjectCodeStyleConfiguration took 13 ms, RunManager took 21 ms, VcsManagerConfiguration took 48 ms 
+2019-11-04 11:35:29,952 [1149115]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 399 ms 
+2019-11-04 11:35:30,330 [1149493]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridProjectCodeStyleConfiguration took 11 ms, RunManager took 12 ms 
+2019-11-04 11:35:30,407 [1149570]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 396 ms 
+2019-11-04 11:35:30,596 [1149759]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 189 ms 
+2019-11-04 11:35:30,911 [1150074]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 315 ms 
+2019-11-04 11:35:31,315 [1150478]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridJavaScriptLibraryMappings took 12 ms, JsGulpfileManager took 25 ms 
+2019-11-04 11:35:31,420 [1150583]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 509 ms 
+2019-11-04 11:35:32,059 [1151222]   INFO - mpl.MemoryDiskConflictResolver - reload index.html from disk? 
+2019-11-04 11:35:32,059 [1151222]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:278 
+2019-11-04 11:35:32,059 [1151222]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:261 
+2019-11-04 11:35:34,164 [1153327]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 170 ms 
+2019-11-04 11:35:36,192 [1155355]   INFO - rationStore.ComponentStoreImpl - Saving appRunnerLayoutSettings took 23 ms 
+2019-11-04 11:35:36,274 [1155437]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 180 ms 
+2019-11-04 11:35:39,451 [1158614]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridVcsLogIndexCollector took 17 ms 
+2019-11-04 11:35:39,561 [1158724]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 233 ms 
+2019-11-04 11:36:03,929 [1183092]   INFO - mpl.MemoryDiskConflictResolver - reload index.html from disk? 
+2019-11-04 11:36:03,943 [1183106]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:321 
+2019-11-04 11:36:03,944 [1183107]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:308 
+2019-11-04 11:36:05,062 [1184225]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridRunManager took 22 ms 
+2019-11-04 11:36:05,146 [1184309]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 295 ms 
+2019-11-04 11:36:06,442 [1185605]   INFO - rationStore.ComponentStoreImpl - Saving appFileBasedIndex took 19 ms 
+2019-11-04 11:36:06,532 [1185695]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 173 ms 
+2019-11-04 11:38:59,804 [1358967]   WARN - service.JSLanguageServiceQueue - JavaScript Language Service: IDE-side timeout waiting answer for semanticDiagnosticsSync 
+2019-11-04 11:40:35,806 [1454969]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridVcsDirectoryMappings took 39 ms 
+2019-11-04 11:40:35,926 [1455089]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 1138 ms 
+2019-11-04 11:41:31,143 [1510306]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.idea.perforce.perforce.ConnectionId 
+2019-11-04 11:41:31,157 [1510320]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridJsBuildToolPackageJson took 12 ms 
+2019-11-04 11:41:31,216 [1510379]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 183 ms 
+2019-11-04 11:41:34,082 [1513245]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridIdeDocumentHistory took 17 ms 
+2019-11-04 11:41:34,147 [1513310]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 163 ms 
+2019-11-04 11:46:34,195 [1813358]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridToolWindowManager took 21 ms 
+2019-11-04 11:46:34,255 [1813418]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 167 ms 
+2019-11-04 11:46:34,382 [1813545]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 127 ms 
+2019-11-04 11:46:34,657 [1813820]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 158 ms 
+2019-11-04 11:46:35,367 [1814530]   INFO - mpl.MemoryDiskConflictResolver - reload index.html from disk? 
+2019-11-04 11:46:35,367 [1814530]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:928 
+2019-11-04 11:46:35,367 [1814530]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:921 
+2019-11-04 11:46:58,863 [1838026]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/angular-grid' angular-gridRunManager took 12 ms 
+2019-11-04 11:46:58,910 [1838073]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 172 ms 
+2019-11-04 11:47:00,827 [1839990]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Angular CLI Server' content in Run tool window to avoid focus-related problems. 
+2019-11-04 11:47:00,827 [1839990]   WARN - j.openapi.wm.impl.IdeFrameImpl - Angular CLI Server tool window - parent container is hidden 
+2019-11-04 11:48:08,558 [1907721]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [<Project>] 
+2019-11-04 11:48:08,558 [1907721]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/.IntelliJIdea2019.2/config/settingsRepository/repository] 
+2019-11-04 11:48:08,559 [1907722]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/config/config/settingsRepository/repository] 
+2019-11-04 11:48:08,559 [1907722]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/developer/IdeaProjects/Docker/Alpine-tools/config/settingsRepository/repository] 
+2019-11-04 11:48:08,630 [1907793]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-11-04 11:48:08,702 [1907865]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-04 11:48:08,823 [1907986]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 80ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-04 11:48:08,838 [1908001]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 15ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-04 11:48:09,103 [1908266]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 0 millis (read time: 0) 
+2019-11-04 11:48:09,144 [1908307]   INFO - j.ide.ui.OptionsTopHitProvider - 138 ms spent to cache options in project 
+2019-11-04 11:48:09,307 [1908470]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-04 11:48:09,576 [1908739]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 851ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-04 11:48:09,621 [1908784]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-11-04 11:48:09,740 [1908903]   INFO - tartup.impl.StartupManagerImpl - /home/developer/IdeaProjects/Docker/.idea case-sensitivity: expected=true actual=true 
+2019-11-04 11:48:09,779 [1908942]   INFO - pl.projectlevelman.NewMappings - Mapped Roots: 1 
+2019-11-04 11:48:10,095 [1909258]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 1564 ms 
+2019-11-04 11:48:11,496 [1910659]   INFO - s.roots.VcsRootProblemNotifier - Auto-registered following mappings: [] 
+2019-11-04 11:48:14,797 [1913960]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-04 11:48:22,730 [1921893]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 98ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-04 11:48:22,740 [1921903]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 10ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-04 11:51:08,005 [2087168]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 135 ms 
+2019-11-04 11:53:46,640 [2245803]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-11-04 11:53:48,323 [2247486]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 11/4/19 11:33 AM) 
+2019-11-04 11:53:48,640 [2247803]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-04 11:53:51,991 [2251154]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 11/4/19 11:33 AM) 
+2019-11-04 11:54:08,569 [2267732]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/developer/IdeaProjects/Docker' DockerToolWindowManager took 29 ms 
+2019-11-04 11:54:08,631 [2267794]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 174 ms 
+2019-11-04 12:05:14,846 [2934009]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 134 ms 
+2019-11-04 12:23:28,446 [4027609]   INFO - mpl.MemoryDiskConflictResolver - reload idea.sh from disk? 
+2019-11-04 12:23:28,446 [4027609]   INFO - mpl.MemoryDiskConflictResolver -   documentStamp:1540 
+2019-11-04 12:23:28,446 [4027609]   INFO - mpl.MemoryDiskConflictResolver -   oldFileStamp:1085 
+2019-11-04 12:23:36,701 [4035864]   INFO - rationStore.ComponentStoreImpl - Saving appWindowManager took 16 ms 
+2019-11-04 12:23:37,590 [4036753]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-11-04 12:23:37,590 [4036753]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-11-04 12:23:37,590 [4036753]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-11-04 12:23:37,655 [4036818]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-11-04 12:23:37,727 [4036890]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-04 12:23:37,730 [4036893]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1 auto-detected files
+Elapsed time on auto-detect: 4 ms 
+2019-11-04 12:23:37,730 [4036893]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-11-04 12:23:37,732 [4036895]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-11-04 12:23:37,741 [4036904]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-04 12:23:37,748 [4036911]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

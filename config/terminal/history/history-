@@ -67,3 +67,6 @@ ps --format
 ps --help
 watch -n 1 'ps -e -o pid,uname,cmd,pmem,pcpu --sort=-pmem,-pcpu | head -15'
 watch -n 1 'ps -e -o pid,uname,cmd,pmem,pcpu --sort=-pmem,-pcpu | head -15'
+sudo apk add seahorse
+seahorse 
+sudo apk del seahorse
