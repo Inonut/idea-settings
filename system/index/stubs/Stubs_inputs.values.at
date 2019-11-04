@@ -126,4 +126,10 @@ statistics&“
 statistics!option(rootevalì £çÄ…OP¼ÓKEÍrÁMwd3^CõuÔíÉ¯ögî’awkexportIdeaConfig0echoüÿÿÿrunIdea2mkdirýÿÿÿfindýÿÿÿ")runWin1rmþÿÿÿ%grepýÿÿÿ$+sed,cpdockerüÿÿÿbuildAlpineTools/ipidea.sh ŽrunWin
 runIdeabuildAlpineToolsexportIdeaConfig”rootûÿÿÿ#*1.option-DOCKER_GIT_ACCESS_TOKENþÿÿÿ	eval
 statistics&“
-statistics!option(rooteval
+statistics!option(rootevalK ²ÎZ-{ë"CK8g4B-{°G±Ç.±Û2‰Ž€’java"intellij-ssh-askpass.sh ”@K ªw„o`¸õÎÚÃuå˜œ›ÌsYï¦óE˜Û6MkPv’java"intellij-git-askpass.sh ”@Ë tv”ö«v¾¼{¸WÖ¹ƒð¿!ÝùÖ©ó™qüuó’	sedgitýÿÿÿprintfþÿÿÿgrepýÿÿÿsecret-toolþÿÿÿcdrmþÿÿÿidea.sh	findýÿÿÿ
+startup.sh ”GIT_USERþÿÿÿ	GIT_TOKENþÿÿÿGIT_IDEA_SETTINGS
+Ä 1xÏ?*Ä•´€Z!†‰‰¦ü¹ª³VµÂ[TR V(ß’awkexportIdeaConfigIechoüÿÿÿrunIdeaKmkdirýÿÿÿ findýÿÿÿ&-4runWinJrmþÿÿÿ)0pwd;gitþÿÿÿ>Dgrepýÿÿÿ(/6cp"sed7cdýÿÿÿ<BEdockerüÿÿÿ	
+buildAlpineToolsHipidea.sh ŽrunWinrunIdeabuildAlpineToolsexportIdeaConfig”
+rootûÿÿÿ!#'.5CURRENT_PATHFoption8
+statistics1DOCKER_GIT_ACCESS_TOKENGIT_USERýÿÿÿ@eval*	GIT_TOKENýÿÿÿ?GIT_IDEA_SETTINGSûÿÿÿ=AC1G“rootoption3GIT_IDEA_SETTINGSCURRENT_PATH:GIT_USEReval%	GIT_TOKEN
+statistics,
