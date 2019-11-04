@@ -2,16 +2,17 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/Projects/Docker" />
         <option value="$USER_HOME$/IdeaProjects/Docker" />
         <option value="$USER_HOME$/IdeaProjects/angular-grid" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/IdeaProjects/Docker" />
+        <option value="$USER_HOME$/Projects/Docker" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/IdeaProjects/Docker" />
+    <option name="lastPath" value="$USER_HOME$/Projects/Docker" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -34,6 +35,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1572860773499" />
               <option name="buildTimestamp" value="1572321758716" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Docker">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-192.7142.36" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1572862790764" />
+              <option name="buildTimestamp" value="1572321773577" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

@@ -1,0 +1,8 @@
+cp -r Projects IdeaProjects
+cp -r ~/Projects ~/IdeaProjects
+ll
+cd ..
+ll
+cd ..
+ll
+ll IdeaProjects/
