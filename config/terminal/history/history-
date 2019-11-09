@@ -78,3 +78,8 @@ ssh dragos@192.168.1.131
 cd ~
 ll
 ll Projects/
+cp -r ~/IdeaProjects ~/Projects
+sudo cp -r ~/IdeaProjects ~/Projects
+sudo cp -r ~/IdeaProjects ~/Projects
+ll ~/Projects/
+rm -fr IdeaProjects/
