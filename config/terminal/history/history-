@@ -75,3 +75,6 @@ sudo pip install tensorflow
 ssh -l dragos manjaro 
 ssh 192.168.1.131
 ssh dragos@192.168.1.131
+cd ~
+ll
+ll Projects/
