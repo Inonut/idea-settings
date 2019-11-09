@@ -12,7 +12,11 @@
     <converter id="kotlin-non-jvm-source-roots" />
   </applied-converters>
   <project-files>
-    <file path="/home/developer/IdeaProjects/Docker/.idea/workspace.xml" timestamp="1573325609853" />
+    <file path="/home/developer/IdeaProjects/Docker/.idea/Docker.iml" timestamp="1573310593000" />
+    <file path="/home/developer/IdeaProjects/Docker/.idea/misc.xml" timestamp="1573310593000" />
+    <file path="/home/developer/IdeaProjects/Docker/.idea/modules.xml" timestamp="1573310593000" />
+    <file path="/home/developer/IdeaProjects/Docker/.idea/vcs.xml" timestamp="1573321936000" />
+    <file path="/home/developer/IdeaProjects/Docker/.idea/workspace.xml" timestamp="1573326307856" />
   </project-files>
 </conversion>
 
