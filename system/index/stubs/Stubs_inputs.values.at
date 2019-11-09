@@ -144,4 +144,10 @@ startup.sh ”CURRENT_PATHGIT_USERıÿÿÿ	GIT_TOKENıÿÿÿGIT_IDEA_SETTINGS
 exportIdeaConfig&”
 rootûÿÿÿ*,07>1BoptionA
 statistics:DOCKER_GIT_ACCESS_TOKENGIT_USERşÿÿÿ CONTAINER_NAMEıÿÿÿ#%	GIT_TOKENşÿÿÿ!GIT_IDEA_SETTINGSşÿÿÿ"eval3“root(option<
-statistics5CONTAINER_NAME	GIT_USEReval.	GIT_TOKENGIT_IDEA_SETTINGS
+statistics5CONTAINER_NAME	GIT_USEReval.	GIT_TOKENGIT_IDEA_SETTINGSÉ ’6K™ §"‚ÁÔ®©e0ßVQy‡}$hF]€şW+°dãf’awkexportIdeaConfig<echoüÿÿÿrunIdea>mkdirıÿÿÿ!findıÿÿÿ'.5runWin=rmşÿÿÿ*1grepıÿÿÿ)07sed8cp#dockerûÿÿÿ	
+buildAlpineTools;ipidea.sh runWinrunIdeabuildAlpineToolsexportIdeaConfig”	rootûÿÿÿ"$(/61:option9
+statistics2DOCKER_GIT_ACCESS_TOKENGIT_USERşÿÿÿeval+	GIT_TOKENşÿÿÿGIT_IDEA_SETTINGSşÿÿÿ“root option4GIT_IDEA_SETTINGSGIT_USEReval&	GIT_TOKEN
+statistics-E «ÏÍHZcÙBTaÈ !ğD§‡l!·*iï\ß’exportalias.bashrc “PS1Ù ‚aìo¿á†ôª†1­­‡q46Ü^†»øÉYˆì±Ó+u’awkexportIdeaConfig?echoüÿÿÿrunIdeaAmkdirıÿÿÿ$findıÿÿÿ*18buildArchTools>runWin@rmşÿÿÿ-4grepıÿÿÿ,3:sed;cp&dockerùÿÿÿ	
+ipidea.sh runWinexportIdeaConfig!runIdeabuildAlpineToolsbuildArchTools”	rootûÿÿÿ%'+291=option<
+statistics5DOCKER_GIT_ACCESS_TOKENGIT_USERşÿÿÿeval.	GIT_TOKENşÿÿÿGIT_IDEA_SETTINGSşÿÿÿ “root#option7GIT_IDEA_SETTINGSGIT_USEReval)	GIT_TOKEN
+statistics0
