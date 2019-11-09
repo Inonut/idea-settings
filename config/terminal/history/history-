@@ -97,3 +97,5 @@ cat ~/IdeaProjects/Docker/Archlinux-tools/startup.sh
 ll ~/Projects/
 sudo cp -r ~/IdeaProjects/. ~/Projects/
 cat ~/Projects/Docker/Archlinux-tools/startup.sh 
+ll
+ll IdeaProjects/
