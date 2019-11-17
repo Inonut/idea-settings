@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="google-app-engine-facet" />
+    <converter id="js-debug-configuration-converter" />
+    <converter id="js-predefined-libraries-merged" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="kotlin-non-jvm-source-roots" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/misc.xml" timestamp="1573933174287" />
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/modules.xml" timestamp="1573933174305" />
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/vagrant-idea.iml" timestamp="1573933174247" />
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/workspace.xml" timestamp="1573987991515" />
+  </project-files>
+</conversion>
+

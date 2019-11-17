@@ -1,0 +1,5 @@
+lssecret 
+echo $DISPLAY
+exit
+cd ~
+ll
