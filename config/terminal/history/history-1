@@ -3,3 +3,5 @@ echo $DISPLAY
 exit
 cd ~
 ll
+lssecret 
+lssecret -s
