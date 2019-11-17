@@ -17242,3 +17242,17 @@ Elapsed time on auto-detect: 0 ms
 2019-11-09 19:28:46,046 [ 693437]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-09 19:28:46,047 [ 693438]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
 2019-11-09 19:28:46,052 [ 693443]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-17 10:41:08,202 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-17 10:41:08,319 [    117]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 83 ms 
+2019-11-17 10:41:08,388 [    186]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-17 10:41:08,388 [    186]   INFO -        #com.intellij.idea.Main - OS: Linux (5.3.1-arch1-1-arch, amd64) 
+2019-11-17 10:41:08,388 [    186]   INFO -        #com.intellij.idea.Main - JRE: 11.0.5+10 (Oracle Corporation) 
+2019-11-17 10:41:08,388 [    186]   INFO -        #com.intellij.idea.Main - JVM: 11.0.5+10 (OpenJDK 64-Bit Server VM) 
+2019-11-17 10:41:08,394 [    192]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/vagrant/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/vagrant/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/vagrant/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-17 10:41:08,394 [    192]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-17 10:41:08,591 [    389]   INFO - com.intellij.util.ui.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-11-17 10:41:08,939 [    737]   INFO - plication.impl.ApplicationImpl - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1351320e[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@75922a37 
+2019-11-17 10:41:09,016 [    814]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2019-11-17 10:41:09,017 [    815]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2019-11-17 10:41:13,381 [   5179]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-17 10:41:13,391 [   5189]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
