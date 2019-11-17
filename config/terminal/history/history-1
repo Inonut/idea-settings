@@ -5,3 +5,5 @@ cd ~
 ll
 lssecret 
 lssecret -s
+java
+java --version

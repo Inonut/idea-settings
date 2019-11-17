@@ -18619,3 +18619,151 @@ Elapsed time on auto-detect: 38 ms
 2019-11-17 16:02:51,014 [ 517592]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
 2019-11-17 16:02:51,021 [ 517599]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-17 16:02:51,033 [ 517611]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-17 16:12:27,628 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-17 16:12:27,761 [    133]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 70 ms 
+2019-11-17 16:12:27,850 [    222]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-17 16:12:27,850 [    222]   INFO -        #com.intellij.idea.Main - OS: Linux (5.3.1-arch1-1-arch, amd64) 
+2019-11-17 16:12:27,850 [    222]   INFO -        #com.intellij.idea.Main - JRE: 11.0.5+10 (Oracle Corporation) 
+2019-11-17 16:12:27,850 [    222]   INFO -        #com.intellij.idea.Main - JVM: 11.0.5+10 (OpenJDK 64-Bit Server VM) 
+2019-11-17 16:12:27,850 [    222]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/vagrant/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/vagrant/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/vagrant/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-17 16:12:27,850 [    222]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-17 16:12:27,969 [    341]   INFO - com.intellij.util.ui.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-11-17 16:12:28,405 [    777]   INFO - plication.impl.ApplicationImpl - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@45aa72e5[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@2161eada 
+2019-11-17 16:12:28,529 [    901]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2019-11-17 16:12:28,529 [    901]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2019-11-17 16:12:35,606 [   7978]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-17 16:12:38,267 [  10639]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-17 16:12:38,625 [  10997]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (192.7142.36), Android Support (10.3.4), Angular and AngularJS (192.7142.36), Ant (192.7142.36), Application Servers View (192.7142.36), Arquillian (192.7142.36), AspectJ (192.7142.36), Bytecode Viewer (192.7142.36), CFML (192.7142.36), CSS (192.7142.36), ChangeReminder (192.7142.36), Cloud Foundry (192.7142.36), CoffeeScript (192.7142.36), Configuration Script (192.7142.36), Copyright (192.7142.36), Coverage (192.7142.36), Cucumber for Groovy (192.7142.36), Cucumber for Java (192.7142.36), Database Tools and SQL (192.7142.36), Dependency Structure Matrix (192.7142.36), Docker (192.7142.36), Drools (192.7142.36), Eclipse Interoperability (192.7142.36), EditorConfig (192.7142.36), Emma (192.7142.36), Flash/Flex (192.7142.36), FreeMarker (192.7142.36), GWT (192.7142.36), Geronimo Integration (192.7142.36), Gherkin (192.7142.36), Git (192.7142.36), GitHub (192.7142.36), GlassFish (192.7142.36), Google App Engine (192.7142.36), Gradle (192.7142.36), Gradle Integration Extension (192.7142.36), Gradle-Maven (192.7142.36), Grails (192.7142.36), Groovy (192.7142.36), Guice (192.7142.36), HTML Tools (192.7142.36), HTTP Client (192.7142.36), Haml (192.7142.36), Heroku (192.7142.36), Hibernate (192.7142.36), IDE Settings Sync (192.7142.36), IDEA CORE (192.7142.36), IntelliLang (192.7142.36), JBoss Frameworks Base (192.7142.36), JBoss Seam (192.7142.36), JBoss Seam Pageflow (192.7142.36), JBoss Seam Pages (192.7142.36), JBoss jBPM (192.7142.36), JSR45 (192.7142.36), JUnit (192.7142.36), Java (192.7142.36), Java Bytecode Decompiler (192.7142.36), Java EE: Batch Applications (192.7142.36), Java EE: Bean Validation (192.7142.36), Java EE: Contexts and Dependency Injection (192.7142.36), Java EE: EJB, JPA, Servlets (192.7142.36), Java EE: JMS, JSON Processing, Concurrency, Transaction  (192.7142.36), Java EE: Java Server Faces (192.7142.36), Java EE: RESTful Web Services (JAX-RS) (192.7142.36), Java EE: Web Services (JAX-WS) (192.7142.36), Java EE: WebSockets (192.7142.36), Java IDE Customization (192.7142.36), Java Internationalization (192.7142.36), Java Server Pages (JSP) (192.7142.36), Java Stream Debugger (192.7142.36), JavaFX (192.7142.36), JavaScript Debugger (192.7142.36), JavaScript Intention Power Pack (192.7142.36), JavaScript and TypeScript (192.7142.36), Jetty Integration (192.7142.36), Kotlin (1.3.41-release-IJ2019.2-1), Less (192.7142.36), Machine Learning Code Completion (192.7142.36), Markdown (192.7142.36), Maven (192.7142.36), Maven Integration Extension (192.7142.36), Mercurial (192.7142.36), NodeJS (192.7142.36), OSGi (192.7142.36), OpenShift integration (192.7142.36), Perforce (192.7142.36), Performance Testing (192.7142.36), Persistence Frameworks Support (192.7142.36), Play Framework (192.7142.36), Plugin DevKit (192.7142.36), Properties (192.7142.36), Reactor (192.7142.36), Refactor-X (192.7142.36), Remote Hosts Access (192.7142.36), Resin Integration (192.7142.36), SSH Remote Run (192.7142.36), Sass (192.7142.36), Settings Repository (192.7142.36), Smali Support (192.7142.36), Spring AOP/@AspectJ (192.7142.36), Spring Batch (192.7142.36), Spring Boot (192.7142.36), Spring Data (192.7142.36), Spring Integration Patterns (192.7142.36), Spring MVC (192.7142.36), Spring OSGi (192.7142.36), Spring Security (192.7142.36), Spring Support (192.7142.36), Spring Web Flow (192.7142.36), Spring Web Services (192.7142.36), Spring WebSocket (192.7142.36), Spy-js (192.7142.36), Struts 2 (192.7142.36), Stylus (192.7142.36), Subversion (192.7142.36), Tapestry (192.7142.36), Task Management (192.7142.36), Terminal (192.7142.36), TestNG (192.7142.36), TextMate bundles (192.7142.36), Thymeleaf (192.7142.36), Time Tracking (192.7142.36), Tomcat and TomEE Integration (192.7142.36), UI Designer (192.7142.36), UML (192.7142.36), Vaadin (192.7142.36), Velocity (192.7142.36), Virgo/dmServer (192.7142.36), W3C Validators (192.7142.36), WebLogic Integration (192.7142.36), WebSphere Integration (192.7142.36), WildFly (192.7142.36), XPathView + XSLT (192.7142.36), XSLT Debugger (192.7142.36), YAML (192.7142.36), ZKM-Unscramble (192.7142.36), tslint (192.7142.36) 
+2019-11-17 16:12:38,625 [  10997]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: BashSupport (1.7.13.192), LiveEdit (192.6262.9), Makefile support (1.6.1) 
+2019-11-17 16:12:38,625 [  10997]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Shell Script (192.7142.36) 
+2019-11-17 16:12:38,629 [  11001]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-11-17 16:12:39,376 [  11748]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-11-17 16:12:39,411 [  11783]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-11-17 16:12:39,514 [  11886]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1949 
+2019-11-17 16:12:39,583 [  11955]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/vagrant/idea-IU/bin/fsnotifier64 
+2019-11-17 16:12:39,629 [  12001]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-11-17 16:12:40,885 [  13257]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-11-17 16:12:40,898 [  13270]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-11-17 16:12:40,930 [  13302]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-11-17 16:12:41,322 [  13694]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:241 
+2019-11-17 16:12:41,659 [  14031]   INFO - j.ide.ui.OptionsTopHitProvider - 27 ms spent to cache options in application 
+2019-11-17 16:12:42,028 [  14400]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-11-17 16:12:42,688 [  15060]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /home/vagrant/idea-IU/bin/libdbm64.so: libdbusmenu-glib.so.4: cannot open shared object file: No such file or directory 
+2019-11-17 16:12:42,930 [  15302]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-17 16:12:42,939 [  15311]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-17 16:12:42,962 [  15334]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-11-17 16:12:42,962 [  15334]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-11-17 16:12:42,962 [  15334]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2019-11-17 16:12:43,356 [  15728]   INFO - pl$FileIndexDataInitialization - Initialization done:2275 
+2019-11-17 16:12:43,496 [  15868]   INFO - exImpl$StubIndexInitialization - Initialization done:138 
+2019-11-17 16:12:45,399 [  17771]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/vagrant/IdeaProjects/vagrant-idea] 
+2019-11-17 16:12:46,842 [  19214]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2019-11-17 16:12:46,846 [  19218]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2019-11-17 16:12:46,911 [  19283]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-11-17 16:12:47,233 [  19605]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-11-17 16:12:48,467 [  20839]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-17 16:12:48,955 [  21327]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 7 ms 
+2019-11-17 16:12:49,722 [  22094]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 880ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-17 16:12:51,392 [  23764]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1667ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish, 1/2 very slow 
+2019-11-17 16:12:52,349 [  24721]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2019-11-17 16:12:53,994 [  26366]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-11-17 16:12:54,179 [  26551]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 19 millis (read time: 2) 
+2019-11-17 16:12:54,292 [  26664]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-17 16:12:54,485 [  26857]   INFO - j.ide.ui.OptionsTopHitProvider - 2219 ms spent to cache options in project 
+2019-11-17 16:12:54,899 [  27271]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-11-17 16:12:55,395 [  27767]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 6750ms; general responsiveness: ok; EDT responsiveness: 3/7 sluggish, 1/7 very slow 
+2019-11-17 16:12:55,790 [  28162]   INFO - tartup.impl.StartupManagerImpl - /home/vagrant/IdeaProjects/vagrant-idea/.idea case-sensitivity: expected=true actual=true 
+2019-11-17 16:12:55,821 [  28193]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-11-17 16:12:55,862 [  28234]   INFO -  #git4idea.commands.GitHandler - git version 2.24.0 
+2019-11-17 16:12:55,866 [  28238]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.24.0 
+2019-11-17 16:12:55,956 [  28328]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-11-17 16:12:56,164 [  28536]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-11-17 16:12:56,259 [  28631]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 11643 ms 
+2019-11-17 16:12:57,519 [  29891]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening. 
+2019-11-17 16:13:00,961 [  33333]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-17 16:13:15,056 [  47428]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Local Changes' content in Version Control tool window to avoid focus-related problems. 
+2019-11-17 16:13:15,056 [  47428]   WARN - j.openapi.wm.impl.IdeFrameImpl - Local Changes tool window - parent container is hidden 
+2019-11-17 16:13:34,240 [  66612]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -- .gitignore 
+2019-11-17 16:13:38,702 [  71074]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.idea.perforce.perforce.ConnectionId 
+2019-11-17 16:13:38,896 [  71268]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaCompilerConfiguration took 17 ms, RunManager took 133 ms, XDebuggerManager took 25 ms 
+2019-11-17 16:13:39,030 [  71402]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 1176 ms 
+2019-11-17 16:13:43,314 [  75686]   INFO - rationStore.ComponentStoreImpl - Saving appGeneralSettings took 13 ms 
+2019-11-17 16:13:43,394 [  75766]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 209 ms 
+2019-11-17 16:14:35,906 [ 128278]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaRunManager took 18 ms 
+2019-11-17 16:14:36,448 [ 128820]   INFO - pi.util.registry.RegistryValue - Registry value 'git.explicit.commit.renames.prohibit.multiple.calls' has changed to 'false' 
+2019-11-17 16:14:55,762 [ 148134]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+com.intellij.openapi.vcs.impl.CodeSmellDetectorImpl.findCodeSmells(CodeSmellDetectorImpl.java:136) 
+2019-11-17 16:14:57,529 [ 149901]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -f -- config/install.sh .gitignore 
+2019-11-17 16:14:57,584 [ 149956]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false commit -F /tmp/git-commit-msg-.txt -- 
+2019-11-17 16:14:57,670 [ 150042]   INFO -  #git4idea.commands.GitHandler - [master 9cf210e] add git ignore file fix keyring 
+2019-11-17 16:14:57,670 [ 150042]   INFO -  #git4idea.commands.GitHandler - 2 files changed, 3 insertions(+), 1 deletion(-) 
+2019-11-17 16:14:57,671 [ 150043]   INFO -  #git4idea.commands.GitHandler - create mode 100644 .gitignore 
+2019-11-17 16:14:57,854 [ 150226]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaKotlinCommonCompilerArguments took 20 ms, RunManager took 19 ms 
+2019-11-17 16:14:57,855 [ 150227]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 211 ms 
+2019-11-17 16:15:00,053 [ 152425]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-17 16:15:02,685 [ 155057]   INFO -  #git4idea.commands.GitHandler - Enumerating objects: 8, done. 
+2019-11-17 16:15:02,689 [ 155061]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+git4idea.commands.GitStandardProgressAnalyzer$1.onLineAvailable(GitStandardProgressAnalyzer.java:45) 
+2019-11-17 16:15:02,699 [ 155071]   INFO -  #git4idea.commands.GitHandler - Counting objects: 100% (8/8), done. 
+2019-11-17 16:15:02,699 [ 155071]   INFO -  #git4idea.commands.GitHandler - Delta compression using up to 2 threads 
+2019-11-17 16:15:02,700 [ 155072]   INFO -  #git4idea.commands.GitHandler - Compressing objects: 100% (4/4), done. 
+2019-11-17 16:15:02,705 [ 155077]   INFO -  #git4idea.commands.GitHandler - Writing objects: 100% (5/5), 451 bytes | 50.00 KiB/s, done. 
+2019-11-17 16:15:02,705 [ 155077]   INFO -  #git4idea.commands.GitHandler - Total 5 (delta 2), reused 0 (delta 0) 
+2019-11-17 16:15:03,373 [ 155745]   INFO -  #git4idea.commands.GitHandler - remote: Resolving deltas: 100% (2/2), completed with 2 local objects. 
+2019-11-17 16:15:05,340 [ 157712]   INFO -  #git4idea.commands.GitHandler - To https://github.com/Inonut/vagrant-idea.git 
+2019-11-17 16:15:05,340 [ 157712]   INFO -  #git4idea.commands.GitHandler - refs/heads/master:refs/heads/master	68477b8..9cf210e 
+2019-11-17 16:15:05,340 [ 157712]   INFO -  #git4idea.commands.GitHandler - Done 
+2019-11-17 16:17:53,506 [ 325878]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaRunManager took 17 ms 
+2019-11-17 16:17:53,517 [ 325889]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 177 ms 
+2019-11-17 16:18:40,454 [ 372826]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 129 ms 
+2019-11-17 16:18:40,585 [ 372957]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2019-11-17 16:18:40,687 [ 373059]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-17 16:18:40,716 [ 373088]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 29ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-17 16:18:43,012 [ 375384]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-11-17 16:18:46,941 [ 379313]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 11/17/19, 4:18 PM) 
+2019-11-17 16:18:58,081 [ 390453]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 14 ms 
+2019-11-17 16:18:58,113 [ 390485]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaRunManager took 15 ms 
+2019-11-17 16:18:58,128 [ 390500]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 183 ms 
+2019-11-17 16:19:29,039 [ 421411]   INFO - rationStore.ComponentStoreImpl - Saving appGeneralSettings took 11 ms 
+2019-11-17 16:19:29,117 [ 421489]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaKotlin2JvmCompilerArguments took 18 ms 
+2019-11-17 16:19:29,130 [ 421502]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 208 ms 
+2019-11-17 16:19:29,266 [ 421638]   INFO - rationStore.ComponentStoreImpl - Saving appCodeInsightSettings took 13 ms 
+2019-11-17 16:19:29,316 [ 421688]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 180 ms 
+2019-11-17 16:19:40,381 [ 432753]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Local Changes' content in Version Control tool window to avoid focus-related problems. 
+2019-11-17 16:19:40,381 [ 432753]   WARN - j.openapi.wm.impl.IdeFrameImpl - Local Changes tool window - parent container is hidden 
+2019-11-17 16:19:50,962 [ 443334]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -f -- config/install.sh 
+2019-11-17 16:19:51,007 [ 443379]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false commit -F /tmp/git-commit-msg-.txt -- 
+2019-11-17 16:19:51,083 [ 443455]   INFO -  #git4idea.commands.GitHandler - [master 2d3d9d8] remove java 8 
+2019-11-17 16:19:51,083 [ 443455]   INFO -  #git4idea.commands.GitHandler - 1 file changed, 1 insertion(+), 1 deletion(-) 
+2019-11-17 16:19:53,385 [ 445757]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-17 16:19:53,578 [ 445950]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 2359 ms 
+2019-11-17 16:19:53,711 [ 446083]   INFO - rationStore.ComponentStoreImpl - Saving appEditorColorsManagerImpl took 25 ms 
+2019-11-17 16:19:53,767 [ 446139]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 188 ms 
+2019-11-17 16:19:54,833 [ 447205]   INFO -  #git4idea.commands.GitHandler - Enumerating objects: 7, done. 
+2019-11-17 16:19:54,835 [ 447207]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+git4idea.commands.GitStandardProgressAnalyzer$1.onLineAvailable(GitStandardProgressAnalyzer.java:45) 
+2019-11-17 16:19:54,839 [ 447211]   INFO -  #git4idea.commands.GitHandler - Counting objects: 100% (7/7), done. 
+2019-11-17 16:19:54,839 [ 447211]   INFO -  #git4idea.commands.GitHandler - Delta compression using up to 2 threads 
+2019-11-17 16:19:54,842 [ 447214]   INFO -  #git4idea.commands.GitHandler - Compressing objects: 100% (4/4), done. 
+2019-11-17 16:19:54,846 [ 447218]   INFO -  #git4idea.commands.GitHandler - Writing objects: 100% (4/4), 341 bytes | 85.00 KiB/s, done. 
+2019-11-17 16:19:54,846 [ 447218]   INFO -  #git4idea.commands.GitHandler - Total 4 (delta 3), reused 0 (delta 0) 
+2019-11-17 16:19:55,268 [ 447640]   INFO -  #git4idea.commands.GitHandler - remote: Resolving deltas: 100% (3/3), completed with 3 local objects. 
+2019-11-17 16:19:57,229 [ 449601]   INFO -  #git4idea.commands.GitHandler - To https://github.com/Inonut/vagrant-idea.git 
+2019-11-17 16:19:57,229 [ 449601]   INFO -  #git4idea.commands.GitHandler - refs/heads/master:refs/heads/master	9cf210e..2d3d9d8 
+2019-11-17 16:19:57,229 [ 449601]   INFO -  #git4idea.commands.GitHandler - Done 
+2019-11-17 16:20:02,838 [ 455210]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Local Changes' content in Version Control tool window to avoid focus-related problems. 
+2019-11-17 16:20:02,839 [ 455211]   WARN - j.openapi.wm.impl.IdeFrameImpl - Local Changes tool window - parent container is hidden 
+2019-11-17 16:20:02,839 [ 455211]   WARN - j.openapi.wm.impl.IdeFrameImpl - Set preferredFocusableComponent in 'Local Changes' content in Version Control tool window to avoid focus-related problems. 
+2019-11-17 16:20:02,839 [ 455211]   WARN - j.openapi.wm.impl.IdeFrameImpl - Local Changes tool window - parent container is hidden 
+2019-11-17 16:20:03,602 [ 455974]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-11-17 16:20:03,604 [ 455976]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-11-17 16:20:03,604 [ 455976]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-11-17 16:20:03,645 [ 456017]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-11-17 16:20:03,667 [ 456039]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-17 16:20:03,669 [ 456041]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 19 auto-detected files
+Elapsed time on auto-detect: 98 ms 
+2019-11-17 16:20:03,695 [ 456067]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-11-17 16:20:03,697 [ 456069]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-11-17 16:20:03,698 [ 456070]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-11-17 16:20:03,712 [ 456084]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-17 16:20:03,720 [ 456092]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

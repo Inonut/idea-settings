@@ -10,4 +10,7 @@
       <TerminalTabState tabName="Local" currentWorkingDirectory="$USER_HOME$" commandHistoryFileName="history-1" />
     </option>
   </component>
+  <component name="VcsLogIndexCollector">
+    <option name="indexTime" value="217" />
+  </component>
 </project>
