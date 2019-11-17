@@ -18354,3 +18354,90 @@ Elapsed time on auto-detect: 0 ms
 2019-11-17 15:26:47,204 [  18492]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
 2019-11-17 15:26:47,209 [  18497]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-17 15:26:47,231 [  18519]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-17 15:28:05,811 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-17 15:28:05,900 [     89]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 48 ms 
+2019-11-17 15:28:05,977 [    166]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-17 15:28:05,977 [    166]   INFO -        #com.intellij.idea.Main - OS: Linux (5.3.1-arch1-1-arch, amd64) 
+2019-11-17 15:28:05,977 [    166]   INFO -        #com.intellij.idea.Main - JRE: 11.0.5+10 (Oracle Corporation) 
+2019-11-17 15:28:05,977 [    166]   INFO -        #com.intellij.idea.Main - JVM: 11.0.5+10 (OpenJDK 64-Bit Server VM) 
+2019-11-17 15:28:05,977 [    166]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/vagrant/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/vagrant/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/vagrant/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-17 15:28:05,977 [    166]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-17 15:28:06,046 [    235]   INFO - com.intellij.util.ui.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-11-17 15:28:07,839 [   2028]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-17 15:28:08,081 [   2270]   INFO - plication.impl.ApplicationImpl - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@446de069[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@6ad471a 
+2019-11-17 15:28:08,112 [   2301]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2019-11-17 15:28:08,112 [   2301]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2019-11-17 15:28:10,767 [   4956]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-17 15:28:11,055 [   5244]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (192.7142.36), Android Support (10.3.4), Angular and AngularJS (192.7142.36), Ant (192.7142.36), Application Servers View (192.7142.36), Arquillian (192.7142.36), AspectJ (192.7142.36), Bytecode Viewer (192.7142.36), CFML (192.7142.36), CSS (192.7142.36), ChangeReminder (192.7142.36), Cloud Foundry (192.7142.36), CoffeeScript (192.7142.36), Configuration Script (192.7142.36), Copyright (192.7142.36), Coverage (192.7142.36), Cucumber for Groovy (192.7142.36), Cucumber for Java (192.7142.36), Database Tools and SQL (192.7142.36), Dependency Structure Matrix (192.7142.36), Docker (192.7142.36), Drools (192.7142.36), Eclipse Interoperability (192.7142.36), EditorConfig (192.7142.36), Emma (192.7142.36), Flash/Flex (192.7142.36), FreeMarker (192.7142.36), GWT (192.7142.36), Geronimo Integration (192.7142.36), Gherkin (192.7142.36), Git (192.7142.36), GitHub (192.7142.36), GlassFish (192.7142.36), Google App Engine (192.7142.36), Gradle (192.7142.36), Gradle Integration Extension (192.7142.36), Gradle-Maven (192.7142.36), Grails (192.7142.36), Groovy (192.7142.36), Guice (192.7142.36), HTML Tools (192.7142.36), HTTP Client (192.7142.36), Haml (192.7142.36), Heroku (192.7142.36), Hibernate (192.7142.36), IDE Settings Sync (192.7142.36), IDEA CORE (192.7142.36), IntelliLang (192.7142.36), JBoss Frameworks Base (192.7142.36), JBoss Seam (192.7142.36), JBoss Seam Pageflow (192.7142.36), JBoss Seam Pages (192.7142.36), JBoss jBPM (192.7142.36), JSR45 (192.7142.36), JUnit (192.7142.36), Java (192.7142.36), Java Bytecode Decompiler (192.7142.36), Java EE: Batch Applications (192.7142.36), Java EE: Bean Validation (192.7142.36), Java EE: Contexts and Dependency Injection (192.7142.36), Java EE: EJB, JPA, Servlets (192.7142.36), Java EE: JMS, JSON Processing, Concurrency, Transaction  (192.7142.36), Java EE: Java Server Faces (192.7142.36), Java EE: RESTful Web Services (JAX-RS) (192.7142.36), Java EE: Web Services (JAX-WS) (192.7142.36), Java EE: WebSockets (192.7142.36), Java IDE Customization (192.7142.36), Java Internationalization (192.7142.36), Java Server Pages (JSP) (192.7142.36), Java Stream Debugger (192.7142.36), JavaFX (192.7142.36), JavaScript Debugger (192.7142.36), JavaScript Intention Power Pack (192.7142.36), JavaScript and TypeScript (192.7142.36), Jetty Integration (192.7142.36), Kotlin (1.3.41-release-IJ2019.2-1), Less (192.7142.36), Machine Learning Code Completion (192.7142.36), Markdown (192.7142.36), Maven (192.7142.36), Maven Integration Extension (192.7142.36), Mercurial (192.7142.36), NodeJS (192.7142.36), OSGi (192.7142.36), OpenShift integration (192.7142.36), Perforce (192.7142.36), Performance Testing (192.7142.36), Persistence Frameworks Support (192.7142.36), Play Framework (192.7142.36), Plugin DevKit (192.7142.36), Properties (192.7142.36), Reactor (192.7142.36), Refactor-X (192.7142.36), Remote Hosts Access (192.7142.36), Resin Integration (192.7142.36), SSH Remote Run (192.7142.36), Sass (192.7142.36), Settings Repository (192.7142.36), Smali Support (192.7142.36), Spring AOP/@AspectJ (192.7142.36), Spring Batch (192.7142.36), Spring Boot (192.7142.36), Spring Data (192.7142.36), Spring Integration Patterns (192.7142.36), Spring MVC (192.7142.36), Spring OSGi (192.7142.36), Spring Security (192.7142.36), Spring Support (192.7142.36), Spring Web Flow (192.7142.36), Spring Web Services (192.7142.36), Spring WebSocket (192.7142.36), Spy-js (192.7142.36), Struts 2 (192.7142.36), Stylus (192.7142.36), Subversion (192.7142.36), Tapestry (192.7142.36), Task Management (192.7142.36), Terminal (192.7142.36), TestNG (192.7142.36), TextMate bundles (192.7142.36), Thymeleaf (192.7142.36), Time Tracking (192.7142.36), Tomcat and TomEE Integration (192.7142.36), UI Designer (192.7142.36), UML (192.7142.36), Vaadin (192.7142.36), Velocity (192.7142.36), Virgo/dmServer (192.7142.36), W3C Validators (192.7142.36), WebLogic Integration (192.7142.36), WebSphere Integration (192.7142.36), WildFly (192.7142.36), XPathView + XSLT (192.7142.36), XSLT Debugger (192.7142.36), YAML (192.7142.36), ZKM-Unscramble (192.7142.36), tslint (192.7142.36) 
+2019-11-17 15:28:11,055 [   5244]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: BashSupport (1.7.13.192), LiveEdit (192.6262.9), Makefile support (1.6.1) 
+2019-11-17 15:28:11,055 [   5244]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Shell Script (192.7142.36) 
+2019-11-17 15:28:11,057 [   5246]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-11-17 15:28:11,815 [   6004]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-11-17 15:28:11,878 [   6067]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-11-17 15:28:11,976 [   6165]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1949 
+2019-11-17 15:28:12,033 [   6222]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/vagrant/idea-IU/bin/fsnotifier64 
+2019-11-17 15:28:12,075 [   6264]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-11-17 15:28:13,125 [   7314]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-11-17 15:28:13,136 [   7325]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-11-17 15:28:13,153 [   7342]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-11-17 15:28:13,488 [   7677]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:215 
+2019-11-17 15:28:13,762 [   7951]   INFO - j.ide.ui.OptionsTopHitProvider - 30 ms spent to cache options in application 
+2019-11-17 15:28:13,980 [   8169]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-11-17 15:28:14,337 [   8526]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /home/vagrant/idea-IU/bin/libdbm64.so: libdbusmenu-glib.so.4: cannot open shared object file: No such file or directory 
+2019-11-17 15:28:14,476 [   8665]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-17 15:28:14,488 [   8677]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-17 15:28:14,511 [   8700]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-11-17 15:28:14,513 [   8702]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-11-17 15:28:14,513 [   8702]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2019-11-17 15:28:15,027 [   9216]   INFO - pl$FileIndexDataInitialization - Initialization done:1755 
+2019-11-17 15:28:15,119 [   9308]   INFO - exImpl$StubIndexInitialization - Initialization done:91 
+2019-11-17 15:28:20,526 [  14715]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2019-11-17 15:28:20,526 [  14715]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2019-11-17 15:28:20,555 [  14744]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-11-17 15:28:20,751 [  14940]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-11-17 15:28:21,286 [  15475]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-17 15:28:21,741 [  15930]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 15 ms 
+2019-11-17 15:28:22,339 [  16528]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 676ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-17 15:28:24,452 [  18641]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2112ms; general responsiveness: ok; EDT responsiveness: 0/3 sluggish, 1/3 very slow 
+2019-11-17 15:28:24,933 [  19122]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 3 millis (read time: 1) 
+2019-11-17 15:28:25,039 [  19228]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-11-17 15:28:25,200 [  19389]   INFO - j.ide.ui.OptionsTopHitProvider - 2033 ms spent to cache options in project 
+2019-11-17 15:28:25,356 [  19545]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-17 15:28:25,804 [  19993]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-11-17 15:28:26,312 [  20501]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 4776ms; general responsiveness: ok; EDT responsiveness: 0/5 sluggish, 1/5 very slow 
+2019-11-17 15:28:26,503 [  20692]   INFO - tartup.impl.StartupManagerImpl - /home/vagrant/IdeaProjects/vagrant-idea/.idea case-sensitivity: expected=true actual=true 
+2019-11-17 15:28:26,583 [  20772]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-11-17 15:28:26,650 [  20839]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-11-17 15:28:26,668 [  20857]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 7226 ms 
+2019-11-17 15:28:26,982 [  21171]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening. 
+2019-11-17 15:28:29,091 [  23280]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2019-11-17 15:28:31,586 [  25775]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-17 15:29:09,785 [  63974]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaRunManager took 38 ms 
+2019-11-17 15:29:09,809 [  63998]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 718 ms 
+2019-11-17 15:29:19,802 [  73991]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 168 ms 
+2019-11-17 15:29:19,959 [  74148]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 143 ms 
+2019-11-17 15:29:56,003 [ 110192]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaKotlinCommonCompilerArguments took 19 ms 
+2019-11-17 15:29:56,016 [ 110205]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 180 ms 
+2019-11-17 15:30:09,490 [ 123679]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 143 ms 
+2019-11-17 15:30:16,439 [ 130628]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 125 ms 
+2019-11-17 15:30:16,770 [ 130959]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaKotlin2JvmCompilerArguments took 22 ms 
+2019-11-17 15:30:16,783 [ 130972]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 164 ms 
+2019-11-17 15:31:15,516 [ 189705]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 101 ms 
+2019-11-17 15:32:30,572 [ 264761]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 107 ms 
+2019-11-17 15:32:30,718 [ 264907]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 111 ms 
+2019-11-17 15:32:33,717 [ 267906]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 104 ms 
+2019-11-17 15:32:34,024 [ 268213]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 108 ms 
+2019-11-17 15:32:38,316 [ 272505]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 122 ms 
+2019-11-17 15:33:22,251 [ 316440]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 116 ms 
+2019-11-17 15:33:44,534 [ 338723]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-11-17 15:33:44,535 [ 338724]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-11-17 15:33:44,535 [ 338724]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-11-17 15:33:44,622 [ 338811]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-11-17 15:33:44,629 [ 338818]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-17 15:33:44,632 [ 338821]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 14 auto-detected files
+Elapsed time on auto-detect: 138 ms 
+2019-11-17 15:33:44,655 [ 338844]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-11-17 15:33:44,657 [ 338846]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-11-17 15:33:44,661 [ 338850]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-11-17 15:33:44,671 [ 338860]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-17 15:33:44,674 [ 338863]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
