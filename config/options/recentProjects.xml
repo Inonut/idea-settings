@@ -2,15 +2,16 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="/tmp/vagrant-idea" />
         <option value="$USER_HOME$/IdeaProjects/vagrant-idea" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/IdeaProjects/vagrant-idea" />
+        <option value="/tmp/vagrant-idea" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/IdeaProjects/vagrant-idea" />
+    <option name="lastPath" value="/tmp/vagrant-idea" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -58,7 +59,19 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="/tmp/vagrant-idea">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-192.7142.36" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1574199808254" />
+              <option name="buildTimestamp" value="1572321756814" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
+    <option name="lastProjectLocation" value="/tmp" />
   </component>
 </application>
