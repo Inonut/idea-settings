@@ -15,3 +15,23 @@ ll ~
 cd IdeaProjects/
 ll
 ll
+ll
+git push
+git status
+cd vagrant-idea/
+git status
+git commit -m 'fix for linux'
+ll
+cd ..
+cd ..
+git clone https://github.com/Inonut/vagrant-idea.git
+cd IdeaProjects/vagrant-idea/
+ll
+git commit -m 'fix for linux'
+cd ~
+ll
+cd vagrant-idea/
+ll
+touch test
+git add .
+git commit -m 'test commit'
