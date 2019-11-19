@@ -1,7 +1,7 @@
 <application>
   <component name="DimensionService">
     <location key="FileChooserDialogImpl.0.0.1920.1080" x="748" y="199" />
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="436" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="442" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="624" y="352" />
     <location key="SettingsEditor.0.0.1920.1080" x="550" y="172" />
     <location key="CommitChangelistDialog2.0.0.1920.1080" x="532" y="104" />
@@ -20,6 +20,7 @@
     <location key="Github.ShareDialog.0.0.1920.1080" x="815" y="449" />
     <location key="Github.UntrackedFilesDialog.0.0.1920.1080" x="776" y="256" />
     <location key="search.everywhere.popup.0.0.1920.1080" x="623" y="246" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" x="705" y="427" />
     <size key="GridCell.Tab.0.left.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.center.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.right.0.0.3840.1080" width="1874" height="250" />
