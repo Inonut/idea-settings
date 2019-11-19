@@ -7,3 +7,5 @@ lssecret
 lssecret -s
 java
 java --version
+cat /etc/ssh/sshd_config 
+sudo tee -a 'AllowAgentForwarding yes'
