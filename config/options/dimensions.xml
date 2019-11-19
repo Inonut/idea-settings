@@ -22,6 +22,7 @@
     <location key="search.everywhere.popup.0.0.1920.1080" x="623" y="246" />
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" x="705" y="427" />
     <location key="DiffContextDialog.0.0.1920.1080" x="111" y="86" />
+    <location key="GitCloneDialog.0.0.1920.1080" x="697" y="366" />
     <size key="GridCell.Tab.0.left.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.center.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.right.0.0.3840.1080" width="1874" height="250" />
@@ -30,5 +31,6 @@
     <size key="Github.ShareDialog.0.0.1920.1080" width="289" height="218" />
     <size key="search.everywhere.popup.0.0.1920.1080" width="672" height="678" />
     <size key="CommitChangelistDialog2.0.0.1920.1080" width="742" height="816" />
+    <size key="GitCloneDialog.0.0.1920.1080" width="638" height="153" />
   </component>
 </application>
