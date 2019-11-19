@@ -10,3 +10,7 @@ java --version
 cat /etc/ssh/sshd_config 
 sudo tee -a 'AllowAgentForwarding yes'
 sudo systemctl restart sshd
+ll
+ll ~
+cd IdeaProjects/
+ll
