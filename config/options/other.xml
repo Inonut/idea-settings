@@ -3,7 +3,7 @@
     <local-interpreter path="/usr/bin/node" />
   </component>
   <component name="PropertiesComponent">
-    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6175637" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.62181306" />
     <property name="create.project.preferred.importer" value="Existing Sources" />
     <property name="defaultJdkConfigured" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/IdeaProjects/vagrant-idea&#10;/home/vagrant/IdeaProjects&#10;/tmp" />

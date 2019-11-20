@@ -12,11 +12,11 @@
     <converter id="kotlin-non-jvm-source-roots" />
   </applied-converters>
   <project-files>
-    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/misc.xml" timestamp="1574279303967" />
-    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/modules.xml" timestamp="1574279303980" />
-    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/vcs.xml" timestamp="1574279303970" />
-    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/workspace.xml" timestamp="1574279423488" />
-    <file path="/home/vagrant/IdeaProjects/vagrant-idea/vagrant-idea.iml" timestamp="1574279303950" />
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/misc.xml" timestamp="1574195537000" />
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/modules.xml" timestamp="1574195537000" />
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/vagrant-idea.iml" timestamp="1574195537000" />
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/vcs.xml" timestamp="1574195537000" />
+    <file path="/home/vagrant/IdeaProjects/vagrant-idea/.idea/workspace.xml" timestamp="1574282649953" />
   </project-files>
 </conversion>
 
