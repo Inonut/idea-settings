@@ -1,5 +1,10 @@
 <application>
   <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/vagrant-idea" />
+      </list>
+    </option>
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/IdeaProjects/vagrant-idea" />
@@ -37,8 +42,8 @@
               <option name="build" value="IU-192.7142.36" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1574201225865" />
-              <option name="buildTimestamp" value="1572321732724" />
+              <option name="projectOpenTimestamp" value="1574277850359" />
+              <option name="buildTimestamp" value="1572321776593" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
