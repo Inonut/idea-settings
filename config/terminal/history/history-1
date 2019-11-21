@@ -35,3 +35,7 @@ ll
 touch test
 git add .
 git commit -m 'test commit'
+cd ..
+mkdir asd
+rm asd
+rm -fr asd

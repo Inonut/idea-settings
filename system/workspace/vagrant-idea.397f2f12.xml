@@ -7,10 +7,10 @@
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Local" commandHistoryFileName="history-1" />
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$/.." commandHistoryFileName="history-1" />
     </option>
   </component>
   <component name="VcsLogIndexCollector">
-    <option name="indexTime" value="320" />
+    <option name="indexTime" value="371" />
   </component>
 </project>
