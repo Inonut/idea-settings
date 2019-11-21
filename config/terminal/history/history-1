@@ -39,3 +39,8 @@ cd ..
 mkdir asd
 rm asd
 rm -fr asd
+mkdir asd
+ll
+cd vagrant-idea/
+git status
+git add .
