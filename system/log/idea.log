@@ -22788,3 +22788,519 @@ Elapsed time on auto-detect: 21 ms
 2019-11-22 20:34:12,781 [ 274149]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
 2019-11-22 20:34:12,789 [ 274157]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-22 20:34:12,791 [ 274159]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-22 20:36:07,031 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-22 20:36:07,111 [     80]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 41 ms 
+2019-11-22 20:36:07,128 [     97]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-22 20:36:07,128 [     97]   INFO -        #com.intellij.idea.Main - OS: Linux (5.3.1-arch1-1-arch, amd64) 
+2019-11-22 20:36:07,128 [     97]   INFO -        #com.intellij.idea.Main - JRE: 11.0.5+10 (Oracle Corporation) 
+2019-11-22 20:36:07,128 [     97]   INFO -        #com.intellij.idea.Main - JVM: 11.0.5+10 (OpenJDK 64-Bit Server VM) 
+2019-11-22 20:36:07,128 [     97]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/vagrant/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/vagrant/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/vagrant/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-22 20:36:07,128 [     97]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-22 20:36:07,144 [    113]   INFO - com.intellij.util.ui.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-11-22 20:36:08,039 [   1008]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-22 20:36:08,234 [   1203]   INFO - plication.impl.ApplicationImpl - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@5c84fbfd[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3cbff795 
+2019-11-22 20:36:08,256 [   1225]   INFO -        #com.intellij.idea.Main - WM detected: KWin 
+2019-11-22 20:36:10,746 [   3715]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-22 20:36:10,885 [   3854]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (192.7142.36), Android Support (10.3.4), Angular and AngularJS (192.7142.36), Ant (192.7142.36), Application Servers View (192.7142.36), Arquillian (192.7142.36), AspectJ (192.7142.36), Bytecode Viewer (192.7142.36), CFML (192.7142.36), CSS (192.7142.36), ChangeReminder (192.7142.36), Cloud Foundry (192.7142.36), CoffeeScript (192.7142.36), Configuration Script (192.7142.36), Copyright (192.7142.36), Coverage (192.7142.36), Cucumber for Groovy (192.7142.36), Cucumber for Java (192.7142.36), Database Tools and SQL (192.7142.36), Dependency Structure Matrix (192.7142.36), Docker (192.7142.36), Drools (192.7142.36), Eclipse Interoperability (192.7142.36), EditorConfig (192.7142.36), Emma (192.7142.36), Flash/Flex (192.7142.36), FreeMarker (192.7142.36), GWT (192.7142.36), Geronimo Integration (192.7142.36), Gherkin (192.7142.36), Git (192.7142.36), GitHub (192.7142.36), GlassFish (192.7142.36), Google App Engine (192.7142.36), Gradle (192.7142.36), Gradle Integration Extension (192.7142.36), Gradle-Maven (192.7142.36), Grails (192.7142.36), Groovy (192.7142.36), Guice (192.7142.36), HTML Tools (192.7142.36), HTTP Client (192.7142.36), Haml (192.7142.36), Heroku (192.7142.36), Hibernate (192.7142.36), IDE Settings Sync (192.7142.36), IDEA CORE (192.7142.36), IntelliLang (192.7142.36), JBoss Frameworks Base (192.7142.36), JBoss Seam (192.7142.36), JBoss Seam Pageflow (192.7142.36), JBoss Seam Pages (192.7142.36), JBoss jBPM (192.7142.36), JSR45 (192.7142.36), JUnit (192.7142.36), Java (192.7142.36), Java Bytecode Decompiler (192.7142.36), Java EE: Batch Applications (192.7142.36), Java EE: Bean Validation (192.7142.36), Java EE: Contexts and Dependency Injection (192.7142.36), Java EE: EJB, JPA, Servlets (192.7142.36), Java EE: JMS, JSON Processing, Concurrency, Transaction  (192.7142.36), Java EE: Java Server Faces (192.7142.36), Java EE: RESTful Web Services (JAX-RS) (192.7142.36), Java EE: Web Services (JAX-WS) (192.7142.36), Java EE: WebSockets (192.7142.36), Java IDE Customization (192.7142.36), Java Internationalization (192.7142.36), Java Server Pages (JSP) (192.7142.36), Java Stream Debugger (192.7142.36), JavaFX (192.7142.36), JavaScript Debugger (192.7142.36), JavaScript Intention Power Pack (192.7142.36), JavaScript and TypeScript (192.7142.36), Jetty Integration (192.7142.36), Kotlin (1.3.41-release-IJ2019.2-1), Less (192.7142.36), Machine Learning Code Completion (192.7142.36), Markdown (192.7142.36), Maven (192.7142.36), Maven Integration Extension (192.7142.36), Mercurial (192.7142.36), NodeJS (192.7142.36), OSGi (192.7142.36), OpenShift integration (192.7142.36), Perforce (192.7142.36), Performance Testing (192.7142.36), Persistence Frameworks Support (192.7142.36), Play Framework (192.7142.36), Plugin DevKit (192.7142.36), Properties (192.7142.36), Reactor (192.7142.36), Refactor-X (192.7142.36), Remote Hosts Access (192.7142.36), Resin Integration (192.7142.36), SSH Remote Run (192.7142.36), Sass (192.7142.36), Settings Repository (192.7142.36), Smali Support (192.7142.36), Spring AOP/@AspectJ (192.7142.36), Spring Batch (192.7142.36), Spring Boot (192.7142.36), Spring Data (192.7142.36), Spring Integration Patterns (192.7142.36), Spring MVC (192.7142.36), Spring OSGi (192.7142.36), Spring Security (192.7142.36), Spring Support (192.7142.36), Spring Web Flow (192.7142.36), Spring Web Services (192.7142.36), Spring WebSocket (192.7142.36), Spy-js (192.7142.36), Struts 2 (192.7142.36), Stylus (192.7142.36), Subversion (192.7142.36), Tapestry (192.7142.36), Task Management (192.7142.36), Terminal (192.7142.36), TestNG (192.7142.36), TextMate bundles (192.7142.36), Thymeleaf (192.7142.36), Time Tracking (192.7142.36), Tomcat and TomEE Integration (192.7142.36), UI Designer (192.7142.36), UML (192.7142.36), Vaadin (192.7142.36), Velocity (192.7142.36), Virgo/dmServer (192.7142.36), W3C Validators (192.7142.36), WebLogic Integration (192.7142.36), WebSphere Integration (192.7142.36), WildFly (192.7142.36), XPathView + XSLT (192.7142.36), XSLT Debugger (192.7142.36), YAML (192.7142.36), ZKM-Unscramble (192.7142.36), tslint (192.7142.36) 
+2019-11-22 20:36:10,885 [   3854]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: BashSupport (1.7.13.192), LiveEdit (192.6262.9), Makefile support (1.6.1) 
+2019-11-22 20:36:10,885 [   3854]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Shell Script (192.7142.36) 
+2019-11-22 20:36:10,887 [   3856]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-11-22 20:36:11,476 [   4445]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-11-22 20:36:11,502 [   4471]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-11-22 20:36:11,586 [   4555]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1949 
+2019-11-22 20:36:11,622 [   4591]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/vagrant/idea-IU/bin/fsnotifier64 
+2019-11-22 20:36:11,674 [   4643]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-11-22 20:36:12,408 [   5377]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-11-22 20:36:12,420 [   5389]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-11-22 20:36:12,445 [   5414]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-11-22 20:36:12,646 [   5615]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:136 
+2019-11-22 20:36:12,814 [   5783]   INFO - j.ide.ui.OptionsTopHitProvider - 13 ms spent to cache options in application 
+2019-11-22 20:36:13,044 [   6013]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-11-22 20:36:13,386 [   6355]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /home/vagrant/idea-IU/bin/libdbm64.so: libdbusmenu-glib.so.4: cannot open shared object file: No such file or directory 
+2019-11-22 20:36:13,485 [   6454]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-22 20:36:13,490 [   6459]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-22 20:36:13,520 [   6489]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-11-22 20:36:13,520 [   6489]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-11-22 20:36:13,522 [   6491]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2019-11-22 20:36:13,911 [   6880]   INFO - pl$FileIndexDataInitialization - Initialization done:1401 
+2019-11-22 20:36:14,057 [   7026]   INFO - exImpl$StubIndexInitialization - Initialization done:145 
+2019-11-22 20:36:15,575 [   8544]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [<Project>] 
+2019-11-22 20:36:16,632 [   9601]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-11-22 20:36:16,848 [   9817]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-11-22 20:36:17,523 [  10492]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-22 20:36:17,968 [  10937]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 17 ms 
+2019-11-22 20:36:18,091 [  11060]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 196ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-22 20:36:19,307 [  12276]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1215ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-22 20:36:19,329 [  12298]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2 files to update 
+2019-11-22 20:36:20,012 [  12981]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-11-22 20:36:20,028 [  12997]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 19 millis (read time: 1) 
+2019-11-22 20:36:20,204 [  13173]   INFO - j.ide.ui.OptionsTopHitProvider - 843 ms spent to cache options in project 
+2019-11-22 20:36:20,690 [  13659]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-11-22 20:36:20,709 [  13678]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 1380ms; general responsiveness: ok; EDT responsiveness: 0/2 sluggish, 1/2 very slow 
+2019-11-22 20:36:20,759 [  13728]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-22 20:36:21,313 [  14282]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 3513ms; general responsiveness: ok; EDT responsiveness: 0/3 sluggish, 1/3 very slow 
+2019-11-22 20:36:21,470 [  14439]   INFO - tartup.impl.StartupManagerImpl - /home/vagrant/IdeaProjects/vagrant-idea/.idea case-sensitivity: expected=true actual=true 
+2019-11-22 20:36:21,506 [  14475]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-11-22 20:36:21,545 [  14514]   INFO -  #git4idea.commands.GitHandler - git version 2.24.0 
+2019-11-22 20:36:21,556 [  14525]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-11-22 20:36:21,557 [  14526]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.24.0 
+2019-11-22 20:36:21,574 [  14543]   INFO - pl.projectlevelman.NewMappings - Mapped Roots: 1 
+2019-11-22 20:36:21,648 [  14617]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-11-22 20:36:21,731 [  14700]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6759 ms 
+2019-11-22 20:36:21,820 [  14789]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2019-11-22 20:36:22,313 [  15282]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening. 
+2019-11-22 20:36:26,564 [  19533]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-22 20:36:27,645 [  20614]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaRunManager took 32 ms 
+2019-11-22 20:36:27,677 [  20646]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 473 ms 
+2019-11-22 20:36:27,793 [  20762]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 115 ms 
+2019-11-22 20:37:02,586 [  55555]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 108 ms 
+2019-11-22 20:37:05,583 [  58552]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 127 ms 
+2019-11-22 20:37:16,011 [  68980]   INFO - pi.util.registry.RegistryValue - Registry value 'git.explicit.commit.renames.prohibit.multiple.calls' has changed to 'false' 
+2019-11-22 20:37:20,858 [  73827]  ERROR - rains.ide.BuiltInServerManager - Assertion failed 
+java.lang.Throwable: Assertion failed
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:180)
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:189)
+	at org.jetbrains.ide.BuiltInServerManagerImpl.waitForStart(BuiltInServerManagerImpl.kt:108)
+	at org.jetbrains.git4idea.ssh.GitXmlRpcHandlerService.getXmlRcpPort(GitXmlRpcHandlerService.java:69)
+	at git4idea.commands.GitHandlerAuthenticationManager.prepareHttpAuth(GitHandlerAuthenticationManager.java:102)
+	at git4idea.commands.GitHandlerAuthenticationManager.lambda$prepare$0(GitHandlerAuthenticationManager.java:67)
+	at git4idea.GitUtil.tryRunOrClose(GitUtil.java:1072)
+	at git4idea.commands.GitHandlerAuthenticationManager.prepare(GitHandlerAuthenticationManager.java:66)
+	at git4idea.commands.GitImplBase.run(GitImplBase.java:139)
+	at git4idea.commands.GitImplBase.runCommand(GitImplBase.java:46)
+	at git4idea.commands.GitImpl.runCommand(GitImpl.java:41)
+	at git4idea.config.GitConfigUtil.setValue(GitConfigUtil.java:185)
+	at git4idea.checkin.GitCheckinHandlerFactory$MyCheckinHandler.setCoreAutoCrlfAttribute(GitCheckinHandlerFactory.java:147)
+	at git4idea.checkin.GitCheckinHandlerFactory$MyCheckinHandler.warnAboutCrlfIfNeeded(GitCheckinHandlerFactory.java:132)
+	at git4idea.checkin.GitCheckinHandlerFactory$MyCheckinHandler.beforeCheckin(GitCheckinHandlerFactory.java:84)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.runBeforeCommitHandlersChecks(AbstractCommitWorkflow.kt:168)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.access$runBeforeCommitHandlersChecks(AbstractCommitWorkflow.kt:61)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$runBeforeCommitChecks$checks$1.run(AbstractCommitWorkflow.kt:142)
+	at com.intellij.openapi.vcs.checkin.ReformatBeforeCheckinHandler.lambda$runCheckinHandlers$2(ReformatBeforeCheckinHandler.java:49)
+	at com.intellij.openapi.vcs.checkin.ReformatBeforeCheckinHandler.runCheckinHandlers(ReformatBeforeCheckinHandler.java:58)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$wrapWithCommitMetaHandlers$1$1.run(AbstractCommitWorkflow.kt:158)
+	at com.intellij.openapi.vcs.checkin.RearrangeBeforeCheckinHandler.lambda$runCheckinHandlers$2(RearrangeBeforeCheckinHandler.java:44)
+	at com.intellij.openapi.vcs.checkin.RearrangeBeforeCheckinHandler.runCheckinHandlers(RearrangeBeforeCheckinHandler.java:52)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$wrapWithCommitMetaHandlers$1$1.run(AbstractCommitWorkflow.kt:158)
+	at com.intellij.openapi.vcs.checkin.OptimizeImportsBeforeCheckinHandler.runCheckinHandlers(OptimizeImportsBeforeCheckinHandler.java:58)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$wrapWithCommitMetaHandlers$1$1.run(AbstractCommitWorkflow.kt:158)
+	at com.intellij.openapi.vcs.checkin.CodeCleanupCheckinHandlerFactory$CleanupCodeCheckinHandler.runCheckinHandlers(CodeCleanupCheckinHandlerFactory.java:50)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$wrapWithCommitMetaHandlers$1$1.run(AbstractCommitWorkflow.kt:158)
+	at com.intellij.openapi.vcs.impl.PartialChangesUtil.lambda$runUnderChangeList$2(PartialChangesUtil.java:119)
+	at com.intellij.openapi.vcs.impl.PartialChangesUtil.computeUnderChangeList(PartialChangesUtil.java:133)
+	at com.intellij.openapi.vcs.impl.PartialChangesUtil.runUnderChangeList(PartialChangesUtil.java:118)
+	at com.intellij.vcs.commit.SingleChangeListCommitWorkflow.doRunBeforeCommitChecks(SingleChangeListCommitWorkflow.kt:74)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.runBeforeCommitChecks(AbstractCommitWorkflow.kt:145)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.runBeforeCommitChecksWithEvents(AbstractCommitWorkflow.kt:132)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.executeDefault(AbstractCommitWorkflow.kt:124)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.doExecuteDefault(AbstractCommitWorkflowHandler.kt:134)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.access$doExecuteDefault(AbstractCommitWorkflowHandler.kt:38)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler$executeDefault$1.invoke(AbstractCommitWorkflowHandler.kt:110)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler$executeDefault$1.invoke(AbstractCommitWorkflowHandler.kt:38)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler$refreshChanges$1.run(AbstractCommitWorkflowHandler.kt:172)
+	at com.intellij.openapi.vcs.changes.Waiter.onSuccess(Waiter.java:52)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.finishTask(CoreProgressManager.java:507)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcessWithProgressSynchronously(CoreProgressManager.java:462)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcessWithProgressSynchronously(ProgressManagerImpl.java:82)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runSynchronously(CoreProgressManager.java:324)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.run(CoreProgressManager.java:309)
+	at com.intellij.openapi.vcs.changes.CallbackData.lambda$createInteractive$3(CallbackData.java:85)
+	at com.intellij.openapi.vcs.changes.UpdateRequestsQueue.invokeAfterUpdate(UpdateRequestsQueue.java:183)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.invokeAfterUpdate(ChangeListManagerImpl.java:421)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.invokeAfterUpdate(ChangeListManagerImpl.java:409)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.refreshChanges(AbstractCommitWorkflowHandler.kt:169)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.executeDefault(AbstractCommitWorkflowHandler.kt:108)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.execute(AbstractCommitWorkflowHandler.kt:92)
+	at com.intellij.openapi.vcs.changes.actions.BaseCommitExecutorAction.actionPerformed(BaseCommitExecutorAction.kt:27)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:265)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:282)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAwareWithCallbacks(ActionUtil.java:256)
+	at com.intellij.ui.popup.ActionPopupStep.performAction(ActionPopupStep.java:200)
+	at com.intellij.ui.popup.ActionPopupStep.performAction(ActionPopupStep.java:190)
+	at com.intellij.ui.popup.ActionPopupStep.lambda$onChosen$2(ActionPopupStep.java:184)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:192)
+	at com.intellij.ui.popup.AbstractPopup.lambda$dispose$13(AbstractPopup.java:1428)
+	at com.intellij.util.ui.UIUtil.invokeLaterIfNeeded(UIUtil.java:2464)
+	at com.intellij.ide.IdeEventQueue.ifFocusEventsInTheQueue(IdeEventQueue.java:222)
+	at com.intellij.ide.IdeEventQueue.executeWhenAllFocusEventsLeftTheQueue(IdeEventQueue.java:174)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.doWhenFocusSettlesDown(FocusManagerImpl.java:161)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.doWhenFocusSettlesDown(IdeFocusManagerImpl.java:58)
+	at com.intellij.ui.popup.AbstractPopup.dispose(AbstractPopup.java:1424)
+	at com.intellij.ui.popup.WizardPopup.dispose(WizardPopup.java:162)
+	at com.intellij.ui.popup.list.ListPopupImpl.dispose(ListPopupImpl.java:318)
+	at com.intellij.ui.popup.PopupFactoryImpl$ActionGroupPopup.dispose(PopupFactoryImpl.java:278)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:47)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:43)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:135)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:104)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:194)
+	at com.intellij.openapi.util.objectTree.ObjectNode.execute(ObjectNode.java:104)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeAll(ObjectTree.java:142)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:136)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:132)
+	at com.intellij.ui.popup.WizardPopup.disposeAllParents(WizardPopup.java:263)
+	at com.intellij.ui.popup.list.ListPopupImpl.handleNextStep(ListPopupImpl.java:453)
+	at com.intellij.ui.popup.list.ListPopupImpl._handleSelect(ListPopupImpl.java:407)
+	at com.intellij.ui.popup.list.ListPopupImpl.handleSelect(ListPopupImpl.java:353)
+	at com.intellij.ui.popup.PopupFactoryImpl$ActionGroupPopup.handleSelect(PopupFactoryImpl.java:298)
+	at com.intellij.ui.popup.list.ListPopupImpl$MyMouseListener.mouseReleased(ListPopupImpl.java:512)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:298)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at com.intellij.ui.popup.list.ListPopupImpl$MyList.processMouseEvent(ListPopupImpl.java:566)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6397)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5008)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4840)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4840)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:823)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:693)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1070)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:707)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:432)
+	at com.intellij.openapi.ui.DialogWrapper.doShow(DialogWrapper.java:1685)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1644)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGet(DialogWrapper.java:1658)
+	at com.intellij.openapi.vcs.changes.ui.CommitChangeListDialog.activate(CommitChangeListDialog.java:258)
+	at com.intellij.vcs.commit.SingleChangeListCommitWorkflowHandler.activate(SingleChangeListCommitWorkflowHandler.kt:60)
+	at com.intellij.openapi.vcs.changes.ui.CommitChangeListDialog.commitChanges(CommitChangeListDialog.java:216)
+	at com.intellij.openapi.vcs.changes.ui.CommitChangeListDialog.commitChanges(CommitChangeListDialog.java:132)
+	at com.intellij.openapi.vcs.actions.AbstractCommonCheckinAction.performCheckIn(AbstractCommonCheckinAction.kt:110)
+	at com.intellij.openapi.vcs.actions.AbstractCommonCheckinAction$actionPerformed$1.run(AbstractCommonCheckinAction.kt:65)
+	at com.intellij.openapi.vcs.changes.Waiter.onSuccess(Waiter.java:52)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.finishTask(CoreProgressManager.java:507)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcessWithProgressSynchronously(CoreProgressManager.java:462)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcessWithProgressSynchronously(ProgressManagerImpl.java:82)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runSynchronously(CoreProgressManager.java:324)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.run(CoreProgressManager.java:309)
+	at com.intellij.openapi.vcs.changes.CallbackData.lambda$createInteractive$3(CallbackData.java:85)
+	at com.intellij.openapi.vcs.changes.UpdateRequestsQueue.invokeAfterUpdate(UpdateRequestsQueue.java:183)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.invokeAfterUpdate(ChangeListManagerImpl.java:421)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.invokeAfterUpdate(ChangeListManagerImpl.java:409)
+	at com.intellij.openapi.vcs.actions.AbstractCommonCheckinAction.actionPerformed(AbstractCommonCheckinAction.kt:64)
+	at com.intellij.openapi.vcs.actions.AbstractVcsAction.actionPerformed(AbstractVcsAction.java:48)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:265)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:282)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter.lambda$actionPerformed$0(ActionMenuItem.java:292)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.runOnOwnContext(FocusManagerImpl.java:265)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.runOnOwnContext(IdeFocusManagerImpl.java:107)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter.actionPerformed(ActionMenuItem.java:282)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem.lambda$fireActionPerformed$0(ActionMenuItem.java:111)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:82)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransaction$1(TransactionGuardImpl.java:106)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransaction(TransactionGuardImpl.java:115)
+	at com.intellij.openapi.application.TransactionGuard.submitTransaction(TransactionGuard.java:121)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem.fireActionPerformed(ActionMenuItem.java:111)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.doClick(BegMenuItemUI.java:524)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.access$300(BegMenuItemUI.java:35)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI$MyMouseInputHandler.mouseReleased(BegMenuItemUI.java:546)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6397)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5008)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4840)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4840)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:823)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2019-11-22 20:37:20,871 [  73840]  ERROR - rains.ide.BuiltInServerManager - IntelliJ IDEA 2019.2.4  Build #IU-192.7142.36 
+2019-11-22 20:37:20,871 [  73840]  ERROR - rains.ide.BuiltInServerManager - JDK: 11.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: Oracle Corporation 
+2019-11-22 20:37:20,872 [  73841]  ERROR - rains.ide.BuiltInServerManager - OS: Linux 
+2019-11-22 20:37:20,875 [  73844]  ERROR - rains.ide.BuiltInServerManager - Last Action: Git.Commit.And.Push.Executor 
+2019-11-22 20:37:20,876 [  73845]  ERROR - rains.ide.BuiltInServerManager - Assertion failed 
+java.lang.Throwable: Assertion failed
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:180)
+	at com.intellij.openapi.diagnostic.Logger.assertTrue(Logger.java:189)
+	at org.jetbrains.ide.BuiltInServerManagerImpl.waitForStart(BuiltInServerManagerImpl.kt:108)
+	at org.jetbrains.git4idea.ssh.GitXmlRpcHandlerService.getXmlRcpPort(GitXmlRpcHandlerService.java:69)
+	at git4idea.commands.GitHandlerAuthenticationManager.prepareNativeSshAuth(GitHandlerAuthenticationManager.java:205)
+	at git4idea.commands.GitHandlerAuthenticationManager.lambda$prepare$0(GitHandlerAuthenticationManager.java:72)
+	at git4idea.GitUtil.tryRunOrClose(GitUtil.java:1072)
+	at git4idea.commands.GitHandlerAuthenticationManager.prepare(GitHandlerAuthenticationManager.java:66)
+	at git4idea.commands.GitImplBase.run(GitImplBase.java:139)
+	at git4idea.commands.GitImplBase.runCommand(GitImplBase.java:46)
+	at git4idea.commands.GitImpl.runCommand(GitImpl.java:41)
+	at git4idea.config.GitConfigUtil.setValue(GitConfigUtil.java:185)
+	at git4idea.checkin.GitCheckinHandlerFactory$MyCheckinHandler.setCoreAutoCrlfAttribute(GitCheckinHandlerFactory.java:147)
+	at git4idea.checkin.GitCheckinHandlerFactory$MyCheckinHandler.warnAboutCrlfIfNeeded(GitCheckinHandlerFactory.java:132)
+	at git4idea.checkin.GitCheckinHandlerFactory$MyCheckinHandler.beforeCheckin(GitCheckinHandlerFactory.java:84)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.runBeforeCommitHandlersChecks(AbstractCommitWorkflow.kt:168)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.access$runBeforeCommitHandlersChecks(AbstractCommitWorkflow.kt:61)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$runBeforeCommitChecks$checks$1.run(AbstractCommitWorkflow.kt:142)
+	at com.intellij.openapi.vcs.checkin.ReformatBeforeCheckinHandler.lambda$runCheckinHandlers$2(ReformatBeforeCheckinHandler.java:49)
+	at com.intellij.openapi.vcs.checkin.ReformatBeforeCheckinHandler.runCheckinHandlers(ReformatBeforeCheckinHandler.java:58)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$wrapWithCommitMetaHandlers$1$1.run(AbstractCommitWorkflow.kt:158)
+	at com.intellij.openapi.vcs.checkin.RearrangeBeforeCheckinHandler.lambda$runCheckinHandlers$2(RearrangeBeforeCheckinHandler.java:44)
+	at com.intellij.openapi.vcs.checkin.RearrangeBeforeCheckinHandler.runCheckinHandlers(RearrangeBeforeCheckinHandler.java:52)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$wrapWithCommitMetaHandlers$1$1.run(AbstractCommitWorkflow.kt:158)
+	at com.intellij.openapi.vcs.checkin.OptimizeImportsBeforeCheckinHandler.runCheckinHandlers(OptimizeImportsBeforeCheckinHandler.java:58)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$wrapWithCommitMetaHandlers$1$1.run(AbstractCommitWorkflow.kt:158)
+	at com.intellij.openapi.vcs.checkin.CodeCleanupCheckinHandlerFactory$CleanupCodeCheckinHandler.runCheckinHandlers(CodeCleanupCheckinHandlerFactory.java:50)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow$wrapWithCommitMetaHandlers$1$1.run(AbstractCommitWorkflow.kt:158)
+	at com.intellij.openapi.vcs.impl.PartialChangesUtil.lambda$runUnderChangeList$2(PartialChangesUtil.java:119)
+	at com.intellij.openapi.vcs.impl.PartialChangesUtil.computeUnderChangeList(PartialChangesUtil.java:133)
+	at com.intellij.openapi.vcs.impl.PartialChangesUtil.runUnderChangeList(PartialChangesUtil.java:118)
+	at com.intellij.vcs.commit.SingleChangeListCommitWorkflow.doRunBeforeCommitChecks(SingleChangeListCommitWorkflow.kt:74)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.runBeforeCommitChecks(AbstractCommitWorkflow.kt:145)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.runBeforeCommitChecksWithEvents(AbstractCommitWorkflow.kt:132)
+	at com.intellij.vcs.commit.AbstractCommitWorkflow.executeDefault(AbstractCommitWorkflow.kt:124)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.doExecuteDefault(AbstractCommitWorkflowHandler.kt:134)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.access$doExecuteDefault(AbstractCommitWorkflowHandler.kt:38)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler$executeDefault$1.invoke(AbstractCommitWorkflowHandler.kt:110)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler$executeDefault$1.invoke(AbstractCommitWorkflowHandler.kt:38)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler$refreshChanges$1.run(AbstractCommitWorkflowHandler.kt:172)
+	at com.intellij.openapi.vcs.changes.Waiter.onSuccess(Waiter.java:52)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.finishTask(CoreProgressManager.java:507)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcessWithProgressSynchronously(CoreProgressManager.java:462)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcessWithProgressSynchronously(ProgressManagerImpl.java:82)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runSynchronously(CoreProgressManager.java:324)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.run(CoreProgressManager.java:309)
+	at com.intellij.openapi.vcs.changes.CallbackData.lambda$createInteractive$3(CallbackData.java:85)
+	at com.intellij.openapi.vcs.changes.UpdateRequestsQueue.invokeAfterUpdate(UpdateRequestsQueue.java:183)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.invokeAfterUpdate(ChangeListManagerImpl.java:421)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.invokeAfterUpdate(ChangeListManagerImpl.java:409)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.refreshChanges(AbstractCommitWorkflowHandler.kt:169)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.executeDefault(AbstractCommitWorkflowHandler.kt:108)
+	at com.intellij.vcs.commit.AbstractCommitWorkflowHandler.execute(AbstractCommitWorkflowHandler.kt:92)
+	at com.intellij.openapi.vcs.changes.actions.BaseCommitExecutorAction.actionPerformed(BaseCommitExecutorAction.kt:27)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:265)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:282)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAwareWithCallbacks(ActionUtil.java:256)
+	at com.intellij.ui.popup.ActionPopupStep.performAction(ActionPopupStep.java:200)
+	at com.intellij.ui.popup.ActionPopupStep.performAction(ActionPopupStep.java:190)
+	at com.intellij.ui.popup.ActionPopupStep.lambda$onChosen$2(ActionPopupStep.java:184)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:192)
+	at com.intellij.ui.popup.AbstractPopup.lambda$dispose$13(AbstractPopup.java:1428)
+	at com.intellij.util.ui.UIUtil.invokeLaterIfNeeded(UIUtil.java:2464)
+	at com.intellij.ide.IdeEventQueue.ifFocusEventsInTheQueue(IdeEventQueue.java:222)
+	at com.intellij.ide.IdeEventQueue.executeWhenAllFocusEventsLeftTheQueue(IdeEventQueue.java:174)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.doWhenFocusSettlesDown(FocusManagerImpl.java:161)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.doWhenFocusSettlesDown(IdeFocusManagerImpl.java:58)
+	at com.intellij.ui.popup.AbstractPopup.dispose(AbstractPopup.java:1424)
+	at com.intellij.ui.popup.WizardPopup.dispose(WizardPopup.java:162)
+	at com.intellij.ui.popup.list.ListPopupImpl.dispose(ListPopupImpl.java:318)
+	at com.intellij.ui.popup.PopupFactoryImpl$ActionGroupPopup.dispose(PopupFactoryImpl.java:278)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:47)
+	at com.intellij.openapi.util.Disposer$1.execute(Disposer.java:43)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:135)
+	at com.intellij.openapi.util.objectTree.ObjectNode$1.execute(ObjectNode.java:104)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeActionWithRecursiveGuard(ObjectTree.java:194)
+	at com.intellij.openapi.util.objectTree.ObjectNode.execute(ObjectNode.java:104)
+	at com.intellij.openapi.util.objectTree.ObjectTree.executeAll(ObjectTree.java:142)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:136)
+	at com.intellij.openapi.util.Disposer.dispose(Disposer.java:132)
+	at com.intellij.ui.popup.WizardPopup.disposeAllParents(WizardPopup.java:263)
+	at com.intellij.ui.popup.list.ListPopupImpl.handleNextStep(ListPopupImpl.java:453)
+	at com.intellij.ui.popup.list.ListPopupImpl._handleSelect(ListPopupImpl.java:407)
+	at com.intellij.ui.popup.list.ListPopupImpl.handleSelect(ListPopupImpl.java:353)
+	at com.intellij.ui.popup.PopupFactoryImpl$ActionGroupPopup.handleSelect(PopupFactoryImpl.java:298)
+	at com.intellij.ui.popup.list.ListPopupImpl$MyMouseListener.mouseReleased(ListPopupImpl.java:512)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:298)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at com.intellij.ui.popup.list.ListPopupImpl$MyList.processMouseEvent(ListPopupImpl.java:566)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6397)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5008)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4840)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4840)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:823)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:693)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1070)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:707)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:432)
+	at com.intellij.openapi.ui.DialogWrapper.doShow(DialogWrapper.java:1685)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1644)
+	at com.intellij.openapi.ui.DialogWrapper.showAndGet(DialogWrapper.java:1658)
+	at com.intellij.openapi.vcs.changes.ui.CommitChangeListDialog.activate(CommitChangeListDialog.java:258)
+	at com.intellij.vcs.commit.SingleChangeListCommitWorkflowHandler.activate(SingleChangeListCommitWorkflowHandler.kt:60)
+	at com.intellij.openapi.vcs.changes.ui.CommitChangeListDialog.commitChanges(CommitChangeListDialog.java:216)
+	at com.intellij.openapi.vcs.changes.ui.CommitChangeListDialog.commitChanges(CommitChangeListDialog.java:132)
+	at com.intellij.openapi.vcs.actions.AbstractCommonCheckinAction.performCheckIn(AbstractCommonCheckinAction.kt:110)
+	at com.intellij.openapi.vcs.actions.AbstractCommonCheckinAction$actionPerformed$1.run(AbstractCommonCheckinAction.kt:65)
+	at com.intellij.openapi.vcs.changes.Waiter.onSuccess(Waiter.java:52)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.finishTask(CoreProgressManager.java:507)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcessWithProgressSynchronously(CoreProgressManager.java:462)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.runProcessWithProgressSynchronously(ProgressManagerImpl.java:82)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runSynchronously(CoreProgressManager.java:324)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.run(CoreProgressManager.java:309)
+	at com.intellij.openapi.vcs.changes.CallbackData.lambda$createInteractive$3(CallbackData.java:85)
+	at com.intellij.openapi.vcs.changes.UpdateRequestsQueue.invokeAfterUpdate(UpdateRequestsQueue.java:183)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.invokeAfterUpdate(ChangeListManagerImpl.java:421)
+	at com.intellij.openapi.vcs.changes.ChangeListManagerImpl.invokeAfterUpdate(ChangeListManagerImpl.java:409)
+	at com.intellij.openapi.vcs.actions.AbstractCommonCheckinAction.actionPerformed(AbstractCommonCheckinAction.kt:64)
+	at com.intellij.openapi.vcs.actions.AbstractVcsAction.actionPerformed(AbstractVcsAction.java:48)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:265)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:282)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter.lambda$actionPerformed$0(ActionMenuItem.java:292)
+	at com.intellij.openapi.wm.impl.FocusManagerImpl.runOnOwnContext(FocusManagerImpl.java:265)
+	at com.intellij.openapi.wm.impl.IdeFocusManagerImpl.runOnOwnContext(IdeFocusManagerImpl.java:107)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem$ActionTransmitter.actionPerformed(ActionMenuItem.java:282)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem.lambda$fireActionPerformed$0(ActionMenuItem.java:111)
+	at com.intellij.openapi.application.TransactionGuardImpl.runSyncTransaction(TransactionGuardImpl.java:82)
+	at com.intellij.openapi.application.TransactionGuardImpl.lambda$submitTransaction$1(TransactionGuardImpl.java:106)
+	at com.intellij.openapi.application.TransactionGuardImpl.submitTransaction(TransactionGuardImpl.java:115)
+	at com.intellij.openapi.application.TransactionGuard.submitTransaction(TransactionGuard.java:121)
+	at com.intellij.openapi.actionSystem.impl.ActionMenuItem.fireActionPerformed(ActionMenuItem.java:111)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.doClick(BegMenuItemUI.java:524)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI.access$300(BegMenuItemUI.java:35)
+	at com.intellij.ui.plaf.beg.BegMenuItemUI$MyMouseInputHandler.mouseReleased(BegMenuItemUI.java:546)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6397)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5008)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4840)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4840)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:878)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:823)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:704)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:465)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2019-11-22 20:37:20,879 [  73848]  ERROR - rains.ide.BuiltInServerManager - IntelliJ IDEA 2019.2.4  Build #IU-192.7142.36 
+2019-11-22 20:37:20,880 [  73849]  ERROR - rains.ide.BuiltInServerManager - JDK: 11.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: Oracle Corporation 
+2019-11-22 20:37:20,880 [  73849]  ERROR - rains.ide.BuiltInServerManager - OS: Linux 
+2019-11-22 20:37:20,881 [  73850]  ERROR - rains.ide.BuiltInServerManager - Last Action: Git.Commit.And.Push.Executor 
+2019-11-22 20:37:20,950 [  73919]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+com.intellij.openapi.vcs.impl.CodeSmellDetectorImpl.findCodeSmells(CodeSmellDetectorImpl.java:136) 
+2019-11-22 20:37:21,139 [  74108]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -f -- Vagrantfile config/install.sh 
+2019-11-22 20:37:21,158 [  74127]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false commit -F /tmp/git-commit-msg-.txt -- 
+2019-11-22 20:37:21,204 [  74173]   INFO -  #git4idea.commands.GitHandler - [master 4b679db] fix for linux 
+2019-11-22 20:37:21,204 [  74173]   INFO -  #git4idea.commands.GitHandler - 2 files changed, 4 insertions(+), 3 deletions(-) 
+2019-11-22 20:37:23,016 [  75985]   INFO -  #git4idea.commands.GitHandler - [vagrant-idea] git /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-22 20:37:23,134 [  76103]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 1795 ms 
+2019-11-22 20:37:32,255 [  85224]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 159 ms 
+2019-11-22 20:37:32,768 [  85737]   INFO -  #git4idea.commands.GitHandler - Enumerating objects: 9, done. 
+2019-11-22 20:37:32,771 [  85740]   WARN - ess.util.ProgressIndicatorBase - This progress indicator is indeterminate, this may lead to visual inconsistency. Please call setIndeterminate(false) before you start progress.
+git4idea.commands.GitStandardProgressAnalyzer$1.onLineAvailable(GitStandardProgressAnalyzer.java:45) 
+2019-11-22 20:37:32,773 [  85742]   INFO -  #git4idea.commands.GitHandler - Counting objects: 100% (9/9), done. 
+2019-11-22 20:37:32,773 [  85742]   INFO -  #git4idea.commands.GitHandler - Delta compression using up to 2 threads 
+2019-11-22 20:37:32,773 [  85742]   INFO -  #git4idea.commands.GitHandler - Compressing objects: 100% (5/5), done. 
+2019-11-22 20:37:32,776 [  85745]   INFO -  #git4idea.commands.GitHandler - Writing objects: 100% (5/5), 509 bytes | 169.00 KiB/s, done. 
+2019-11-22 20:37:32,776 [  85745]   INFO -  #git4idea.commands.GitHandler - Total 5 (delta 3), reused 0 (delta 0) 
+2019-11-22 20:37:33,214 [  86183]   INFO -  #git4idea.commands.GitHandler - remote: Resolving deltas: 100% (3/3), completed with 3 local objects. 
+2019-11-22 20:37:35,458 [  88427]   INFO -  #git4idea.commands.GitHandler - To https://github.com/Inonut/vagrant-idea.git 
+2019-11-22 20:37:35,458 [  88427]   INFO -  #git4idea.commands.GitHandler - refs/heads/master:refs/heads/master	cd06ce2..4b679db 
+2019-11-22 20:37:35,459 [  88428]   INFO -  #git4idea.commands.GitHandler - Done 
+2019-11-22 20:37:35,460 [  88429]   INFO -  #git4idea.commands.GitHandler - git push took 12444 ms. Command parameters: 
+setsid /usr/bin/git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/master:master 
+2019-11-22 20:38:07,602 [ 120571]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.idea.perforce.perforce.ConnectionId 
+2019-11-22 20:38:07,987 [ 120956]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-11-22 20:38:07,988 [ 120957]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-11-22 20:38:07,988 [ 120957]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-11-22 20:38:08,014 [ 120983]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-11-22 20:38:08,016 [ 120985]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-22 20:38:08,019 [ 120988]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 2 auto-detected files
+Elapsed time on auto-detect: 4 ms 
+2019-11-22 20:38:08,031 [ 121000]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-11-22 20:38:08,034 [ 121003]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-11-22 20:38:08,036 [ 121005]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-11-22 20:38:08,044 [ 121013]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-22 20:38:08,048 [ 121017]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
