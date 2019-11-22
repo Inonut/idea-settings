@@ -4,8 +4,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vagrantfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="25" column="73" lean-forward="true" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+            <state relative-caret-position="546">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/install.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -20,7 +29,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1054" />
   </component>
@@ -29,19 +38,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="vagrant-idea" type="b2602c69:ProjectViewProjectNode" />
               <item name="vagrant-idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vagrant-idea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vagrant-idea" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -50,7 +54,7 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4287000" />
+    <option name="totallyTimeSpent" value="4539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -62,10 +66,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1054" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37254903" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12832801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -78,7 +82,7 @@
       <window_info anchor="bottom" id="Services" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49893504" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49840257" visible="true" weight="0.3433155" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49840257" weight="0.3433155" />
       <window_info anchor="bottom" id="Build" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50159746" side_tool="true" weight="0.3433155" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -93,11 +97,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/.xinitrc" />
     <entry file="file://$PROJECT_DIR$/config/idea.sh" />
-    <entry file="file://$PROJECT_DIR$/config/install.sh" />
+    <entry file="file://$PROJECT_DIR$/config/install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="73" lean-forward="true" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+        <state relative-caret-position="546">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
         </state>
       </provider>
     </entry>
