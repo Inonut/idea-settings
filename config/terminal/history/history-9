@@ -34,3 +34,28 @@ ll /tmp/custom-config/keyrings/
 cd .local/share/keyrings/
 ll
 secret-tool store --label='test' attr val
+ll
+secret-tool store --label='test' attr val
+sudo pacman -S seahorse
+seahorse 
+lssecret 
+lssecret -l
+lssecret -s
+sudo pacman -S flutter
+sudo pacman -S flutter 
+cd ~
+git clone https://aur.archlinux.org/flutter.git 
+ll
+cd flutter/
+ll
+makepkg -si
+makepkg -si
+sudo pacman -S lib32-libglvnd
+cd ~
+cd flutter
+wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.9.1+hotfix.6-stable.tar.xz
+ll
+tar -xf flutter_linux_v1.9.1+hotfix.6-stable.tar.xz 
+ll
+cd flutter/
+ll
