@@ -2,6 +2,9 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="angular2.ivy.module.index" />
+        <option value="angular2.ivy.directive.index" />
+        <option value="angular2.ivy.pipe.index" />
         <option value="angular2.metadata.module.index" />
         <option value="angular2.metadata.function.index" />
         <option value="angular2.metadata.node.index" />

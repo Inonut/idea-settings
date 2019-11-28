@@ -211,3 +211,12 @@ angular2.metadata.directive.index
 angular2.metadata.node.index
 angular2.metadata.function.index
 angular2.metadata.module.index
+PluginIdModuleIndex
+PluginIdDependenciesIndex
+devkit.ExtensionPointIndex
+http.request.completion.host
+SwaggerSpecificationUrlIndexer
+DataBindingXmlIndex
+angular2.ivy.pipe.index
+angular2.ivy.directive.index
+angular2.ivy.module.index
