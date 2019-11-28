@@ -1,76 +1,26 @@
 <application>
   <component name="RecentProjectsManager">
-    <option name="recentPaths">
-      <list>
-        <option value="$USER_HOME$/IdeaProjects/vagrant-idea" />
-      </list>
-    </option>
-    <option name="openPaths">
-      <list>
-        <option value="$USER_HOME$/IdeaProjects/vagrant-idea" />
-      </list>
-    </option>
-    <option name="lastPath" value="$USER_HOME$/IdeaProjects/vagrant-idea" />
-    <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/IdeaProjects/Docker">
-          <value>
-            <RecentProjectMetaInfo>
-              <option name="build" value="IU-192.7142.36" />
-              <option name="productionCode" value="IU" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1573327043035" />
-              <option name="buildTimestamp" value="1572321739724" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/IdeaProjects/angular-grid">
-          <value>
-            <RecentProjectMetaInfo>
-              <option name="build" value="IU-192.7142.36" />
-              <option name="productionCode" value="IU" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1572867211395" />
-              <option name="buildTimestamp" value="1572321722933" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/IdeaProjects/vagrant-idea">
           <value>
-            <RecentProjectMetaInfo>
-              <option name="build" value="IU-192.7142.36" />
-              <option name="productionCode" value="IU" />
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1UEhq5JeBn77NvXQWeVh8wCyIPn">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1574945483474" />
-              <option name="buildTimestamp" value="1572321728433" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="$USER_HOME$/Projects/Docker">
-          <value>
-            <RecentProjectMetaInfo>
-              <option name="build" value="IU-192.7142.36" />
+              <option name="build" value="IU-193.5233.102" />
+              <option name="buildTimestamp" value="1574895218140" />
+              <frame x="0" y="23" width="1920" height="1017" />
               <option name="productionCode" value="IU" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1572862790764" />
-              <option name="buildTimestamp" value="1572321773577" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="/tmp/vagrant-idea">
-          <value>
-            <RecentProjectMetaInfo>
-              <option name="build" value="IU-192.7142.36" />
-              <option name="productionCode" value="IU" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1574199808254" />
-              <option name="buildTimestamp" value="1572321756814" />
+              <option name="projectOpenTimestamp" value="1574953671231" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
     <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/vagrant-idea" />
+      </list>
+    </option>
   </component>
 </application>

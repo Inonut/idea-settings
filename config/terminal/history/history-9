@@ -1,0 +1,22 @@
+cd IdeaProjects/vagrant-idea/
+nano Vagrantfile 
+nano Vagrantfile 
+sudo pacman -S nano
+nano Vagrantfile 
+exit
+cd IdeaProjects/vagrant-idea/config/
+cat environment 
+nano install.sh 
+nano  idea.sh 
+exit
+cd ~
+ll
+cd .IntelliJIdea*/
+lssecret 
+cd ..
+ll
+mkdir asd1
+mkdir asd2
+ll
+cd asd*/
+env
