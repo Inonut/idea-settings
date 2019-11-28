@@ -20,3 +20,17 @@ mkdir asd2
 ll
 cd asd*/
 env
+secret-tool 
+secret-tool --label='test' attr val
+secret-tool --label='test' attr val
+secret-tool store --label='test' attr val
+ll
+cd .local/share/keyrings/
+ll
+ll /tmp/custom-config/
+ll /tmp/custom-config/keyrings/
+sudo cp -r /tmp/custom-config/keyrings ~/.local/share/
+ll /tmp/custom-config/keyrings/
+cd .local/share/keyrings/
+ll
+secret-tool store --label='test' attr val
