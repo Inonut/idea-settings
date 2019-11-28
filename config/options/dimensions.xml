@@ -25,6 +25,9 @@
     <location key="GitCloneDialog.0.0.1920.1080" x="697" y="366" />
     <location key="NewModule_or_Project.wizard.0.0.1920.1080" x="635" y="40" />
     <location key="new project wizard.0.0.1920.1080" x="392" y="67" />
+    <location key="WELCOME_SCREEN.0.0.1920.1040" x="959" y="423" />
+    <location key="SettingsEditor.0.0.1920.1040" x="453" y="181" />
+    <location key="SettingsEditor.1920.0.1920.1040" x="2373" y="181" />
     <size key="GridCell.Tab.0.left.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.center.0.0.3840.1080" width="1874" height="250" />
     <size key="GridCell.Tab.0.right.0.0.3840.1080" width="1874" height="250" />

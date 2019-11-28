@@ -23304,3 +23304,463 @@ Elapsed time on auto-detect: 4 ms
 2019-11-22 20:38:08,036 [ 121005]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
 2019-11-22 20:38:08,044 [ 121013]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-11-22 20:38:08,048 [ 121017]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-28 12:50:45,323 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-11-28 12:50:45,539 [    216]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 137 ms 
+2019-11-28 12:50:45,704 [    381]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-192.7142.36, 29 Oct 2019 04:02) 
+2019-11-28 12:50:45,704 [    381]   INFO -        #com.intellij.idea.Main - OS: Linux (5.3.12-arch1-1, amd64) 
+2019-11-28 12:50:45,705 [    382]   INFO -        #com.intellij.idea.Main - JRE: 11.0.5+10 (Oracle Corporation) 
+2019-11-28 12:50:45,705 [    382]   INFO -        #com.intellij.idea.Main - JVM: 11.0.5+10 (OpenJDK 64-Bit Server VM) 
+2019-11-28 12:50:45,705 [    382]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/vagrant/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/vagrant/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.2 -Djb.vmOptionsFile=/home/vagrant/.IntelliJIdea2019.2/config/idea64.vmoptions -Didea.jre.check=true 
+2019-11-28 12:50:45,705 [    382]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-11-28 12:50:49,625 [   4302]   INFO - com.intellij.util.ui.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-11-28 12:50:50,723 [   5400]   INFO - plication.impl.ApplicationImpl - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@a4941a9[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@d5678aa 
+2019-11-28 12:50:50,969 [   5646]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2019-11-28 12:50:50,969 [   5646]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2019-11-28 12:51:00,867 [  15544]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-28 12:51:04,734 [  19411]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor profiler-java-gradle.xml 
+2019-11-28 12:51:05,618 [  20295]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (192.7142.36), Android Support (10.3.4), Angular and AngularJS (192.7142.36), Ant (192.7142.36), Application Servers View (192.7142.36), Arquillian (192.7142.36), AspectJ (192.7142.36), Bytecode Viewer (192.7142.36), CFML (192.7142.36), CSS (192.7142.36), ChangeReminder (192.7142.36), Cloud Foundry (192.7142.36), CoffeeScript (192.7142.36), Configuration Script (192.7142.36), Copyright (192.7142.36), Coverage (192.7142.36), Cucumber for Groovy (192.7142.36), Cucumber for Java (192.7142.36), Database Tools and SQL (192.7142.36), Dependency Structure Matrix (192.7142.36), Docker (192.7142.36), Drools (192.7142.36), Eclipse Interoperability (192.7142.36), EditorConfig (192.7142.36), Emma (192.7142.36), Flash/Flex (192.7142.36), FreeMarker (192.7142.36), GWT (192.7142.36), Geronimo Integration (192.7142.36), Gherkin (192.7142.36), Git (192.7142.36), GitHub (192.7142.36), GlassFish (192.7142.36), Google App Engine (192.7142.36), Gradle (192.7142.36), Gradle Integration Extension (192.7142.36), Gradle-Maven (192.7142.36), Grails (192.7142.36), Groovy (192.7142.36), Guice (192.7142.36), HTML Tools (192.7142.36), HTTP Client (192.7142.36), Haml (192.7142.36), Heroku (192.7142.36), Hibernate (192.7142.36), IDE Settings Sync (192.7142.36), IDEA CORE (192.7142.36), IntelliLang (192.7142.36), JBoss Frameworks Base (192.7142.36), JBoss Seam (192.7142.36), JBoss Seam Pageflow (192.7142.36), JBoss Seam Pages (192.7142.36), JBoss jBPM (192.7142.36), JSR45 (192.7142.36), JUnit (192.7142.36), Java (192.7142.36), Java Bytecode Decompiler (192.7142.36), Java EE: Batch Applications (192.7142.36), Java EE: Bean Validation (192.7142.36), Java EE: Contexts and Dependency Injection (192.7142.36), Java EE: EJB, JPA, Servlets (192.7142.36), Java EE: JMS, JSON Processing, Concurrency, Transaction  (192.7142.36), Java EE: Java Server Faces (192.7142.36), Java EE: RESTful Web Services (JAX-RS) (192.7142.36), Java EE: Web Services (JAX-WS) (192.7142.36), Java EE: WebSockets (192.7142.36), Java IDE Customization (192.7142.36), Java Internationalization (192.7142.36), Java Server Pages (JSP) (192.7142.36), Java Stream Debugger (192.7142.36), JavaFX (192.7142.36), JavaScript Debugger (192.7142.36), JavaScript Intention Power Pack (192.7142.36), JavaScript and TypeScript (192.7142.36), Jetty Integration (192.7142.36), Kotlin (1.3.41-release-IJ2019.2-1), Less (192.7142.36), Machine Learning Code Completion (192.7142.36), Markdown (192.7142.36), Maven (192.7142.36), Maven Integration Extension (192.7142.36), Mercurial (192.7142.36), NodeJS (192.7142.36), OSGi (192.7142.36), OpenShift integration (192.7142.36), Perforce (192.7142.36), Performance Testing (192.7142.36), Persistence Frameworks Support (192.7142.36), Play Framework (192.7142.36), Plugin DevKit (192.7142.36), Properties (192.7142.36), Reactor (192.7142.36), Refactor-X (192.7142.36), Remote Hosts Access (192.7142.36), Resin Integration (192.7142.36), SSH Remote Run (192.7142.36), Sass (192.7142.36), Settings Repository (192.7142.36), Smali Support (192.7142.36), Spring AOP/@AspectJ (192.7142.36), Spring Batch (192.7142.36), Spring Boot (192.7142.36), Spring Data (192.7142.36), Spring Integration Patterns (192.7142.36), Spring MVC (192.7142.36), Spring OSGi (192.7142.36), Spring Security (192.7142.36), Spring Support (192.7142.36), Spring Web Flow (192.7142.36), Spring Web Services (192.7142.36), Spring WebSocket (192.7142.36), Spy-js (192.7142.36), Struts 2 (192.7142.36), Stylus (192.7142.36), Subversion (192.7142.36), Tapestry (192.7142.36), Task Management (192.7142.36), Terminal (192.7142.36), TestNG (192.7142.36), TextMate bundles (192.7142.36), Thymeleaf (192.7142.36), Time Tracking (192.7142.36), Tomcat and TomEE Integration (192.7142.36), UI Designer (192.7142.36), UML (192.7142.36), Vaadin (192.7142.36), Velocity (192.7142.36), Virgo/dmServer (192.7142.36), W3C Validators (192.7142.36), WebLogic Integration (192.7142.36), WebSphere Integration (192.7142.36), WildFly (192.7142.36), XPathView + XSLT (192.7142.36), XSLT Debugger (192.7142.36), YAML (192.7142.36), ZKM-Unscramble (192.7142.36), tslint (192.7142.36) 
+2019-11-28 12:51:05,618 [  20295]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: BashSupport (1.7.13.192), LiveEdit (192.6262.9), Makefile support (1.6.1) 
+2019-11-28 12:51:05,618 [  20295]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Shell Script (192.7142.36) 
+2019-11-28 12:51:05,621 [  20298]   INFO - tellij.diagnostic.LoadingPhase - Reached SPLASH loading phase 
+2019-11-28 12:51:07,811 [  22488]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-11-28 12:51:07,904 [  22581]   INFO - tellij.diagnostic.LoadingPhase - Reached CONFIGURATION_STORE_INITIALIZED loading phase 
+2019-11-28 12:51:08,143 [  22820]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1949 
+2019-11-28 12:51:08,266 [  22943]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/vagrant/idea-IU/bin/fsnotifier64 
+2019-11-28 12:51:08,345 [  23022]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-11-28 12:51:11,755 [  26432]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-11-28 12:51:11,802 [  26479]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-11-28 12:51:11,876 [  26553]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-11-28 12:51:12,772 [  27449]   INFO - il.indexing.FileBasedIndexImpl - File index extensions iterated:604 
+2019-11-28 12:51:13,334 [  28011]   INFO - j.ide.ui.OptionsTopHitProvider - 91 ms spent to cache options in application 
+2019-11-28 12:51:13,952 [  28629]   INFO - tellij.diagnostic.LoadingPhase - Reached FRAME_SHOWN loading phase 
+2019-11-28 12:51:14,883 [  29560]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /home/vagrant/idea-IU/bin/libdbm64.so: libdbusmenu-glib.so.4: cannot open shared object file: No such file or directory 
+2019-11-28 12:51:15,407 [  30084]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-28 12:51:15,428 [  30105]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-11-28 12:51:15,481 [  30158]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-11-28 12:51:15,489 [  30166]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-11-28 12:51:15,489 [  30166]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: High сontrast from plugin: com.intellij.database 
+2019-11-28 12:51:17,439 [  32116]   INFO - pl$FileIndexDataInitialization - Initialization done:5270 
+2019-11-28 12:51:17,996 [  32673]   INFO - exImpl$StubIndexInitialization - Initialization done:556 
+2019-11-28 12:51:19,763 [  34440]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [<Project>] 
+2019-11-28 12:51:23,432 [  38109]   INFO - rnal.statistic.DeviceIdManager - Generating new Device ID 
+2019-11-28 12:51:23,433 [  38110]   INFO - eventLog.EventLogConfiguration - Generating salt for the device 
+2019-11-28 12:51:23,578 [  38255]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-11-28 12:51:24,113 [  38790]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-11-28 12:51:26,540 [  41217]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-11-28 12:51:28,534 [  43211]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 49 ms 
+2019-11-28 12:51:29,175 [  43852]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 21 millis (read time: 2) 
+2019-11-28 12:51:30,325 [  45002]   INFO - Json.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-11-28 12:51:30,664 [  45341]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 2309ms; general responsiveness: ok; EDT responsiveness: 0/3 sluggish, 1/3 very slow 
+2019-11-28 12:51:32,128 [  46805]   INFO - j.ide.ui.OptionsTopHitProvider - 4812 ms spent to cache options in project 
+2019-11-28 12:51:33,725 [  48402]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3055ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-28 12:51:33,956 [  48633]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-11-28 12:51:34,541 [  49218]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 7284ms; general responsiveness: ok; EDT responsiveness: 0/7 sluggish, 1/7 very slow 
+2019-11-28 12:51:34,654 [  49331]   INFO - plication.impl.ApplicationImpl - LONG VFS PROCESSING. Topic=NewVirtualFileSystem changes, offender=class com.intellij.openapi.vfs.impl.BulkVirtualFileListenerAdapter, message=after, time=60ms 
+2019-11-28 12:51:35,338 [  50015]   INFO - tartup.impl.StartupManagerImpl - /home/vagrant/IdeaProjects/vagrant-idea/.idea case-sensitivity: expected=true actual=true 
+2019-11-28 12:51:35,464 [  50141]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-11-28 12:51:35,574 [  50251]   INFO -  #git4idea.commands.GitHandler - git version 2.24.0 
+2019-11-28 12:51:35,587 [  50264]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.24.0 
+2019-11-28 12:51:35,704 [  50381]   INFO - pl.projectlevelman.NewMappings - Mapped Roots: 1 
+2019-11-28 12:51:35,975 [  50652]   INFO - tellij.diagnostic.LoadingPhase - Reached PROJECT_OPENED loading phase 
+2019-11-28 12:51:36,217 [  50894]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 20 to update, calculated in 8ms 
+2019-11-28 12:51:36,536 [  51213]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 18461 ms 
+2019-11-28 12:51:38,871 [  53548]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 2653ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-11-28 12:51:38,872 [  53549]   INFO - tellij.diagnostic.LoadingPhase - Reached INDEXING_FINISHED loading phase 
+2019-11-28 12:51:39,628 [  54305]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening. 
+2019-11-28 12:51:40,985 [  55662]   INFO - ings.impl.UpdateCheckerService - channel: release 
+2019-11-28 12:51:42,915 [  57592]   WARN - llij.ide.plugins.PluginManager - W3C Validators not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,916 [  57593]   WARN - llij.ide.plugins.PluginManager - Android String Parser not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,917 [  57594]   WARN - llij.ide.plugins.PluginManager - TFS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,917 [  57594]   WARN - llij.ide.plugins.PluginManager - GitToolBox not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,919 [  57596]   WARN - llij.ide.plugins.PluginManager - CVS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,921 [  57598]   WARN - llij.ide.plugins.PluginManager - Gitee not loaded: since build 193.4932 > IU-192.7142.36 
+2019-11-28 12:51:42,921 [  57598]   WARN - llij.ide.plugins.PluginManager - Subversion not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,922 [  57599]   WARN - llij.ide.plugins.PluginManager - Mercurial not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,922 [  57599]   WARN - llij.ide.plugins.PluginManager - ChangeReminder not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,923 [  57600]   WARN - llij.ide.plugins.PluginManager - Git not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,924 [  57601]   WARN - llij.ide.plugins.PluginManager - Tensor Dev Branch Creator not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,925 [  57602]   WARN - llij.ide.plugins.PluginManager - GitHub not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,925 [  57602]   WARN - llij.ide.plugins.PluginManager - Material Theme UI not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:51:42,926 [  57603]   WARN - llij.ide.plugins.PluginManager - Atom Material Icons not loaded: since build 193.2956 > IU-192.7142.36 
+2019-11-28 12:51:42,926 [  57603]   WARN - llij.ide.plugins.PluginManager - The Doki-Doki Theme not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:51:42,926 [  57603]   WARN - llij.ide.plugins.PluginManager - Image Icon Viewer not loaded: since build 193.2956 > IU-192.7142.36 
+2019-11-28 12:51:42,928 [  57605]   WARN - llij.ide.plugins.PluginManager - SSV Normandy Progress Bar not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:51:42,929 [  57606]   WARN - llij.ide.plugins.PluginManager - Material Theme UI Lite not loaded: since build 193.2956 > IU-192.7142.36 
+2019-11-28 12:51:42,929 [  57606]   WARN - llij.ide.plugins.PluginManager - Clean Sheet Theme not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,930 [  57607]   WARN - llij.ide.plugins.PluginManager - PHP Remote Interpreter not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,930 [  57607]   WARN - llij.ide.plugins.PluginManager - Save Actions not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,931 [  57608]   WARN - llij.ide.plugins.PluginManager - IDE Features Trainer not loaded: since build 193.3519 > IU-192.7142.36 
+2019-11-28 12:51:42,935 [  57612]   WARN - llij.ide.plugins.PluginManager - PHP Docker not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,936 [  57613]   WARN - llij.ide.plugins.PluginManager - EduTools not loaded: since build 193.5096 > IU-192.7142.36 
+2019-11-28 12:51:42,937 [  57614]   WARN - llij.ide.plugins.PluginManager - MyBatis Lite not loaded: since build 192.SNAPSHOT > IU-192.7142.36 
+2019-11-28 12:51:42,938 [  57615]   WARN - llij.ide.plugins.PluginManager - Task Management not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,938 [  57615]   WARN - llij.ide.plugins.PluginManager - Time Tracking not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,940 [  57617]   WARN - llij.ide.plugins.PluginManager - PhpStorm Code Golf Crash Course not loaded: since build 193.4778 > IU-192.7142.36 
+2019-11-28 12:51:42,941 [  57618]   WARN - llij.ide.plugins.PluginManager - Python 2 Countdown not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,941 [  57618]   WARN - llij.ide.plugins.PluginManager - CSS-X-Fire not loaded: since build 193.5096 > IU-192.7142.36 
+2019-11-28 12:51:42,942 [  57619]   WARN - llij.ide.plugins.PluginManager - Lombok not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:51:42,942 [  57619]   WARN - llij.ide.plugins.PluginManager - Command Line Tool not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,943 [  57620]   WARN - llij.ide.plugins.PluginManager - Vagrant not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,943 [  57620]   WARN - llij.ide.plugins.PluginManager - Upsource Integration not loaded: since build 193.4778.7 > IU-192.7142.36 
+2019-11-28 12:51:42,944 [  57621]   WARN - llij.ide.plugins.PluginManager - Docker not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,945 [  57622]   WARN - llij.ide.plugins.PluginManager - Gherkin not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,945 [  57622]   WARN - llij.ide.plugins.PluginManager - Manifold not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,946 [  57623]   WARN - llij.ide.plugins.PluginManager - Perl Docker Support not loaded: since build 193.1 > IU-192.7142.36 
+2019-11-28 12:51:42,947 [  57624]   WARN - llij.ide.plugins.PluginManager - Perl WSL Support not loaded: since build 193.1 > IU-192.7142.36 
+2019-11-28 12:51:42,948 [  57625]   WARN - llij.ide.plugins.PluginManager - Big Data Tools not loaded: since build 193.4697 > IU-192.7142.36 
+2019-11-28 12:51:42,948 [  57625]   WARN - llij.ide.plugins.PluginManager - Composer Dump-Autoload not loaded: since build 193.2956.37 > IU-192.7142.36 
+2019-11-28 12:51:42,949 [  57626]   WARN - llij.ide.plugins.PluginManager - Terminal not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,950 [  57627]   WARN - llij.ide.plugins.PluginManager - Node.js Remote Interpreter not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,950 [  57627]   WARN - llij.ide.plugins.PluginManager - FTP/SFTP Connectivity (ex. Remote Hosts Access) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,951 [  57628]   WARN - llij.ide.plugins.PluginManager - TextMate bundles not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,952 [  57629]   WARN - llij.ide.plugins.PluginManager - DiscordBeam not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:51:42,952 [  57629]   WARN - llij.ide.plugins.PluginManager - Minecraft NBT Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,952 [  57629]   WARN - llij.ide.plugins.PluginManager - Color Highlighter not loaded: since build 192.SNAPSHOT > IU-192.7142.36 
+2019-11-28 12:51:42,953 [  57630]   WARN - llij.ide.plugins.PluginManager - tc Server Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,953 [  57630]   WARN - llij.ide.plugins.PluginManager - PsiViewer not loaded: since build 193.1 > IU-192.7142.36 
+2019-11-28 12:51:42,954 [  57631]   WARN - llij.ide.plugins.PluginManager - Grammar-Kit not loaded: since build 193.3519 > IU-192.7142.36 
+2019-11-28 12:51:42,954 [  57631]   WARN - llij.ide.plugins.PluginManager - IDETalk not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,954 [  57631]   WARN - llij.ide.plugins.PluginManager - Settings Repository not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,955 [  57632]   WARN - llij.ide.plugins.PluginManager - XSLT Debugger not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,955 [  57632]   WARN - llij.ide.plugins.PluginManager - XPathView + XSLT not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,956 [  57633]   WARN - llij.ide.plugins.PluginManager - Live Edit not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,956 [  57633]   WARN - llij.ide.plugins.PluginManager - Polymer & Web Components not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,956 [  57633]   WARN - llij.ide.plugins.PluginManager - Meteor not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,957 [  57634]   WARN - llij.ide.plugins.PluginManager - Prettier not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,957 [  57634]   WARN - llij.ide.plugins.PluginManager - HTTP Client not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,958 [  57635]   WARN - llij.ide.plugins.PluginManager - OSGi not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,958 [  57635]   WARN - llij.ide.plugins.PluginManager - Angular and AngularJS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,959 [  57636]   WARN - llij.ide.plugins.PluginManager - Drupal not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,959 [  57636]   WARN - llij.ide.plugins.PluginManager - Cucumber.js not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,959 [  57636]   WARN - llij.ide.plugins.PluginManager - WordPress not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,960 [  57637]   WARN - llij.ide.plugins.PluginManager - PhoneGap/Cordova not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,960 [  57637]   WARN - llij.ide.plugins.PluginManager - Behat Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,960 [  57637]   WARN - llij.ide.plugins.PluginManager - Chef not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,961 [  57638]   WARN - llij.ide.plugins.PluginManager - Blade not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,962 [  57639]   WARN - llij.ide.plugins.PluginManager - Yeoman not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,962 [  57639]   WARN - llij.ide.plugins.PluginManager - Azure Toolkit for IntelliJ not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,963 [  57640]   WARN - llij.ide.plugins.PluginManager - Joomla! Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,963 [  57640]   WARN - llij.ide.plugins.PluginManager - Minecraft Development not loaded: since build 193.2956 > IU-192.7142.36 
+2019-11-28 12:51:42,964 [  57641]   WARN - llij.ide.plugins.PluginManager - PHPSpec BDD Framework not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,964 [  57641]   WARN - llij.ide.plugins.PluginManager - FRC not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,964 [  57641]   WARN - llij.ide.plugins.PluginManager - Vue.js not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,964 [  57641]   WARN - llij.ide.plugins.PluginManager - MicroPython not loaded: since build 193.3793.14 > IU-192.7142.36 
+2019-11-28 12:51:42,965 [  57642]   WARN - llij.ide.plugins.PluginManager - Play Routes not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,966 [  57643]   WARN - llij.ide.plugins.PluginManager - Spot Profiler for Java not loaded: since build 193.4249 > IU-192.7142.36 
+2019-11-28 12:51:42,967 [  57644]   WARN - llij.ide.plugins.PluginManager - Painless Transact SQL not loaded: since build 193.4386 > IU-192.7142.36 
+2019-11-28 12:51:42,967 [  57644]   WARN - llij.ide.plugins.PluginManager - Python not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,967 [  57644]   WARN - llij.ide.plugins.PluginManager - Ruby not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,968 [  57645]   WARN - llij.ide.plugins.PluginManager - Scala not loaded: since build 193.3519.25 > IU-192.7142.36 
+2019-11-28 12:51:42,968 [  57645]   WARN - llij.ide.plugins.PluginManager - CoffeeScript not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,968 [  57645]   WARN - llij.ide.plugins.PluginManager - Dart not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,969 [  57646]   WARN - llij.ide.plugins.PluginManager - R Language for IntelliJ not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,969 [  57646]   WARN - llij.ide.plugins.PluginManager - Apache config (.htaccess) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,970 [  57647]   WARN - llij.ide.plugins.PluginManager - Handlebars/Mustache not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,970 [  57647]   WARN - llij.ide.plugins.PluginManager - Kotlin not loaded: since build 193.3793.14 > IU-192.7142.36 
+2019-11-28 12:51:42,971 [  57648]   WARN - llij.ide.plugins.PluginManager - Ini not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,971 [  57648]   WARN - llij.ide.plugins.PluginManager - Erlang not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,971 [  57648]   WARN - llij.ide.plugins.PluginManager - Pug (ex-Jade) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,972 [  57649]   WARN - llij.ide.plugins.PluginManager - JSFL Support not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,972 [  57649]   WARN - llij.ide.plugins.PluginManager - GNU GetText files support (*.po) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,972 [  57649]   WARN - llij.ide.plugins.PluginManager - ReStructuredText Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,973 [  57650]   WARN - llij.ide.plugins.PluginManager - Slim not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,973 [  57650]   WARN - llij.ide.plugins.PluginManager - Puppet not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,973 [  57650]   WARN - llij.ide.plugins.PluginManager - EJS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,974 [  57651]   WARN - llij.ide.plugins.PluginManager - Twig Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,974 [  57651]   WARN - llij.ide.plugins.PluginManager - Stylus not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,974 [  57651]   WARN - llij.ide.plugins.PluginManager - Thrift Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,975 [  57652]   WARN - llij.ide.plugins.PluginManager - Markdown not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,975 [  57652]   WARN - llij.ide.plugins.PluginManager - Perl not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,976 [  57653]   WARN - llij.ide.plugins.PluginManager - Cursive not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,976 [  57653]   WARN - llij.ide.plugins.PluginManager - Rust not loaded: since build 193.4386 > IU-192.7142.36 
+2019-11-28 12:51:42,976 [  57653]   WARN - llij.ide.plugins.PluginManager - Toml not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,977 [  57654]   WARN - llij.ide.plugins.PluginManager - PostCSS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,977 [  57654]   WARN - llij.ide.plugins.PluginManager - xquery-intellij-plugin not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,977 [  57654]   WARN - llij.ide.plugins.PluginManager - Clojure-Kit not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,979 [  57656]   WARN - llij.ide.plugins.PluginManager - Flutter not loaded: since build 193.3519.25 > IU-192.7142.36 
+2019-11-28 12:51:42,979 [  57656]   WARN - llij.ide.plugins.PluginManager - Go not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,980 [  57657]   WARN - llij.ide.plugins.PluginManager - Ideolog not loaded: since build 193.3954 > IU-192.7142.36 
+2019-11-28 12:51:42,981 [  57658]   WARN - llij.ide.plugins.PluginManager - HOCON not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,981 [  57658]   WARN - llij.ide.plugins.PluginManager - Go Template not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,982 [  57659]   WARN - llij.ide.plugins.PluginManager - DQL Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,982 [  57659]   WARN - llij.ide.plugins.PluginManager - Template Toolkit Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,983 [  57660]   WARN - llij.ide.plugins.PluginManager - Mojolicious Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,983 [  57660]   WARN - llij.ide.plugins.PluginManager - Mason Framework not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,983 [  57660]   WARN - llij.ide.plugins.PluginManager - Mason2 Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,984 [  57661]   WARN - llij.ide.plugins.PluginManager - HTML::Mason Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,984 [  57661]   WARN - llij.ide.plugins.PluginManager - Embedded Perl Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,985 [  57662]   WARN - llij.ide.plugins.PluginManager - Sass not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,985 [  57662]   WARN - llij.ide.plugins.PluginManager - Less not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,985 [  57662]   WARN - llij.ide.plugins.PluginManager - Properties not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,985 [  57662]   WARN - llij.ide.plugins.PluginManager - SnakeCharm not loaded: since build 193.1.1 > IU-192.7142.36 
+2019-11-28 12:51:42,986 [  57663]   WARN - llij.ide.plugins.PluginManager - Diff / Patch File Support not loaded: since build 193.2956.37 > IU-192.7142.36 
+2019-11-28 12:51:42,987 [  57664]   WARN - llij.ide.plugins.PluginManager - Haml not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,987 [  57664]   WARN - llij.ide.plugins.PluginManager - Shell Script not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,987 [  57664]   WARN - llij.ide.plugins.PluginManager - YAML not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,987 [  57664]   WARN - llij.ide.plugins.PluginManager - PHPT Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,988 [  57665]   WARN - llij.ide.plugins.PluginManager - NodeJS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,988 [  57665]   WARN - llij.ide.plugins.PluginManager - Spy-js not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,989 [  57666]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,989 [  57666]   WARN - llij.ide.plugins.PluginManager - Advanced Java Folding not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,990 [  57667]   WARN - llij.ide.plugins.PluginManager - Frame Switcher not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,990 [  57667]   WARN - llij.ide.plugins.PluginManager - Railways for IDEA not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,991 [  57668]   WARN - llij.ide.plugins.PluginManager - Karma not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,991 [  57668]   WARN - llij.ide.plugins.PluginManager - JUnit4 Parallel Runner not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,992 [  57669]   WARN - llij.ide.plugins.PluginManager - Phing not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,992 [  57669]   WARN - llij.ide.plugins.PluginManager - File Watchers not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,993 [  57670]   WARN - llij.ide.plugins.PluginManager - Error Prone Compiler not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,993 [  57670]   WARN - llij.ide.plugins.PluginManager - Bazel not loaded: since build 193.4386 > IU-192.7142.36 
+2019-11-28 12:51:42,993 [  57670]   WARN - llij.ide.plugins.PluginManager - Gradle not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,994 [  57671]   WARN - llij.ide.plugins.PluginManager - Commander not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,995 [  57672]   WARN - llij.ide.plugins.PluginManager - Custom Postfix Templates not loaded: since build 193.4778 > IU-192.7142.36 
+2019-11-28 12:51:42,996 [  57673]   WARN - llij.ide.plugins.PluginManager - Codeception Framework not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,996 [  57673]   WARN - llij.ide.plugins.PluginManager - DG Test Helper not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:42,997 [  57674]   WARN - llij.ide.plugins.PluginManager - Perforce not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,997 [  57674]   WARN - llij.ide.plugins.PluginManager - PHP not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,998 [  57675]   WARN - llij.ide.plugins.PluginManager - Hunspell not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,998 [  57675]   WARN - llij.ide.plugins.PluginManager - PHP Markdown Integration not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,999 [  57676]   WARN - llij.ide.plugins.PluginManager - JetForcer | The Smartest Force.com IDE not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,999 [  57676]   WARN - llij.ide.plugins.PluginManager - Kubernetes not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:42,999 [  57676]   WARN - llij.ide.plugins.PluginManager - AWS Toolkit not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:43,000 [  57677]   WARN - llij.ide.plugins.PluginManager - Performance Testing not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,001 [  57678]   WARN - llij.ide.plugins.PluginManager - IDE Settings Sync not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,001 [  57678]   WARN - llij.ide.plugins.PluginManager - Ruby Dynamic Code Insight not loaded: since build 193.2956.37 > IU-192.7142.36 
+2019-11-28 12:51:43,001 [  57678]   WARN - llij.ide.plugins.PluginManager - IntelliJ IDEA Help not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,002 [  57679]   WARN - llij.ide.plugins.PluginManager - Copyright not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,002 [  57679]   WARN - llij.ide.plugins.PluginManager - HTML Tools not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,002 [  57679]   WARN - llij.ide.plugins.PluginManager - Refactor-X not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,003 [  57680]   WARN - llij.ide.plugins.PluginManager - PhpStorm Workshop not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,003 [  57680]   WARN - llij.ide.plugins.PluginManager - Java Applets Support not loaded: since build 193.1 > IU-192.7142.36 
+2019-11-28 12:51:43,003 [  57680]   WARN - llij.ide.plugins.PluginManager - Java Server Pages (JSP) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,003 [  57680]   WARN - llij.ide.plugins.PluginManager - Vaadin not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,004 [  57681]   WARN - llij.ide.plugins.PluginManager - IntelliLang not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,004 [  57681]   WARN - llij.ide.plugins.PluginManager - JetBrains Marketplace Licensing Support not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:51:43,005 [  57682]   WARN - llij.ide.plugins.PluginManager - Native Debugging Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:51:43,006 [  57683]   WARN - llij.ide.plugins.PluginManager - Grazie not loaded: since build 193.4386 > IU-192.7142.36 
+2019-11-28 12:51:43,006 [  57683]   WARN - llij.ide.plugins.PluginManager - ReSharper Keymap not loaded: since build 193.4778 > IU-192.7142.36 
+2019-11-28 12:51:43,006 [  57683]   WARN - llij.ide.plugins.PluginManager - Xcode Keymap not loaded: since build 193.4778 > IU-192.7142.36 
+2019-11-28 12:51:43,018 [  57695]   WARN - llij.ide.plugins.PluginManager - LiveEdit not loaded: until build 192.SNAPSHOT < IU-193.5233.102 
+2019-11-28 12:51:43,212 [  57889]   INFO - dea.updater.SdkComponentSource - File /home/vagrant/.android/repositories.cfg could not be loaded. 
+2019-11-28 12:51:43,213 [  57890]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2019-11-28 12:51:44,339 [  59016]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2019-11-28 12:51:44,346 [  59023]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2019-11-28 12:51:44,339 [  59016]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2019-11-28 12:51:44,340 [  59017]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2019-11-28 12:51:44,340 [  59017]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2019-11-28 12:51:44,340 [  59017]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2019-11-28 12:51:44,341 [  59018]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2019-11-28 12:51:44,341 [  59018]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2019-11-28 12:51:44,341 [  59018]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2019-11-28 12:51:44,343 [  59020]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2019-11-28 12:51:44,343 [  59020]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2019-11-28 12:51:45,048 [  59725]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2019-11-28 12:52:03,354 [  78031]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-11-28 12:52:15,318 [  89995]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-11-28 12:53:53,031 [ 187708]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 23 ms, TextMateSettings took 16 ms, UISettings took 15 ms 
+2019-11-28 12:53:54,595 [ 189272]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaKotlin2JvmCompilerArguments took 11 ms, RunManager took 136 ms, XDebuggerManager took 33 ms 
+2019-11-28 12:53:54,666 [ 189343]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 2234 ms 
+2019-11-28 12:53:54,886 [ 189563]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 12 ms 
+2019-11-28 12:53:54,927 [ 189604]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 261 ms 
+2019-11-28 12:54:03,708 [ 198385]   WARN - llij.ide.plugins.PluginManager - W3C Validators not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,709 [ 198386]   WARN - llij.ide.plugins.PluginManager - Android String Parser not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,709 [ 198386]   WARN - llij.ide.plugins.PluginManager - TFS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,710 [ 198387]   WARN - llij.ide.plugins.PluginManager - GitToolBox not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,710 [ 198387]   WARN - llij.ide.plugins.PluginManager - CVS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,710 [ 198387]   WARN - llij.ide.plugins.PluginManager - Gitee not loaded: since build 193.4932 > IU-192.7142.36 
+2019-11-28 12:54:03,710 [ 198387]   WARN - llij.ide.plugins.PluginManager - Subversion not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,711 [ 198388]   WARN - llij.ide.plugins.PluginManager - Mercurial not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,711 [ 198388]   WARN - llij.ide.plugins.PluginManager - ChangeReminder not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,711 [ 198388]   WARN - llij.ide.plugins.PluginManager - Git not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,711 [ 198388]   WARN - llij.ide.plugins.PluginManager - Tensor Dev Branch Creator not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,712 [ 198389]   WARN - llij.ide.plugins.PluginManager - GitHub not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,712 [ 198389]   WARN - llij.ide.plugins.PluginManager - Material Theme UI not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:54:03,712 [ 198389]   WARN - llij.ide.plugins.PluginManager - Atom Material Icons not loaded: since build 193.2956 > IU-192.7142.36 
+2019-11-28 12:54:03,713 [ 198390]   WARN - llij.ide.plugins.PluginManager - The Doki-Doki Theme not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:54:03,713 [ 198390]   WARN - llij.ide.plugins.PluginManager - Image Icon Viewer not loaded: since build 193.2956 > IU-192.7142.36 
+2019-11-28 12:54:03,713 [ 198390]   WARN - llij.ide.plugins.PluginManager - SSV Normandy Progress Bar not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:54:03,713 [ 198390]   WARN - llij.ide.plugins.PluginManager - Material Theme UI Lite not loaded: since build 193.2956 > IU-192.7142.36 
+2019-11-28 12:54:03,713 [ 198390]   WARN - llij.ide.plugins.PluginManager - Clean Sheet Theme not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,717 [ 198394]   WARN - llij.ide.plugins.PluginManager - PHP Remote Interpreter not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,717 [ 198394]   WARN - llij.ide.plugins.PluginManager - Save Actions not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,719 [ 198396]   WARN - llij.ide.plugins.PluginManager - IDE Features Trainer not loaded: since build 193.3519 > IU-192.7142.36 
+2019-11-28 12:54:03,720 [ 198397]   WARN - llij.ide.plugins.PluginManager - PHP Docker not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,721 [ 198398]   WARN - llij.ide.plugins.PluginManager - EduTools not loaded: since build 193.5096 > IU-192.7142.36 
+2019-11-28 12:54:03,721 [ 198398]   WARN - llij.ide.plugins.PluginManager - MyBatis Lite not loaded: since build 192.SNAPSHOT > IU-192.7142.36 
+2019-11-28 12:54:03,722 [ 198399]   WARN - llij.ide.plugins.PluginManager - Task Management not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,722 [ 198399]   WARN - llij.ide.plugins.PluginManager - Time Tracking not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,723 [ 198400]   WARN - llij.ide.plugins.PluginManager - PhpStorm Code Golf Crash Course not loaded: since build 193.4778 > IU-192.7142.36 
+2019-11-28 12:54:03,724 [ 198401]   WARN - llij.ide.plugins.PluginManager - Python 2 Countdown not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,724 [ 198401]   WARN - llij.ide.plugins.PluginManager - CSS-X-Fire not loaded: since build 193.5096 > IU-192.7142.36 
+2019-11-28 12:54:03,724 [ 198401]   WARN - llij.ide.plugins.PluginManager - Lombok not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:54:03,725 [ 198402]   WARN - llij.ide.plugins.PluginManager - Command Line Tool not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,725 [ 198402]   WARN - llij.ide.plugins.PluginManager - Vagrant not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,725 [ 198402]   WARN - llij.ide.plugins.PluginManager - Upsource Integration not loaded: since build 193.4778.7 > IU-192.7142.36 
+2019-11-28 12:54:03,726 [ 198403]   WARN - llij.ide.plugins.PluginManager - Docker not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,726 [ 198403]   WARN - llij.ide.plugins.PluginManager - Gherkin not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,727 [ 198404]   WARN - llij.ide.plugins.PluginManager - Manifold not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,727 [ 198404]   WARN - llij.ide.plugins.PluginManager - Perl Docker Support not loaded: since build 193.1 > IU-192.7142.36 
+2019-11-28 12:54:03,727 [ 198404]   WARN - llij.ide.plugins.PluginManager - Perl WSL Support not loaded: since build 193.1 > IU-192.7142.36 
+2019-11-28 12:54:03,736 [ 198413]   WARN - llij.ide.plugins.PluginManager - Big Data Tools not loaded: since build 193.4697 > IU-192.7142.36 
+2019-11-28 12:54:03,737 [ 198414]   WARN - llij.ide.plugins.PluginManager - Composer Dump-Autoload not loaded: since build 193.2956.37 > IU-192.7142.36 
+2019-11-28 12:54:03,738 [ 198415]   WARN - llij.ide.plugins.PluginManager - Terminal not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,738 [ 198415]   WARN - llij.ide.plugins.PluginManager - Node.js Remote Interpreter not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,738 [ 198415]   WARN - llij.ide.plugins.PluginManager - FTP/SFTP Connectivity (ex. Remote Hosts Access) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,739 [ 198416]   WARN - llij.ide.plugins.PluginManager - TextMate bundles not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,740 [ 198417]   WARN - llij.ide.plugins.PluginManager - DiscordBeam not loaded: since build 193.4099 > IU-192.7142.36 
+2019-11-28 12:54:03,740 [ 198417]   WARN - llij.ide.plugins.PluginManager - Minecraft NBT Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,747 [ 198424]   WARN - llij.ide.plugins.PluginManager - Color Highlighter not loaded: since build 192.SNAPSHOT > IU-192.7142.36 
+2019-11-28 12:54:03,748 [ 198425]   WARN - llij.ide.plugins.PluginManager - tc Server Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,748 [ 198425]   WARN - llij.ide.plugins.PluginManager - PsiViewer not loaded: since build 193.1 > IU-192.7142.36 
+2019-11-28 12:54:03,748 [ 198425]   WARN - llij.ide.plugins.PluginManager - Grammar-Kit not loaded: since build 193.3519 > IU-192.7142.36 
+2019-11-28 12:54:03,749 [ 198426]   WARN - llij.ide.plugins.PluginManager - IDETalk not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,749 [ 198426]   WARN - llij.ide.plugins.PluginManager - Settings Repository not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,750 [ 198427]   WARN - llij.ide.plugins.PluginManager - XSLT Debugger not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,750 [ 198427]   WARN - llij.ide.plugins.PluginManager - XPathView + XSLT not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,751 [ 198428]   WARN - llij.ide.plugins.PluginManager - Live Edit not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,751 [ 198428]   WARN - llij.ide.plugins.PluginManager - Polymer & Web Components not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,752 [ 198429]   WARN - llij.ide.plugins.PluginManager - Meteor not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,752 [ 198429]   WARN - llij.ide.plugins.PluginManager - Prettier not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,753 [ 198430]   WARN - llij.ide.plugins.PluginManager - HTTP Client not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,753 [ 198430]   WARN - llij.ide.plugins.PluginManager - OSGi not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,753 [ 198430]   WARN - llij.ide.plugins.PluginManager - Angular and AngularJS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,756 [ 198433]   WARN - llij.ide.plugins.PluginManager - Drupal not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,756 [ 198433]   WARN - llij.ide.plugins.PluginManager - Cucumber.js not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,757 [ 198434]   WARN - llij.ide.plugins.PluginManager - WordPress not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,757 [ 198434]   WARN - llij.ide.plugins.PluginManager - PhoneGap/Cordova not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,757 [ 198434]   WARN - llij.ide.plugins.PluginManager - Behat Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,757 [ 198434]   WARN - llij.ide.plugins.PluginManager - Chef not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,758 [ 198435]   WARN - llij.ide.plugins.PluginManager - Blade not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,758 [ 198435]   WARN - llij.ide.plugins.PluginManager - Yeoman not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,758 [ 198435]   WARN - llij.ide.plugins.PluginManager - Azure Toolkit for IntelliJ not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,758 [ 198435]   WARN - llij.ide.plugins.PluginManager - Joomla! Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,759 [ 198436]   WARN - llij.ide.plugins.PluginManager - Minecraft Development not loaded: since build 193.2956 > IU-192.7142.36 
+2019-11-28 12:54:03,759 [ 198436]   WARN - llij.ide.plugins.PluginManager - PHPSpec BDD Framework not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,759 [ 198436]   WARN - llij.ide.plugins.PluginManager - FRC not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,759 [ 198436]   WARN - llij.ide.plugins.PluginManager - Vue.js not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,760 [ 198437]   WARN - llij.ide.plugins.PluginManager - MicroPython not loaded: since build 193.3793.14 > IU-192.7142.36 
+2019-11-28 12:54:03,760 [ 198437]   WARN - llij.ide.plugins.PluginManager - Play Routes not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,760 [ 198437]   WARN - llij.ide.plugins.PluginManager - Spot Profiler for Java not loaded: since build 193.4249 > IU-192.7142.36 
+2019-11-28 12:54:03,761 [ 198438]   WARN - llij.ide.plugins.PluginManager - Painless Transact SQL not loaded: since build 193.4386 > IU-192.7142.36 
+2019-11-28 12:54:03,761 [ 198438]   WARN - llij.ide.plugins.PluginManager - Python not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,761 [ 198438]   WARN - llij.ide.plugins.PluginManager - Ruby not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,762 [ 198439]   WARN - llij.ide.plugins.PluginManager - Scala not loaded: since build 193.3519.25 > IU-192.7142.36 
+2019-11-28 12:54:03,762 [ 198439]   WARN - llij.ide.plugins.PluginManager - CoffeeScript not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,762 [ 198439]   WARN - llij.ide.plugins.PluginManager - Dart not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,767 [ 198444]   WARN - llij.ide.plugins.PluginManager - R Language for IntelliJ not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,768 [ 198445]   WARN - llij.ide.plugins.PluginManager - Apache config (.htaccess) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,768 [ 198445]   WARN - llij.ide.plugins.PluginManager - Handlebars/Mustache not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,768 [ 198445]   WARN - llij.ide.plugins.PluginManager - Kotlin not loaded: since build 193.3793.14 > IU-192.7142.36 
+2019-11-28 12:54:03,769 [ 198446]   WARN - llij.ide.plugins.PluginManager - Ini not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,769 [ 198446]   WARN - llij.ide.plugins.PluginManager - Erlang not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,769 [ 198446]   WARN - llij.ide.plugins.PluginManager - Pug (ex-Jade) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,770 [ 198447]   WARN - llij.ide.plugins.PluginManager - JSFL Support not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,770 [ 198447]   WARN - llij.ide.plugins.PluginManager - GNU GetText files support (*.po) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,770 [ 198447]   WARN - llij.ide.plugins.PluginManager - ReStructuredText Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,770 [ 198447]   WARN - llij.ide.plugins.PluginManager - Slim not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,771 [ 198448]   WARN - llij.ide.plugins.PluginManager - Puppet not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,771 [ 198448]   WARN - llij.ide.plugins.PluginManager - EJS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,771 [ 198448]   WARN - llij.ide.plugins.PluginManager - Twig Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,772 [ 198449]   WARN - llij.ide.plugins.PluginManager - Stylus not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,772 [ 198449]   WARN - llij.ide.plugins.PluginManager - Thrift Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,772 [ 198449]   WARN - llij.ide.plugins.PluginManager - Markdown not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,772 [ 198449]   WARN - llij.ide.plugins.PluginManager - Perl not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,777 [ 198454]   WARN - llij.ide.plugins.PluginManager - Cursive not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,777 [ 198454]   WARN - llij.ide.plugins.PluginManager - Rust not loaded: since build 193.4386 > IU-192.7142.36 
+2019-11-28 12:54:03,778 [ 198455]   WARN - llij.ide.plugins.PluginManager - Toml not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,778 [ 198455]   WARN - llij.ide.plugins.PluginManager - PostCSS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,779 [ 198456]   WARN - llij.ide.plugins.PluginManager - xquery-intellij-plugin not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,779 [ 198456]   WARN - llij.ide.plugins.PluginManager - Clojure-Kit not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,779 [ 198456]   WARN - llij.ide.plugins.PluginManager - Flutter not loaded: since build 193.3519.25 > IU-192.7142.36 
+2019-11-28 12:54:03,780 [ 198457]   WARN - llij.ide.plugins.PluginManager - Go not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,780 [ 198457]   WARN - llij.ide.plugins.PluginManager - Ideolog not loaded: since build 193.3954 > IU-192.7142.36 
+2019-11-28 12:54:03,781 [ 198458]   WARN - llij.ide.plugins.PluginManager - HOCON not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,781 [ 198458]   WARN - llij.ide.plugins.PluginManager - Go Template not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,781 [ 198458]   WARN - llij.ide.plugins.PluginManager - DQL Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,781 [ 198458]   WARN - llij.ide.plugins.PluginManager - Template Toolkit Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,782 [ 198459]   WARN - llij.ide.plugins.PluginManager - Mojolicious Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,782 [ 198459]   WARN - llij.ide.plugins.PluginManager - Mason Framework not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,782 [ 198459]   WARN - llij.ide.plugins.PluginManager - Mason2 Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,782 [ 198459]   WARN - llij.ide.plugins.PluginManager - HTML::Mason Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,783 [ 198460]   WARN - llij.ide.plugins.PluginManager - Embedded Perl Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,783 [ 198460]   WARN - llij.ide.plugins.PluginManager - Sass not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,783 [ 198460]   WARN - llij.ide.plugins.PluginManager - Less not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,783 [ 198460]   WARN - llij.ide.plugins.PluginManager - Properties not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,783 [ 198460]   WARN - llij.ide.plugins.PluginManager - SnakeCharm not loaded: since build 193.1.1 > IU-192.7142.36 
+2019-11-28 12:54:03,784 [ 198461]   WARN - llij.ide.plugins.PluginManager - Diff / Patch File Support not loaded: since build 193.2956.37 > IU-192.7142.36 
+2019-11-28 12:54:03,784 [ 198461]   WARN - llij.ide.plugins.PluginManager - Haml not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,786 [ 198463]   WARN - llij.ide.plugins.PluginManager - Shell Script not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,787 [ 198464]   WARN - llij.ide.plugins.PluginManager - YAML not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,787 [ 198464]   WARN - llij.ide.plugins.PluginManager - PHPT Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,787 [ 198464]   WARN - llij.ide.plugins.PluginManager - NodeJS not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,788 [ 198465]   WARN - llij.ide.plugins.PluginManager - Spy-js not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,789 [ 198466]   WARN - llij.ide.plugins.PluginManager - EditorConfig not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,789 [ 198466]   WARN - llij.ide.plugins.PluginManager - Advanced Java Folding not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,790 [ 198467]   WARN - llij.ide.plugins.PluginManager - Frame Switcher not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,790 [ 198467]   WARN - llij.ide.plugins.PluginManager - Railways for IDEA not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,791 [ 198468]   WARN - llij.ide.plugins.PluginManager - Karma not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,791 [ 198468]   WARN - llij.ide.plugins.PluginManager - JUnit4 Parallel Runner not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,791 [ 198468]   WARN - llij.ide.plugins.PluginManager - Phing not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,792 [ 198469]   WARN - llij.ide.plugins.PluginManager - File Watchers not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,792 [ 198469]   WARN - llij.ide.plugins.PluginManager - Error Prone Compiler not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,792 [ 198469]   WARN - llij.ide.plugins.PluginManager - Bazel not loaded: since build 193.4386 > IU-192.7142.36 
+2019-11-28 12:54:03,796 [ 198473]   WARN - llij.ide.plugins.PluginManager - Gradle not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,796 [ 198473]   WARN - llij.ide.plugins.PluginManager - Commander not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,797 [ 198474]   WARN - llij.ide.plugins.PluginManager - Custom Postfix Templates not loaded: since build 193.4778 > IU-192.7142.36 
+2019-11-28 12:54:03,798 [ 198475]   WARN - llij.ide.plugins.PluginManager - Codeception Framework not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,798 [ 198475]   WARN - llij.ide.plugins.PluginManager - DG Test Helper not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,798 [ 198475]   WARN - llij.ide.plugins.PluginManager - Perforce not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,799 [ 198476]   WARN - llij.ide.plugins.PluginManager - PHP not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,799 [ 198476]   WARN - llij.ide.plugins.PluginManager - Hunspell not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,800 [ 198477]   WARN - llij.ide.plugins.PluginManager - PHP Markdown Integration not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,800 [ 198477]   WARN - llij.ide.plugins.PluginManager - JetForcer | The Smartest Force.com IDE not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,800 [ 198477]   WARN - llij.ide.plugins.PluginManager - Kubernetes not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,800 [ 198477]   WARN - llij.ide.plugins.PluginManager - AWS Toolkit not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,801 [ 198478]   WARN - llij.ide.plugins.PluginManager - Performance Testing not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,801 [ 198478]   WARN - llij.ide.plugins.PluginManager - IDE Settings Sync not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,802 [ 198479]   WARN - llij.ide.plugins.PluginManager - Ruby Dynamic Code Insight not loaded: since build 193.2956.37 > IU-192.7142.36 
+2019-11-28 12:54:03,802 [ 198479]   WARN - llij.ide.plugins.PluginManager - IntelliJ IDEA Help not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,802 [ 198479]   WARN - llij.ide.plugins.PluginManager - Copyright not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,803 [ 198480]   WARN - llij.ide.plugins.PluginManager - HTML Tools not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,803 [ 198480]   WARN - llij.ide.plugins.PluginManager - Refactor-X not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,803 [ 198480]   WARN - llij.ide.plugins.PluginManager - PhpStorm Workshop not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,803 [ 198480]   WARN - llij.ide.plugins.PluginManager - Java Applets Support not loaded: since build 193.1 > IU-192.7142.36 
+2019-11-28 12:54:03,803 [ 198480]   WARN - llij.ide.plugins.PluginManager - Java Server Pages (JSP) not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,803 [ 198480]   WARN - llij.ide.plugins.PluginManager - Vaadin not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,804 [ 198481]   WARN - llij.ide.plugins.PluginManager - IntelliLang not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,804 [ 198481]   WARN - llij.ide.plugins.PluginManager - JetBrains Marketplace Licensing Support not loaded: since build 193.0 > IU-192.7142.36 
+2019-11-28 12:54:03,804 [ 198481]   WARN - llij.ide.plugins.PluginManager - Native Debugging Support not loaded: since build 193.5233 > IU-192.7142.36 
+2019-11-28 12:54:03,806 [ 198483]   WARN - llij.ide.plugins.PluginManager - Grazie not loaded: since build 193.4386 > IU-192.7142.36 
+2019-11-28 12:54:03,806 [ 198483]   WARN - llij.ide.plugins.PluginManager - ReSharper Keymap not loaded: since build 193.4778 > IU-192.7142.36 
+2019-11-28 12:54:03,806 [ 198483]   WARN - llij.ide.plugins.PluginManager - Xcode Keymap not loaded: since build 193.4778 > IU-192.7142.36 
+2019-11-28 12:54:03,816 [ 198493]   WARN - llij.ide.plugins.PluginManager - LiveEdit not loaded: until build 192.SNAPSHOT < IU-193.5233.102 
+2019-11-28 12:54:03,820 [ 198497]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2019-11-28 12:54:03,824 [ 198501]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2019-11-28 12:54:03,827 [ 198504]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2019-11-28 12:54:03,834 [ 198511]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2019-11-28 12:54:03,835 [ 198512]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2019-11-28 12:54:03,837 [ 198514]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2019-11-28 12:54:03,840 [ 198517]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2019-11-28 12:54:03,842 [ 198519]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2019-11-28 12:54:03,843 [ 198520]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2019-11-28 12:54:03,844 [ 198521]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2019-11-28 12:54:03,846 [ 198523]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2019-11-28 12:54:19,336 [ 214013]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2019-11-28 12:54:22,409 [ 217086]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 11/28/19, 12:54 PM) 
+2019-11-28 12:54:44,964 [ 239641]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 17 ms 
+2019-11-28 12:54:45,106 [ 239783]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaSqlDialectMappings took 17 ms 
+2019-11-28 12:54:45,147 [ 239824]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 1340 ms 
+2019-11-28 12:54:45,400 [ 240077]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 13 ms, GeneralSettings took 11 ms 
+2019-11-28 12:54:45,586 [ 240263]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/vagrant/IdeaProjects/vagrant-idea' vagrant-ideaKotlinCommonCompilerArguments took 56 ms 
+2019-11-28 12:54:47,135 [ 241812]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-11-28 12:54:47,139 [ 241816]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-11-28 12:54:47,139 [ 241816]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-11-28 12:54:47,275 [ 241952]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-11-28 12:54:47,295 [ 241972]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-11-28 12:54:47,316 [ 241993]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 36 auto-detected files
+Elapsed time on auto-detect: 549 ms 
+2019-11-28 12:54:47,328 [ 242005]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-11-28 12:54:47,337 [ 242014]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-11-28 12:54:47,343 [ 242020]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-11-28 12:54:47,369 [ 242046]   INFO -   #com.intellij.util.Restarter - restart: [] 
+2019-11-28 12:54:47,495 [ 242172]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-11-28 12:54:47,506 [ 242183]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
