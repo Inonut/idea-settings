@@ -88,7 +88,6 @@ ll
 cat product-info.json 
 jq
 yay -S jq
-
 product-info.json | jq
 cat product-info.json | jq
 (cat product-info.json | jq)['version']
@@ -100,3 +99,10 @@ cat product-info.json | jq .version | sed -e "s/\"/g"
 cat product-info.json | jq .version | sed -e "s/\"//g"
 cd ..
 ll .local/share/keyrings/
+lll
+ll
+flutter
+ll ~/.local/share/keyrings/
+flutter doctor
+sudo pacman -S android-tools
+flutter doctor
