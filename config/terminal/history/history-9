@@ -106,3 +106,12 @@ ll ~/.local/share/keyrings/
 flutter doctor
 sudo pacman -S android-tools
 flutter doctor
+flutter doctor
+sudo pacman -S docker
+sudo systemctl enable --now docker.service
+sudo groupadd docker
+sudo usermod -aG docker $USER
+docker info
+sudo docker info
+sudo docker 
+docker info
