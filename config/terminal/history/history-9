@@ -59,3 +59,44 @@ tar -xf flutter_linux_v1.9.1+hotfix.6-stable.tar.xz
 ll
 cd flutter/
 ll
+sudo pacman -S flutter
+cd ~
+ll
+cd asd
+mkdir asd
+cd asd
+git clone https://aur.archlinux.org/flutter.git 
+cd flutter/
+ll
+makepkg -si
+sudo pacman -S glu
+makepkg -si
+sudo pacman -S lib32-libglvnd
+less /etc/pacman.conf
+cd ~
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+pacman -Q --info vi
+pacman -Q --info yay
+yay -Sy
+cd ~
+yay -S intellij-idea-ultimate-edition
+yay --noconfirm -S intellij-idea-ultimate-edition
+cd idea-IU/
+ll
+cat product-info.json 
+jq
+yay -S jq
+
+product-info.json | jq
+cat product-info.json | jq
+(cat product-info.json | jq)['version']
+(cat product-info.json | jq)
+cat product-info.json | jq .Version
+cat product-info.json | jq .version
+cat product-info.json | jq .version | sed -e "s/\"//g"
+cat product-info.json | jq .version | sed -e "s/\"/g"
+cat product-info.json | jq .version | sed -e "s/\"//g"
+cd ..
+ll .local/share/keyrings/
