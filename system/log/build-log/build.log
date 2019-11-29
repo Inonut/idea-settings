@@ -1,0 +1,58 @@
+2019-11-29 10:11:49,152 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-11-29 10:11:49,152 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/vagrant/idea-IU/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-11-openjdk/lib/classes.zip
+2019-11-29 10:11:50,195 [   1043]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 950 ms
+2019-11-29 10:11:50,799 [   1647]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/vagrant/IdeaProjects/test_flutter, global options path = /home/vagrant/.IntelliJIdea2019.3/config/options
+2019-11-29 10:11:52,474 [   3322]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1675 ms
+2019-11-29 10:11:52,475 [   3323]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 5 libraries
+2019-11-29 10:11:53,021 [   3869]   INFO - rains.jps.cmdline.BuildSession - javax/xml/bind/annotation/XmlSchema
+java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
+	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:157)
+	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:76)
+	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:82)
+	at org.jetbrains.jps.android.AndroidJpsUtil.getAndroidTarget(AndroidJpsUtil.java:405)
+	at org.jetbrains.jps.android.AndroidJpsUtil.getAndroidPlatform(AndroidJpsUtil.java:481)
+	at org.jetbrains.jps.android.builder.AndroidPreDexBuildTarget.computeRootDescriptors(AndroidPreDexBuildTarget.java:111)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildSession.runBuild(BuildSession.java:274)
+	at org.jetbrains.jps.cmdline.BuildSession.run(BuildSession.java:130)
+	at org.jetbrains.jps.cmdline.BuildMain$MyMessageHandler.lambda$channelRead0$0(BuildMain.java:232)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 15 more
+2019-11-29 10:11:56,239 [      1]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-11-29 10:11:56,239 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /home/vagrant/idea-IU/plugins/java/lib/jps-launcher.jar:/usr/lib/jvm/java-11-openjdk/lib/classes.zip
+2019-11-29 10:11:57,269 [   1031]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 884 ms
+2019-11-29 10:11:57,538 [   1300]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 230 ms
+2019-11-29 10:11:57,793 [   1555]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /home/vagrant/IdeaProjects/test_flutter, global options path = /home/vagrant/.IntelliJIdea2019.3/config/options
+2019-11-29 10:11:59,475 [   3237]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1682 ms
+2019-11-29 10:11:59,475 [   3237]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 5 libraries
+2019-11-29 10:11:59,888 [   3650]   INFO - etbrains.jps.cmdline.BuildMain - Failed to pre-load project /home/vagrant/IdeaProjects/test_flutter
+java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
+	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:157)
+	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:76)
+	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:82)
+	at org.jetbrains.jps.android.AndroidJpsUtil.getAndroidTarget(AndroidJpsUtil.java:405)
+	at org.jetbrains.jps.android.AndroidJpsUtil.getAndroidPlatform(AndroidJpsUtil.java:481)
+	at org.jetbrains.jps.android.builder.AndroidPreDexBuildTarget.computeRootDescriptors(AndroidPreDexBuildTarget.java:111)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.addRoots(BuildRootIndexImpl.java:72)
+	at org.jetbrains.jps.builders.impl.BuildRootIndexImpl.<init>(BuildRootIndexImpl.java:62)
+	at org.jetbrains.jps.cmdline.BuildRunner.load(BuildRunner.java:83)
+	at org.jetbrains.jps.cmdline.BuildMain.main(BuildMain.java:138)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jetbrains.jps.cmdline.Launcher.main(Launcher.java:58)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 15 more
+2019-11-29 10:14:32,613 [ 156375]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.

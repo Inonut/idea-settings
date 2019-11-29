@@ -1,0 +1,23 @@
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="google-app-engine-facet" />
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="android-sdk-library" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/libraries/Dart_Packages.xml" timestamp="1575022301288" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/libraries/Flutter_for_Android.xml" timestamp="1575022182395" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/workspace.xml" timestamp="1575022640186" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/libraries/Dart_SDK.xml" timestamp="1575022182384" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/libraries/Flutter_Plugins.xml" timestamp="1575022301319" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/misc.xml" timestamp="1575022330751" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/modules.xml" timestamp="1575022196889" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/test_flutter.iml" timestamp="1575022330718" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/libraries/KotlinJavaRuntime.xml" timestamp="1575022182374" />
+    <file path="/home/vagrant/IdeaProjects/test_flutter/.idea/runConfigurations/main_dart.xml" timestamp="1575022182405" />
+  </project-files>
+</conversion>
