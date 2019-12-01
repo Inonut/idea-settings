@@ -1,0 +1,34 @@
+./generic-ci.sh install-packer
+sudo pacman -S unzip
+./generic-ci.sh install-packer
+./packer 
+./packer build -only=virtualbox-iso local.json
+./generic-ci.sh verify-local
+./packer build -only=virtualbox-iso local.json
+sudo pacman -S virtualbox
+sudo pacman -S icu
+sudo pacman -S virtualbox
+./packer build -only=virtualbox-iso local.json
+sudo pacman -Syu
+sudo pacman -S virtualbox
+./packer build -only=virtualbox-iso local.json
+virtualbox 
+sudo modprobe vboxdrv
+sudo pacman -S virtualbox-dkms
+sudo pacman -S virtualbox-guest-dkms 
+sudo modprobe vboxdrv
+ /etc/rc.d/vboxdrv setup
+uname -a
+sudo pacman -S linux53-header
+sudo pacman -S linux-headers
+sudo modprobe vboxdrv
+sudo pacman -S linux53-virtualbox-host-modules
+sudo pacman -S linux531-virtualbox-host-modules
+sudo pacman -S linux53-virtualbox-host-modules
+pacman -S virtualbox virtualbox-guest-iso
+sudo pacman -S virtualbox virtualbox-guest-iso
+sudo modprobe vboxdrv
+sudo pacman -Syu virtualbox-host-modules-arch  
+sudo modprobe vboxdrv
+sudo rcvboxdrv
+pacman -Ql linux-headers | grep vbox

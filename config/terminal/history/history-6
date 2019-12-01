@@ -1,0 +1,3 @@
+./generic-ci.sh install-shfmt
+./generic-ci.sh install-yapf
+./generic-ci.sh install-flake8

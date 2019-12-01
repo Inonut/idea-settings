@@ -4,7 +4,7 @@
       <map>
         <entry key="$USER_HOME$/IdeaProjects/vagrant-idea">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1UEhq5JeBn77NvXQWeVh8wCyIPn">
+            <RecentProjectMetaInfo projectWorkspaceId="1UEhq5JeBn77NvXQWeVh8wCyIPn">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IU-193.5233.102" />
               <option name="buildTimestamp" value="1574895198272" />
@@ -14,11 +14,24 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/IdeaProjects/packer-idea">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1UNjpOoa4mAOQYUIqN1BCMQZAiu">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-193.5233.102" />
+              <option name="buildTimestamp" value="1574895223479" />
+              <frame x="0" y="23" width="1920" height="1017" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1575204129703" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/IdeaProjects/packer-idea" />
         <option value="$USER_HOME$/IdeaProjects/vagrant-idea" />
       </list>
     </option>
