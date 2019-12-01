@@ -1,0 +1,71 @@
+./generic-ci.sh install-packer
+sudo pacman -S unzip
+./generic-ci.sh install-packer
+./packer 
+./packer build -only=virtualbox-iso local.json
+./generic-ci.sh verify-local
+./packer build -only=virtualbox-iso local.json
+sudo pacman -S virtualbox
+sudo pacman -S icu
+sudo pacman -S virtualbox
+./packer build -only=virtualbox-iso local.json
+sudo pacman -Syu
+sudo pacman -S virtualbox
+./packer build -only=virtualbox-iso local.json
+virtualbox 
+sudo modprobe vboxdrv
+sudo pacman -S virtualbox-dkms
+sudo pacman -S virtualbox-guest-dkms 
+sudo modprobe vboxdrv
+ /etc/rc.d/vboxdrv setup
+uname -a
+sudo pacman -S linux53-header
+sudo pacman -S linux-headers
+sudo modprobe vboxdrv
+sudo pacman -S linux53-virtualbox-host-modules
+sudo pacman -S linux531-virtualbox-host-modules
+sudo pacman -S linux53-virtualbox-host-modules
+pacman -S virtualbox virtualbox-guest-iso
+sudo pacman -S virtualbox virtualbox-guest-iso
+sudo modprobe vboxdrv
+sudo pacman -Syu virtualbox-host-modules-arch  
+sudo modprobe vboxdrv
+sudo rcvboxdrv
+pacman -Ql linux-headers | grep vbox
+./generic-ci.sh install-shfmt
+./generic-ci.sh install-yapf
+./generic-ci.sh install-flake8
+cd ..
+cd packer-idea
+cp ../vagrant-idea/.gitignore .
+git init
+virtualbox
+cd ../packer-idea2/http/ .
+cp -r ../packer-idea2/http/ .
+cp -r ../packer-idea2/provision/ .
+help set
+man set
+sudo pacman -S --noconfirm virtualbox-guest-utils-nox virtualbox-guest-modules-arch
+sudo systemctl enable vboxservice
+sudo systemctl start vboxservice
+cp ../packer-idea2/local.json 
+cp ../packer-idea2/local.json .
+cp ../packer-idea2/vagrant.json .
+cp ../packer-idea2/cloud.json .
+cp ../packer-idea2/generic-ci.sh 
+./generic-ci.sh shellcheck
+./generic-ci.sh install-packer
+./generic-ci.sh shellcheck
+./generic-ci.sh verify-local
+./generic-ci.sh packer-local
+sudo /sbin/vboxconfig
+sudo modprobe vboxdrv
+udo pacman -Syyu
+sudo pacman -Syyu
+sudo /sbin/rcvboxdrv setup
+sudo pacman -S virtualbox-host-dkms
+sudo pacman -S linux-headers
+ sudo modprobe vboxdrv
+dkms install vboxhost/6.0.12_OS
+sudo dkms install vboxhost/6.0.12_OS
+su

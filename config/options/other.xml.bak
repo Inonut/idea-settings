@@ -9,13 +9,15 @@
     <property name="Copy.OpenInEditor" value="true" />
     <property name="FLUTTER_LAST_SURVEY_CHECK_KEY" value="1575022258006" />
     <property name="FLUTTER_SDK_KNOWN_PATHS" value="$USER_HOME$/flutter" />
-    <property name="InstalledPluginsSearchHistory" value="sdk&#10;android&#10;flu&#10;flut&#10;flutt" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="InstalledPluginsSearchHistory" value="bash&#10;bas&#10;ba&#10;sdk&#10;android" />
     <property name="MarketplacePluginsSearchHistory" value="android&#10;androi&#10;and&#10;an&#10;a" />
     <property name="PluginConfigurable.selectionTab" value="1" />
-    <property name="SettingsSearchHistory" value="sdk&#10;git" />
+    <property name="SettingsSearchHistory" value="bash&#10;shell&#10;sdk&#10;git" />
     <property name="create.project.preferred.importer" value="Existing Sources" />
     <property name="defaultJdkConfigured" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/IdeaProjects/packer-idea&#10;/home/vagrant/flutter&#10;/home/vagrant/Android/Sdk&#10;/home/vagrant/IdeaProjects/vagrant-idea&#10;/home/vagrant/IdeaProjects&#10;/tmp" />
+    <property name="fileTypeChangedCounter" value="1" />
     <property name="installed.kotlin.plugin.version" value="1.3.60-release-IJ2019.3-1" />
     <property name="io.flutter.analytics.clientId" value="02d1692c-c8e3-44b2-baa5-3a1492e259d4" />
     <property name="io.flutter.analytics.toastShown" value="true" />
@@ -26,6 +28,7 @@
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
     <property name="packagesearch.status.updated.ts" value="1574945482311" />
     <property name="project.wizard.group" value="JAVA_MODULE_io.flutter.module.FlutterModuleBuilder" />
+    <property name="selected.color.option.type" value="BASH.BACKQUOTE" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.7.2" />
   </component>
