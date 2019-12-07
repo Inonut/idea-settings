@@ -31,6 +31,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="VcsLogIndexCollector">
+    <option name="indexTime" value="307" />
+  </component>
   <component name="YarnPnpManager">
     <pnp-files />
   </component>
