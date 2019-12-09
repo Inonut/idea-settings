@@ -69,3 +69,10 @@ sudo pacman -S linux-headers
 dkms install vboxhost/6.0.12_OS
 sudo dkms install vboxhost/6.0.12_OS
 su
+sudo docker ps
+~/resources/scripts/docker.sh
+sudo pacman -S --noconfirm docker
+sudo systemctl enable --now docker.service
+sudo docker run --privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -e DEVICE="Samsung Galaxy S6" --name android-container budtmo/docker-android-x86-8.1
+sudo docker ps
+ip addr 

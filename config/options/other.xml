@@ -26,7 +26,7 @@
     <property name="kotlin.plugin.releaseDate" value="1.3.60-release-IJ2019.3-1:2019-11-14" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1574945482311" />
+    <property name="packagesearch.status.updated.ts" value="1575925420856" />
     <property name="project.wizard.group" value="JAVA_MODULE_io.flutter.module.FlutterModuleBuilder" />
     <property name="selected.color.option.type" value="BASH.BACKQUOTE" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
