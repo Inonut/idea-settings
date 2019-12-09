@@ -64,6 +64,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="100" key="#Plugins/0.0.1920.1040/1920.0.1920.1040" timestamp="1574953606564" />
+    <state x="647" y="171" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575895918725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="647" y="171" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040" timestamp="1575895918725" />
     <state x="100" y="100" width="1720" height="848" key="DiffContextDialog" timestamp="1574953590015" />
     <state x="100" y="100" width="1720" height="848" key="DiffContextDialog/1920.1080" timestamp="1574953590016" />
     <state x="100" y="100" width="1720" height="848" key="DiffContextDialog/3840.1080" timestamp="1574953590016" />
@@ -73,9 +77,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="747" y="209" key="FileChooserDialogImpl/0.0.1920.1080" timestamp="1575208388263" />
-    <state x="959" y="423" key="WELCOME_SCREEN" timestamp="1574953607551">
+    <state x="959" y="423" key="WELCOME_SCREEN" timestamp="1575895926309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="959" y="423" key="WELCOME_SCREEN/0.0.1920.1040/1920.0.1920.1040" timestamp="1574953607551" />
+    <state x="959" y="423" key="WELCOME_SCREEN/0.0.1920.1040/1920.0.1920.1040" timestamp="1575895926309" />
   </component>
 </application>
