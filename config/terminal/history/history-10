@@ -76,3 +76,23 @@ sudo systemctl enable --now docker.service
 sudo docker run --privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -e DEVICE="Samsung Galaxy S6" --name android-container budtmo/docker-android-x86-8.1
 sudo docker ps
 ip addr 
+sudo docker ps
+sudo docker start android_container
+sudo docker start android-container
+sudo docker logs android-container
+sudo docker logs android-container
+docker logs android-container
+sudo docker logs android-container
+sudo docker stop android-container
+sudo docker logs android-container
+sudo docker start android-container
+sudo docker logs android-container
+sudo pacman -S firefox
+firefox 
+sudo docker stop android-container
+sudo docker rm android-container
+sudo docker run --privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -e DEVICE="Samsung Galaxy S6" --name android-container budtmo/docker-android-x86-10.0
+ 
+sudo docker ps
+sudo docker ps -a
+sudo docker run --privileged -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -e DEVICE="Samsung Galaxy S6" --name android-container budtmo/docker-android-x86-10.0

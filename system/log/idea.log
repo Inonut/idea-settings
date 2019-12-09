@@ -28979,3 +28979,260 @@ java.lang.Throwable
 2019-12-09 21:12:05,527 [ 523681]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
 2019-12-09 21:12:05,554 [ 523708]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-12-09 21:12:05,571 [ 523725]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-12-09 21:16:04,699 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-12-09 21:16:05,860 [   1161]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-193.5233.102, 27 Nov 2019 22:53) 
+2019-12-09 21:16:05,863 [   1164]   INFO -        #com.intellij.idea.Main - OS: Linux (5.4.2-arch1-1, amd64) 
+2019-12-09 21:16:05,863 [   1164]   INFO -        #com.intellij.idea.Main - JRE: 13.0.1+9 (N/A) 
+2019-12-09 21:16:05,863 [   1164]   INFO -        #com.intellij.idea.Main - JVM: 13.0.1+9 (OpenJDK 64-Bit Server VM) 
+2019-12-09 21:16:05,863 [   1164]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx1986m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/vagrant/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/vagrant/java_error_in_IDEA.hprof -Didea.paths.selector=IntelliJIdea2019.3 -Djb.vmOptionsFile=/home/vagrant/.IntelliJIdea2019.3/config/idea64.vmoptions -Didea.jre.check=true 
+2019-12-09 21:16:05,863 [   1164]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-12-09 21:16:07,238 [   2539]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 2403 ms 
+2019-12-09 21:16:12,031 [   7332]   INFO - llij.ide.plugins.PluginManager - Plugin "Gradle Extension" misses optional descriptor profiler-java-gradle.xml 
+2019-12-09 21:16:14,231 [   9532]   INFO - com.intellij.util.ui.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-12-09 21:16:17,726 [  13027]   INFO -        #com.intellij.idea.Main - CPU cores: 2; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@21abc50d[Running, parallelism = 2, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@359d1d78 
+2019-12-09 21:16:17,827 [  13128]   INFO - llij.openapi.wm.impl.X11UiUtil - _NET protocol is not supported 
+2019-12-09 21:16:17,827 [  13128]   INFO -        #com.intellij.idea.Main - WM detected: null 
+2019-12-09 21:16:18,314 [  13615]   INFO - llij.ide.plugins.PluginManager - Plugin "Gradle Extension" misses optional descriptor profiler-java-gradle.xml 
+2019-12-09 21:16:18,644 [  13945]  ERROR - tellij.diagnostic.LoadingState - Should be called at least in the state COMPONENTS_REGISTERED, the current state is: LAF_INITIALIZED
+Current violators count: 1
+
+ 
+java.lang.Throwable
+	at com.intellij.diagnostic.LoadingState.logStateError(LoadingState.java:55)
+	at com.intellij.diagnostic.LoadingState.checkOccurred(LoadingState.java:51)
+	at com.intellij.openapi.util.registry.Registry.getInstance(Registry.java:125)
+	at com.intellij.openapi.util.registry.Registry.get(Registry.java:37)
+	at com.intellij.openapi.util.registry.Registry.is(Registry.java:47)
+	at com.intellij.ide.ui.laf.darcula.ui.DarculaTextAreaUI.createCaret(DarculaTextAreaUI.java:41)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI.installDefaults2(BasicTextUI.java:373)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI.installUI(BasicTextUI.java:810)
+	at java.desktop/javax.swing.JComponent.setUI(JComponent.java:685)
+	at java.desktop/javax.swing.text.JTextComponent.setUI(JTextComponent.java:342)
+	at java.desktop/javax.swing.text.JTextComponent.updateUI(JTextComponent.java:352)
+	at java.desktop/javax.swing.text.JTextComponent.<init>(JTextComponent.java:326)
+	at java.desktop/javax.swing.JTextArea.<init>(JTextArea.java:199)
+	at java.desktop/javax.swing.JTextArea.<init>(JTextArea.java:159)
+	at com.intellij.ide.b.l.T.<init>(T.java:1795)
+	at com.intellij.ide.b.l.c.<init>(c.java:198)
+	at com.intellij.ide.b.l.f.b(f.java:112)
+	at com.intellij.ide.b.l.f.a(f.java:92)
+	at com.intellij.ide.b.l.f.a(f.java:60)
+	at java.desktop/javax.swing.JList.fireSelectionValueChanged(JList.java:1804)
+	at java.desktop/javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1818)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:219)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:199)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:246)
+	at java.desktop/javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:443)
+	at java.desktop/javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:453)
+	at java.desktop/javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:497)
+	at java.desktop/javax.swing.JList.setSelectedIndex(JList.java:2205)
+	at java.desktop/javax.swing.JList.setSelectedValue(JList.java:2362)
+	at com.intellij.ide.b.l.f.<init>(f.java:70)
+	at com.intellij.ide.b.l.m.<init>(m.java:212)
+	at com.intellij.ide.b.l.x.c(x.java:44)
+	at com.intellij.ide.b.l.x.b(x.java:37)
+	at com.intellij.ide.b.b.I.a(I.java:544)
+	at com.intellij.ide.b.l.P.a(P.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:396)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2019-12-09 21:16:18,670 [  13971]  ERROR - tellij.diagnostic.LoadingState - IntelliJ IDEA 2019.3  Build #IU-193.5233.102 
+2019-12-09 21:16:18,670 [  13971]  ERROR - tellij.diagnostic.LoadingState - JDK: 13.0.1; VM: OpenJDK 64-Bit Server VM; Vendor: N/A 
+2019-12-09 21:16:18,670 [  13971]  ERROR - tellij.diagnostic.LoadingState - OS: Linux 
+2019-12-09 21:16:18,672 [  13973]  ERROR - tellij.diagnostic.LoadingState - Should be called at least in the state COMPONENTS_REGISTERED, the current state is: LAF_INITIALIZED
+Current violators count: 2
+
+ 
+java.lang.Throwable
+	at com.intellij.diagnostic.LoadingState.logStateError(LoadingState.java:55)
+	at com.intellij.diagnostic.LoadingState.checkOccurred(LoadingState.java:51)
+	at com.intellij.openapi.util.registry.Registry.getInstance(Registry.java:125)
+	at com.intellij.openapi.util.registry.RegistryValue._get(RegistryValue.java:172)
+	at com.intellij.openapi.util.registry.RegistryValue.get(RegistryValue.java:156)
+	at com.intellij.openapi.util.registry.RegistryValue.calcBoolean(RegistryValue.java:64)
+	at com.intellij.openapi.util.registry.RegistryValue.asBoolean(RegistryValue.java:57)
+	at com.intellij.openapi.util.registry.Registry.is(Registry.java:47)
+	at com.intellij.ide.ui.laf.darcula.ui.DarculaTextAreaUI.createCaret(DarculaTextAreaUI.java:41)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI.installDefaults2(BasicTextUI.java:373)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI.installUI(BasicTextUI.java:810)
+	at java.desktop/javax.swing.JComponent.setUI(JComponent.java:685)
+	at java.desktop/javax.swing.text.JTextComponent.setUI(JTextComponent.java:342)
+	at java.desktop/javax.swing.text.JTextComponent.updateUI(JTextComponent.java:352)
+	at java.desktop/javax.swing.text.JTextComponent.<init>(JTextComponent.java:326)
+	at java.desktop/javax.swing.JTextArea.<init>(JTextArea.java:199)
+	at java.desktop/javax.swing.JTextArea.<init>(JTextArea.java:159)
+	at com.intellij.ide.b.l.T.<init>(T.java:1795)
+	at com.intellij.ide.b.l.c.<init>(c.java:198)
+	at com.intellij.ide.b.l.f.b(f.java:112)
+	at com.intellij.ide.b.l.f.a(f.java:92)
+	at com.intellij.ide.b.l.f.a(f.java:60)
+	at java.desktop/javax.swing.JList.fireSelectionValueChanged(JList.java:1804)
+	at java.desktop/javax.swing.JList$ListSelectionHandler.valueChanged(JList.java:1818)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:219)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:199)
+	at java.desktop/javax.swing.DefaultListSelectionModel.fireValueChanged(DefaultListSelectionModel.java:246)
+	at java.desktop/javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:443)
+	at java.desktop/javax.swing.DefaultListSelectionModel.changeSelection(DefaultListSelectionModel.java:453)
+	at java.desktop/javax.swing.DefaultListSelectionModel.setSelectionInterval(DefaultListSelectionModel.java:497)
+	at java.desktop/javax.swing.JList.setSelectedIndex(JList.java:2205)
+	at java.desktop/javax.swing.JList.setSelectedValue(JList.java:2362)
+	at com.intellij.ide.b.l.f.<init>(f.java:70)
+	at com.intellij.ide.b.l.m.<init>(m.java:212)
+	at com.intellij.ide.b.l.x.c(x.java:44)
+	at com.intellij.ide.b.l.x.b(x.java:37)
+	at com.intellij.ide.b.b.I.a(I.java:544)
+	at com.intellij.ide.b.l.P.a(P.java:189)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:396)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2019-12-09 21:16:18,673 [  13974]  ERROR - tellij.diagnostic.LoadingState - IntelliJ IDEA 2019.3  Build #IU-193.5233.102 
+2019-12-09 21:16:18,673 [  13974]  ERROR - tellij.diagnostic.LoadingState - JDK: 13.0.1; VM: OpenJDK 64-Bit Server VM; Vendor: N/A 
+2019-12-09 21:16:18,673 [  13974]  ERROR - tellij.diagnostic.LoadingState - OS: Linux 
+2019-12-09 21:16:23,893 [  19194]  ERROR - tellij.diagnostic.LoadingState - Should be called at least in the state COMPONENTS_REGISTERED, the current state is: LAF_INITIALIZED
+Current violators count: 3
+
+ 
+java.lang.Throwable
+	at com.intellij.diagnostic.LoadingState.logStateError(LoadingState.java:55)
+	at com.intellij.diagnostic.LoadingState.checkOccurred(LoadingState.java:51)
+	at com.intellij.openapi.util.registry.Registry.getInstance(Registry.java:125)
+	at com.intellij.openapi.util.registry.Registry.get(Registry.java:37)
+	at com.intellij.openapi.util.registry.Registry.is(Registry.java:47)
+	at com.intellij.ide.ui.laf.darcula.ui.DarculaTextAreaUI.createCaret(DarculaTextAreaUI.java:41)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI.installDefaults2(BasicTextUI.java:373)
+	at java.desktop/javax.swing.plaf.basic.BasicTextUI.installUI(BasicTextUI.java:810)
+	at java.desktop/javax.swing.JComponent.setUI(JComponent.java:685)
+	at java.desktop/javax.swing.text.JTextComponent.setUI(JTextComponent.java:342)
+	at java.desktop/javax.swing.text.JTextComponent.updateUI(JTextComponent.java:352)
+	at java.desktop/javax.swing.text.JTextComponent.<init>(JTextComponent.java:326)
+	at java.desktop/javax.swing.JTextArea.<init>(JTextArea.java:199)
+	at java.desktop/javax.swing.JTextArea.<init>(JTextArea.java:159)
+	at com.intellij.ide.b.l.T.<init>(T.java:1795)
+	at com.intellij.ide.b.l.c.<init>(c.java:198)
+	at com.intellij.ide.b.l.f.b(f.java:112)
+	at com.intellij.ide.b.l.f.a(f.java:92)
+	at com.intellij.ide.b.l.f.c(f.java:116)
+	at com.intellij.ide.b.l.c.a(c.java:460)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at com.intellij.ide.b.l.c.c(c.java:460)
+	at com.intellij.ide.b.l.c.a(c.java:450)
+	at com.intellij.ide.b.l.c.a(c.java:435)
+	at com.intellij.ide.b.l.c.actionPerformed(c.java:1002)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6636)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6401)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2762)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:396)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2019-12-09 21:16:23,893 [  19194]  ERROR - tellij.diagnostic.LoadingState - IntelliJ IDEA 2019.3  Build #IU-193.5233.102 
+2019-12-09 21:16:23,893 [  19194]  ERROR - tellij.diagnostic.LoadingState - JDK: 13.0.1; VM: OpenJDK 64-Bit Server VM; Vendor: N/A 
+2019-12-09 21:16:23,894 [  19195]  ERROR - tellij.diagnostic.LoadingState - OS: Linux 
+2019-12-09 21:16:24,974 [  20275]   INFO - llij.ide.plugins.PluginManager - Plugin "Gradle Extension" misses optional descriptor profiler-java-gradle.xml 
+2019-12-09 21:16:26,275 [  21576]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (193.5233.102), Android Support (10.3.5), Angular and AngularJS (193.5233.102), Ant (193.5233.102), Application Servers View (193.5233.102), Arquillian (193.5233.102), AspectJ (193.5233.102), Bytecode Viewer (193.5233.102), CFML (193.5233.102), CSS (193.5233.102), ChangeReminder (193.5233.102), Cloud Foundry (193.5233.102), CoffeeScript (193.5233.102), Configuration Script (193.5233.102), Copyright (193.5233.102), Coverage (193.5233.102), Cucumber for Groovy (193.5233.102), Cucumber for Java (193.5233.102), Database Tools and SQL (193.5233.102), Dependency Structure Matrix (193.5233.102), Docker (193.5233.102), Drools (193.5233.102), Eclipse Interoperability (193.5233.102), EditorConfig (193.5233.102), Emma (193.5233.102), FTP/SFTP Connectivity (ex. Remote Hosts Access) (193.5233.102), Flash/Flex (193.5233.102), FreeMarker (193.5233.102), GWT (193.5233.102), Gherkin (193.5233.102), Git (193.5233.102), GitHub (193.5233.102), GlassFish (193.5233.102), Google App Engine (193.5233.102), Gradle (193.5233.102), Gradle Extension (193.5233.102), Gradle-Java (193.5233.102), Gradle-Maven (193.5233.102), Grails (193.5233.102), Groovy (193.5233.102), Guice (193.5233.102), HTML Tools (193.5233.102), HTTP Client (193.5233.102), Haml (193.5233.102), Helidon (193.5233.102), Hibernate (193.5233.102), IDE Settings Sync (193.5233.102), IDEA CORE (193.5233.102), IntelliLang (193.5233.102), JBoss Frameworks Base (193.5233.102), JBoss Seam (193.5233.102), JBoss Seam Pageflow (193.5233.102), JBoss Seam Pages (193.5233.102), JBoss jBPM (193.5233.102), JSR45 (193.5233.102), JUnit (193.5233.102), Java (193.5233.102), Java Bytecode Decompiler (193.5233.102), Java EE: Batch Applications (193.5233.102), Java EE: Bean Validation (193.5233.102), Java EE: Contexts and Dependency Injection (193.5233.102), Java EE: EJB, JPA, Servlets (193.5233.102), Java EE: JMS, JSON Processing, Concurrency, Transaction (193.5233.102), Java EE: Java Server Faces (193.5233.102), Java EE: RESTful Web Services (JAX-RS) (193.5233.102), Java EE: Web Services (JAX-WS) (193.5233.102), Java EE: WebSockets (193.5233.102), Java HTTP Clients (193.5233.102), Java IDE Customization (193.5233.102), Java Internationalization (193.5233.102), Java Server Pages (JSP) (193.5233.102), Java Stream Debugger (193.5233.102), JavaFX (193.5233.102), JavaScript Debugger (193.5233.102), JavaScript Intention Power Pack (193.5233.102), JavaScript and TypeScript (193.5233.102), Jetty Integration (193.5233.102), Kotlin (1.3.60-release-IJ2019.3-1), Less (193.5233.102), Machine Learning Code Completion (193.5233.102), Markdown (193.5233.102), Maven (193.5233.102), Maven Extension (193.5233.102), Mercurial (193.5233.102), Micronaut (193.5233.102), NodeJS (193.5233.102), OSGi (193.5233.102), OpenAPI Support (193.5233.102), Perforce (193.5233.102), Performance Testing (193.5233.102), Persistence Frameworks Support (193.5233.102), Play Framework (193.5233.102), Plugin DevKit (193.5233.102), Properties (193.5233.102), Quarkus (193.5233.102), Reactor (193.5233.102), Refactor-X (193.5233.102), Resin Integration (193.5233.102), SSH Remote Run (193.5233.102), Sass (193.5233.102), Settings Repository (193.5233.102), Smali Support (193.5233.102), Spring AOP/@AspectJ (193.5233.102), Spring Batch (193.5233.102), Spring Boot (193.5233.102), Spring Data (193.5233.102), Spring Integration Patterns (193.5233.102), Spring MVC (193.5233.102), Spring OSGi (193.5233.102), Spring Security (193.5233.102), Spring Support (193.5233.102), Spring Web Flow (193.5233.102), Spring Web Services (193.5233.102), Spring WebSocket (193.5233.102), Spy-js (193.5233.102), Struts 2 (193.5233.102), Stylus (193.5233.102), Subversion (193.5233.102), Tapestry (193.5233.102), Task Management (193.5233.102), Terminal (193.5233.102), TestNG (193.5233.102), TextMate bundles (193.5233.102), Thymeleaf (193.5233.102), Time Tracking (193.5233.102), Tomcat and TomEE Integration (193.5233.102), UI Designer (193.5233.102), UML (193.5233.102), Velocity (193.5233.102), Virgo/dmServer (193.5233.102), W3C Validators (193.5233.102), WebLogic Integration (193.5233.102), WebSphere Integration (193.5233.102), WildFly (193.5233.102), XPathView + XSLT (193.5233.102), XSLT Debugger (193.5233.102), YAML (193.5233.102), ZKM-Unscramble (193.5233.102), tslint (193.5233.102) 
+2019-12-09 21:16:26,275 [  21576]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: BashSupport (1.7.15.192), Dart (193.5731), Flutter (42.0.4), Live Edit (193.5233.116), Makefile support (1.7.0) 
+2019-12-09 21:16:26,275 [  21576]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: Shell Script (193.5233.102) 
+2019-12-09 21:16:27,728 [  23029]   INFO - cloudConfig.CloudConfigManager - === Exit: JBA_NOT_FOUND === 
+2019-12-09 21:16:28,676 [  23977]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-12-09 21:16:28,770 [  24071]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1949 
+2019-12-09 21:16:28,956 [  24257]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/vagrant/idea-IU/bin/fsnotifier64 
+2019-12-09 21:16:29,030 [  24331]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-12-09 21:16:29,467 [  24768]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-12-09 21:16:29,821 [  25122]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-12-09 21:16:29,829 [  25130]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-12-09 21:16:29,967 [  25268]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-12-09 21:16:30,179 [  25480]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2019-12-09 21:16:30,180 [  25481]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2019-12-09 21:16:37,305 [  32606]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /home/vagrant/idea-IU/bin/libdbm64.so: libdbusmenu-glib.so.4: cannot open shared object file: No such file or directory 
+2019-12-09 21:16:38,657 [  33958]   INFO - pl$FileIndexDataInitialization - Initialization done: 8077 
+2019-12-09 21:16:40,610 [  35911]   INFO - exImpl$StubIndexInitialization - Initialization done: 1952 
+2019-12-09 21:16:41,920 [  37221]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/vagrant/IdeaProjects/packer-idea] 
+2019-12-09 21:16:41,920 [  37221]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/vagrant/IdeaProjects/packer-idea/arch-boxes] 
+2019-12-09 21:16:42,959 [  38260]   INFO - rojectCodeStyleSettingsManager - Initialized from default code style settings. 
+2019-12-09 21:16:50,385 [  45686]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-12-09 21:16:52,783 [  48084]   INFO -              PerformancePlugin - Performance Plugin is in silent mode 
+2019-12-09 21:16:53,503 [  48804]   INFO -   #com.intellij.util.Restarter - not supported: cannot find neither 'python' nor 'python3' in 'PATH' 
+2019-12-09 21:16:54,785 [  50086]   INFO - llij.database.util.SqlDialects - SQL dialects initialized in 285 ms 
+2019-12-09 21:16:56,369 [  51670]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 2076ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-12-09 21:16:58,018 [  53319]   WARN - com.intellij.util.xmlb.Binding - no accessors for class org.jetbrains.kotlin.idea.highlighter.KotlinDefaultHighlightingSettingsProvider 
+2019-12-09 21:16:58,640 [  53941]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2238ms; general responsiveness: ok; EDT responsiveness: 0/3 sluggish, 3/3 very slow 
+2019-12-09 21:17:04,225 [  59526]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 10937ms; general responsiveness: ok; EDT responsiveness: 2/10 sluggish, 7/10 very slow 
+2019-12-09 21:17:05,377 [  60678]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to run them in background under modal progress, or just making them faster to speed up project opening. 
+2019-12-09 21:17:07,574 [  62875]   INFO - cloudConfig.CloudConfigManager - === StatusBar ignored === 
+2019-12-09 21:17:08,148 [  63449]   INFO - tartup.impl.StartupManagerImpl - /home/vagrant/IdeaProjects/packer-idea/.idea case-sensitivity: expected=true actual=true 
+2019-12-09 21:17:08,339 [  63640]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-12-09 21:17:08,392 [  63693]   INFO -  #git4idea.commands.GitHandler - git version 2.24.0 
+2019-12-09 21:17:08,419 [  63720]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.24.0 
+2019-12-09 21:17:08,978 [  64279]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 31975 ms 
+2019-12-09 21:17:14,031 [  69332]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 12/9/19, 9:03 PM) 
+2019-12-09 21:17:14,171 [  69472]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-12-09 21:17:14,850 [  70151]   INFO - ge.ExternalProjectsDataStorage - Load external projects data in 15 millis (read time: 14) 
+2019-12-09 21:17:15,464 [  70765]   INFO - tion.PackageJsonUpdateNotifier - processPackageJsonFiles [] 
+2019-12-09 21:17:15,728 [  71029]   INFO - CompilerWorkspaceConfiguration - Available processors: 2 
+2019-12-09 21:21:43,905 [ 339206]   INFO - rationStore.ComponentStoreImpl - Saving appFeatureUsageStatistics took 34 ms, FileTypeManager took 17 ms, ProjectJdkTable took 78 ms, TemplateSettings took 32 ms, UISettings took 32 ms, WebServers took 60 ms 
+2019-12-09 21:21:45,125 [ 340426]   INFO - rationStore.ComponentStoreImpl - Saving Project (name=packer-idea, containerState=ACTIVE, componentStore=/home/vagrant/IdeaProjects/packer-idea) BookmarkManager took 14 ms, ChangeListManager took 22 ms, KotlinCommonCompilerArguments took 16 ms, PublishConfigData took 12 ms, XDebuggerManager took 50 ms, navEditor-manualLayoutAlgorithm2 took 21 ms 
+2019-12-09 21:21:45,243 [ 340544]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 2162 ms 
+2019-12-09 21:23:26,979 [ 442280]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 37 ms, GradleExperimentalSettings took 11 ms 
+2019-12-09 21:23:53,248 [ 468549]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 13 ms 
+2019-12-09 21:32:32,372 [ 987673]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2019-12-09 21:32:32,373 [ 987674]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-12-09 21:32:32,373 [ 987674]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-12-09 21:32:32,849 [ 988150]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-12-09 21:32:32,869 [ 988170]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-12-09 21:32:32,869 [ 988170]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-12-09 21:32:32,957 [ 988258]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-12-09 21:32:32,957 [ 988258]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-12-09 21:32:32,962 [ 988263]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-12-09 21:32:32,982 [ 988283]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-12-09 21:32:32,984 [ 988285]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
